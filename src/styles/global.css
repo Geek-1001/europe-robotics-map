@@ -41,14 +41,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   z-index: 50;
 }
 
-.brand { display: inline-flex; align-items: center; text-decoration: none; gap: 9px; min-width: 0; }
-.brand-mark { width: 30px; height: 30px; border: 1.5px solid var(--ink); display: grid; place-items: center; position: relative; }
-.brand-mark::before, .brand-mark::after { content: ''; position: absolute; background: var(--ink); }
-.brand-mark::before { width: 1px; height: 100%; }
-.brand-mark::after { width: 100%; height: 1px; }
-.brand-mark span { width: 8px; height: 8px; background: var(--accent); border-radius: 50%; position: relative; z-index: 1; box-shadow: 0 0 0 3px var(--paper); }
-.brand-name { font-weight: 770; letter-spacing: -.045em; font-size: 20px; }
-.brand-region { font: 400 9px/1 var(--font-mono); letter-spacing: .14em; padding: 4px 5px; color: var(--muted); border: 1px solid var(--line-dark); }
+.brand { display: inline-flex; align-items: center; min-width: 0; text-decoration: none; }
+.brand-name { font-size: 20px; font-weight: 770; letter-spacing: -.048em; white-space: nowrap; }
 
 .site-nav { display: flex; align-items: center; height: 100%; gap: 5px; }
 .site-nav > a { font-size: 13px; font-weight: 650; text-decoration: none; padding: 9px 13px; border: 1px solid transparent; }
@@ -61,9 +55,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 720px) {
   :root { --header-height: 58px; }
   .site-header { padding: 0 13px; }
-  .brand-mark { width: 27px; height: 27px; }
-  .brand-name { font-size: 18px; }
-  .brand-region { display: none; }
+  .brand-name { font-size: clamp(16px, 4.6vw, 18px); }
   .site-nav > a:not(.nav-contribute) { display: none; }
   .site-nav .nav-contribute { font-size: 11px; margin-left: 0; padding: 8px 10px; }
 }

@@ -314,14 +314,6 @@ export default function MapExplorer({ companies }: Props) {
   return (
     <div className={`explorer mobile-view--${mobileView}`}>
       <aside className="directory-panel">
-        <div className="directory-intro">
-          <div>
-            <span className="eyebrow">OPEN FIELD INDEX · 2026</span>
-            <h1>European robotics,<br /><em>mapped.</em></h1>
-          </div>
-          <p>An open atlas of the teams building machines that perceive, move and make.</p>
-        </div>
-
         <div className="directory-tools">
           <label className="search-field">
             <Search size={17} aria-hidden="true" />
@@ -385,15 +377,6 @@ export default function MapExplorer({ companies }: Props) {
         <div ref={mapContainerRef} className="map-container" />
         {!mapReady && !mapFailed && <div className="map-loading"><span></span>Plotting coordinates…</div>}
         {mapFailed && <div className="map-error"><MapIcon size={24} /><strong>Map tiles are offline</strong><span>The company index still works. Check your connection to load the geographic layer.</span></div>}
-
-        <div className="map-utility">
-          <button type="button" onClick={fitVisible}><LocateFixed size={16} /> Fit {filteredCompanies.length}</button>
-          <span className="map-coordinate">50.4° N&nbsp;&nbsp; 8.2° E</span>
-        </div>
-
-        <div className="map-legend">
-          <span><i className="legend-company"></i> Company location</span><span><i className="legend-cluster">3</i> Grouped area</span>
-        </div>
 
         {selectedCompany && (
           <CompanyDetail company={selectedCompany} onClose={() => setSelectedId(null)} onLocation={(location) => mapRef.current?.flyTo({ center: location.coordinates, zoom: 9, duration: 850, essential: true })} />

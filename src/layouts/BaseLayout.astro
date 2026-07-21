@@ -10,7 +10,7 @@ interface Props {
 }
 
 const {
-  title = 'Robomap Europe — Robotics companies across Europe',
+  title = 'Europe Robotics Map — Robotics companies across Europe',
   description = 'An open, community-maintained atlas of robotics and robotics-adjacent companies, offices and hiring locations across Europe.',
   fullHeight = false,
 } = Astro.props;
@@ -32,10 +32,8 @@ const pathname = Astro.url.pathname;
   </head>
   <body class:list={{ 'is-full-height': fullHeight }}>
     <header class="site-header">
-      <a class="brand" href="/" aria-label="Robomap Europe home">
-        <span class="brand-mark" aria-hidden="true"><span></span></span>
-        <span class="brand-name">Robomap</span>
-        <span class="brand-region">EUROPE</span>
+      <a class="brand" href="/" aria-label="Europe Robotics Map home">
+        <span class="brand-name">Europe Robotics Map</span>
       </a>
 
       <nav class="site-nav" aria-label="Main navigation">
