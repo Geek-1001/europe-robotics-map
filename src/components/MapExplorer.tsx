@@ -7,6 +7,7 @@ import {
   BriefcaseBusiness,
   Building2,
   Calendar,
+  ChevronDown,
   ChevronRight,
   CircleDollarSign,
   Factory,
@@ -376,8 +377,8 @@ export default function MapExplorer({ companies }: Props) {
 
         <div className="filter-drawer__body">
           <div className="filter-group filter-group--fields">
-            <label className="filter-field"><span>Location</span><select value={country} onChange={(event) => setCountry(event.target.value)}><option>All Europe</option>{allCountries.map((item) => <option key={item}>{item}</option>)}</select></label>
-            <label className="filter-field"><span>Team size</span><select value={employeeRange} onChange={(event) => setEmployeeRange(event.target.value)}><option>Any team size</option>{employeeRanges.map((item) => <option key={item}>{item}</option>)}</select></label>
+            <label className="filter-field"><span>Location</span><div className="filter-select"><select value={country} onChange={(event) => setCountry(event.target.value)}><option>All Europe</option>{allCountries.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={17} aria-hidden="true" /></div></label>
+            <label className="filter-field"><span>Team size</span><div className="filter-select"><select value={employeeRange} onChange={(event) => setEmployeeRange(event.target.value)}><option>Any team size</option>{employeeRanges.map((item) => <option key={item}>{item}</option>)}</select><ChevronDown size={17} aria-hidden="true" /></div></label>
           </div>
 
           <div className="filter-group">

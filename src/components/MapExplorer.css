@@ -37,7 +37,9 @@
 .filter-group { padding: 18px; border-bottom: 1px solid var(--line); }
 .filter-group--fields { display: grid; gap: 17px; }
 .filter-field > span, .filter-group__label { display: block; margin-bottom: 8px; color: var(--muted); font: 500 var(--text-xs)/1.3 var(--font-mono); letter-spacing: .07em; text-transform: uppercase; }
-.filter-field select { width: 100%; height: 46px; padding: 0 13px; border: 1px solid var(--line-dark); border-radius: 10px; outline: 0; background: #fff; color: var(--ink); font-size: var(--text-body); cursor: pointer; transition: border-color .18s, box-shadow .18s; }
+.filter-select { position: relative; }
+.filter-field select { width: 100%; height: 46px; appearance: none; padding: 0 42px 0 13px; border: 1px solid var(--line-dark); border-radius: 10px; outline: 0; background: #fff; color: var(--ink); font-size: var(--text-body); cursor: pointer; transition: border-color .18s, box-shadow .18s; }
+.filter-select > svg { position: absolute; top: 50%; right: 14px; color: var(--ink); pointer-events: none; transform: translateY(-50%); }
 .filter-field select:focus { border-color: rgba(255,92,53,.7); box-shadow: 0 0 0 3px rgba(255,92,53,.1); }
 .filter-check { min-height: 57px; display: flex; align-items: center; justify-content: space-between; gap: 14px; cursor: pointer; }
 .filter-check > span { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
