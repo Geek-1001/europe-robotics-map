@@ -351,9 +351,60 @@ export default function MapExplorer({ companies }: Props) {
     if (selectedId && !filteredCompanies.some((company) => company.id === selectedId)) setSelectedId(null);
   }, [filteredCompanies, selectedId]);
 
+  useEffect(() => {
+    if (!filtersOpen) return;
+    const closeFilters = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setFiltersOpen(false);
+    };
+    window.addEventListener('keydown', closeFilters);
+    return () => window.removeEventListener('keydown', closeFilters);
+  }, [filtersOpen]);
+
   return (
-    <div className={`explorer mobile-view--${mobileView}`}>
-      <aside className="directory-panel" style={{ '--panel-width': `${panelWidth}px` } as React.CSSProperties}>
+    <div
+      className={`explorer mobile-view--${mobileView} ${filtersOpen ? 'filters-open' : ''}`}
+      style={{ '--panel-width': `${panelWidth}px` } as React.CSSProperties}
+    >
+      <aside className="filter-drawer" id="search-filters" aria-label="Search filters" aria-hidden={!filtersOpen} inert={!filtersOpen}>
+        <div className="filter-drawer__top">
+          <div>
+            <span className="eyebrow">Search filters</span>
+            <h2>Refine results</h2>
+          </div>
+          <button type="button" onClick={() => setFiltersOpen(false)} aria-label="Close filters"><X size={19} /></button>
+        </div>
+
+        <div className="filter-drawer__body">
+          <div className="filter-group filter-group--fields">
+            <label className="filter-field"><span>Location</span><select value={country} onChange={(event) => setCountry(event.target.value)}><option>All Europe</option>{allCountries.map((item) => <option key={item}>{item}</option>)}</select></label>
+            <label className="filter-field"><span>Team size</span><select value={employeeRange} onChange={(event) => setEmployeeRange(event.target.value)}><option>Any team size</option>{employeeRanges.map((item) => <option key={item}>{item}</option>)}</select></label>
+          </div>
+
+          <div className="filter-group">
+            <span className="filter-group__label">Work options</span>
+            <label className="filter-check">
+              <span><strong>Remote hiring</strong><small>Only show companies hiring remotely</small></span>
+              <input type="checkbox" checked={remoteOnly} onChange={(event) => setRemoteOnly(event.target.checked)} />
+            </label>
+          </div>
+
+          <div className="filter-group filter-categories">
+            <div className="filter-group__heading">
+              <span className="filter-group__label">Categories</span>
+              {categories.length > 0 && <span>{categories.length} selected</span>}
+            </div>
+            <div>{allCategories.map((category) => <button className={categories.includes(category) ? 'selected' : ''} type="button" key={category} aria-pressed={categories.includes(category)} onClick={() => setCategories((current) => current.includes(category) ? current.filter((item) => item !== category) : [...current, category])}>{category}</button>)}</div>
+          </div>
+        </div>
+
+        {activeFilterCount > 0 && (
+          <div className="filter-drawer__footer">
+            <button className="reset-button" type="button" onClick={resetFilters}><RotateCcw size={15} /> Reset all filters</button>
+          </div>
+        )}
+      </aside>
+
+      <aside className="directory-panel">
         <header className="directory-header">
           <div className="directory-header__top">
             <a className="directory-brand" href="/" aria-label="Europe Robotics Map home">Europe Robotics Map</a>
@@ -368,23 +419,10 @@ export default function MapExplorer({ companies }: Props) {
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search name, site, or field" />
             {query && <button type="button" onClick={() => setQuery('')} aria-label="Clear search"><X size={15} /></button>}
           </label>
-          <button className={`filter-button ${filtersOpen ? 'active' : ''}`} type="button" onClick={() => setFiltersOpen((open) => !open)} aria-expanded={filtersOpen}>
+          <button className={`filter-button ${filtersOpen ? 'active' : ''}`} type="button" onClick={() => setFiltersOpen((open) => !open)} aria-expanded={filtersOpen} aria-controls="search-filters">
             <SlidersHorizontal size={16} /> Filters {activeFilterCount > 0 && <span>{activeFilterCount}</span>}
           </button>
         </div>
-
-        {filtersOpen && (
-          <div className="filter-drawer">
-            <div className="filter-drawer__top"><strong>Refine the atlas</strong><button type="button" onClick={() => setFiltersOpen(false)} aria-label="Close filters"><X size={17} /></button></div>
-            <label><span>Location</span><select value={country} onChange={(event) => setCountry(event.target.value)}><option>All Europe</option>{allCountries.map((item) => <option key={item}>{item}</option>)}</select></label>
-            <label><span>Team size</span><select value={employeeRange} onChange={(event) => setEmployeeRange(event.target.value)}><option>Any team size</option>{employeeRanges.map((item) => <option key={item}>{item}</option>)}</select></label>
-            <div className="filter-checks">
-              <label><input type="checkbox" checked={remoteOnly} onChange={(event) => setRemoteOnly(event.target.checked)} /><span>Remote hiring</span></label>
-            </div>
-            <div className="filter-categories"><span>Categories</span><div>{allCategories.map((category) => <button className={categories.includes(category) ? 'selected' : ''} type="button" key={category} onClick={() => setCategories((current) => current.includes(category) ? current.filter((item) => item !== category) : [...current, category])}>{category}</button>)}</div></div>
-            {activeFilterCount > 0 && <button className="reset-button" type="button" onClick={resetFilters}><RotateCcw size={14} /> Reset all filters</button>}
-          </div>
-        )}
 
         <div className="results-bar">
           <span><strong>{filteredCompanies.length}</strong> {filteredCompanies.length === 1 ? 'company' : 'companies'} · {filteredCompanies.reduce((sum, company) => sum + company.locations.length, 0)} places</span>
@@ -456,7 +494,7 @@ export default function MapExplorer({ companies }: Props) {
 
       <div className="mobile-switcher" role="tablist" aria-label="Choose map or list view">
         <button type="button" role="tab" aria-selected={mobileView === 'list'} className={mobileView === 'list' ? 'active' : ''} onClick={() => setMobileView('list')}><List size={16} /> List</button>
-        <button type="button" role="tab" aria-selected={mobileView === 'map'} className={mobileView === 'map' ? 'active' : ''} onClick={() => setMobileView('map')}><MapIcon size={16} /> Map <span>{filteredCompanies.length}</span></button>
+        <button type="button" role="tab" aria-selected={mobileView === 'map'} className={mobileView === 'map' ? 'active' : ''} onClick={() => { setMobileView('map'); setFiltersOpen(false); }}><MapIcon size={16} /> Map <span>{filteredCompanies.length}</span></button>
       </div>
     </div>
   );
