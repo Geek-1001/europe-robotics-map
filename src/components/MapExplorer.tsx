@@ -412,10 +412,15 @@ export default function MapExplorer({ companies }: Props) {
               <ChevronRight className="card-arrow" size={17} />
             </button>
           ))}
-          {filteredCompanies.length === 0 && (
-            <div className="empty-state"><span>0</span><h2>No coordinates found.</h2><p>Try removing one or two filters to widen the search.</p><button type="button" onClick={resetFilters}>Clear everything</button></div>
+          {filteredCompanies.length === 0 ? (
+            <div className="empty-state">
+              <span>0</span>
+              <h2>No companies found.</h2>
+              <a className="list-cta list-cta--empty" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Add a missing company</b><small>Help put it on the map.</small></span><ArrowUpRight size={18} /></a>
+            </div>
+          ) : (
+            <a className="list-cta" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
           )}
-          <a className="list-cta" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
         </div>
 
         <footer className="directory-footer" aria-label="Project links">

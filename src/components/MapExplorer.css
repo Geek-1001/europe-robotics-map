@@ -76,11 +76,11 @@
 .list-cta svg { transition: transform .18s ease; }
 .list-cta:hover small { color: rgba(255,255,255,.82); }
 .list-cta:hover svg { transform: translate(2px,-2px); }
-.empty-state { min-height: 290px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px; text-align: center; }
+.empty-state { min-height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 28px; text-align: center; }
 .empty-state > span { color: var(--line-dark); font: 500 48px/1 var(--font-mono); }
 .empty-state h2 { margin: 7px 0 2px; font-size: var(--text-heading); }
-.empty-state p { max-width: 240px; color: var(--muted); font-size: var(--text-small); line-height: 1.5; }
-.empty-state button { padding: 10px 13px; border: 1px solid var(--ink); border-radius: 9px; background: var(--ink); color: #fff; cursor: pointer; font-size: var(--text-small); }
+.empty-state .list-cta--empty { width: 100%; max-width: 310px; margin: 20px 0 0; padding: 14px 15px; border-color: var(--line-dark); border-style: dashed; background: #fff; text-align: left; }
+.empty-state .list-cta--empty:hover { border-style: solid; border-color: var(--accent); background: var(--accent); }
 .panel-resize-handle { position: absolute; z-index: 30; top: 0; right: 0; bottom: 0; width: 10px; background: transparent; cursor: col-resize; touch-action: none; }
 .panel-resize-handle:focus { outline: 0; }
 .panel-resize-handle:focus-visible { box-shadow: inset -2px 0 var(--accent); }
