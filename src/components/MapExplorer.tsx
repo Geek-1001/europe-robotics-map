@@ -359,10 +359,6 @@ export default function MapExplorer({ companies }: Props) {
             <a className="directory-brand" href="/" aria-label="Europe Robotics Map home">Europe Robotics Map</a>
             <a className="directory-contribute" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Add company <ArrowUpRight size={14} /></a>
           </div>
-          <nav className="directory-nav" aria-label="Main navigation">
-            <a className="active" href="/" aria-current="page"><MapIcon size={15} /> Map</a>
-            <a href="/about">About</a>
-          </nav>
         </header>
 
         <div className="directory-tools">
@@ -421,6 +417,11 @@ export default function MapExplorer({ companies }: Props) {
           )}
           <a className="list-cta" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
         </div>
+
+        <footer className="directory-footer" aria-label="Project links">
+          <span>Made by <a href="https://www.linkedin.com/in/ahmed-sulajman" target="_blank" rel="noreferrer">Ahmed Sulaiman</a></span>
+          <a href="https://github.com/ahmedsulaiman/europe-robotics-map" target="_blank" rel="noreferrer">View on GitHub <ArrowUpRight size={13} /></a>
+        </footer>
 
         <div
           className="panel-resize-handle"

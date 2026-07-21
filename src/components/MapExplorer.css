@@ -8,10 +8,12 @@
 .directory-brand { min-width: 0; overflow: hidden; color: var(--ink); font-size: var(--text-heading); font-weight: 770; letter-spacing: -.048em; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }
 .directory-contribute { height: 34px; flex: 0 0 auto; display: flex; align-items: center; gap: 7px; padding: 0 11px; color: #fff; background: var(--ink); border-radius: 10px; font-size: var(--text-small); font-weight: 700; text-decoration: none; transition: background .18s, transform .18s; }
 .directory-contribute:hover { background: var(--accent); transform: translateY(-1px); }
-.directory-nav { width: fit-content; display: flex; align-items: center; gap: 3px; margin-top: 10px; padding: 3px; background: var(--surface-selected); border-radius: 10px; }
-.directory-nav a { height: 30px; display: flex; align-items: center; gap: 6px; padding: 0 11px; border-radius: 8px; color: var(--muted); font-size: var(--text-small); font-weight: 650; text-decoration: none; transition: background .16s, color .16s, box-shadow .16s; }
-.directory-nav a:hover { color: var(--ink); }
-.directory-nav a.active { color: var(--ink); background: #fff; box-shadow: 0 1px 3px rgba(20,20,20,.1); }
+.directory-footer { min-height: 43px; flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 15px; border-top: 1px solid var(--line); background: rgba(251,251,251,.98); color: var(--muted); font: 400 12px/1.35 var(--font-mono); }
+.directory-footer a { color: var(--ink); font-weight: 400; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-color: var(--line-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color .16s, text-decoration-color .16s; }
+.directory-footer > a { display: flex; align-items: center; gap: 4px; }
+.directory-footer a:hover, .directory-footer a:focus-visible { color: var(--accent-dark); text-decoration-color: var(--accent); }
+.directory-footer > a svg { transition: transform .16s; }
+.directory-footer > a:hover svg { transform: translate(1px,-1px); }
 .eyebrow { color: var(--muted); font: 500 var(--text-xs)/1.35 var(--font-mono); letter-spacing: .08em; }
 
 .directory-tools { display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
@@ -26,7 +28,7 @@
 .filter-button:hover, .filter-button.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 .filter-button > span { min-width: 18px; height: 18px; display: grid; place-items: center; background: var(--accent); color: #fff; border-radius: 50%; font: 500 var(--text-xs)/1 var(--font-mono); }
 
-.filter-drawer { position: absolute; z-index: 20; top: 172px; left: 12px; right: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 16px; background: rgba(255,255,255,.98); border: 1px solid var(--line); border-radius: 15px; box-shadow: 0 20px 45px rgba(20,20,20,.14); animation: drawer-in .2s ease both; }
+.filter-drawer { position: absolute; z-index: 20; top: 144px; left: 12px; right: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 16px; background: rgba(255,255,255,.98); border: 1px solid var(--line); border-radius: 15px; box-shadow: 0 20px 45px rgba(20,20,20,.14); animation: drawer-in .2s ease both; }
 @keyframes drawer-in { from { opacity: 0; transform: translateY(-6px) scale(.99); } }
 .filter-drawer__top { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; padding-bottom: 11px; border-bottom: 1px solid var(--line); font-size: var(--text-body); }
 .filter-drawer label > span, .filter-categories > span { display: block; margin-bottom: 6px; color: var(--muted); font: 500 var(--text-xs)/1.3 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; }
@@ -152,9 +154,8 @@
   .directory-header { padding: 13px 13px 10px; }
   .directory-brand { font-size: 18px; }
   .directory-contribute { height: 32px; padding: 0 9px; }
-  .directory-nav { margin-top: 8px; }
   .directory-tools { padding: 9px; }
-  .filter-drawer { position: fixed; top: 164px; left: 18px; right: 18px; max-height: calc(100dvh - 245px); overflow-y: auto; }
+  .filter-drawer { position: fixed; top: 137px; left: 18px; right: 18px; max-height: calc(100dvh - 218px); overflow-y: auto; }
   .results-bar { padding-left: 13px; }
   .company-list { padding: 0; }
   .company-card { padding: 13px 14px; }
@@ -171,7 +172,7 @@
   .directory-header__top { gap: 8px; }
   .directory-brand { font-size: 17px; }
   .directory-contribute { font-size: var(--text-xs); }
-  .filter-drawer { grid-template-columns: 1fr; top: 159px; }
+  .filter-drawer { grid-template-columns: 1fr; top: 134px; }
   .filter-drawer__top, .filter-checks, .filter-categories, .reset-button { grid-column: 1; }
   .detail-locations > div { grid-template-columns: 1fr; }
   .detail-metrics { grid-template-columns: 1fr 1fr; }
