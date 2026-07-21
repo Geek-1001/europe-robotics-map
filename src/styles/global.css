@@ -1,10 +1,13 @@
 :root {
-  --paper: #f2f0e8;
-  --paper-raised: #f8f7f1;
-  --ink: #171815;
-  --muted: #67685f;
-  --line: #d5d2c7;
-  --line-dark: #aaa89e;
+  --paper: #fbfbfb;
+  --paper-raised: #fff;
+  --ink: #141414;
+  --muted: #666;
+  --muted-soft: #909090;
+  --line: #e3e3e3;
+  --line-dark: #b5b5b5;
+  --surface-selected: #f0f0f0;
+  --surface-tag: #ececec;
   --accent: #ff5c35;
   --accent-dark: #d93b17;
   --green: #2d6e50;
@@ -36,7 +39,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   justify-content: space-between;
   padding: 0 22px;
   border-bottom: 1px solid var(--ink);
-  background: rgba(242, 240, 232, .96);
+  background: rgba(251, 251, 251, .96);
   position: relative;
   z-index: 50;
 }

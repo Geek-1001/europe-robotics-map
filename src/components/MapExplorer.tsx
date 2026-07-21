@@ -169,7 +169,7 @@ export default function MapExplorer({ companies }: Props) {
         filter: ['has', 'point_count'],
         paint: {
           'circle-radius': 20,
-          'circle-color': '#171815',
+          'circle-color': '#141414',
           'circle-stroke-width': 3,
           'circle-stroke-color': '#ffffff',
         },
