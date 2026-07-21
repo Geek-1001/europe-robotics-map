@@ -11,7 +11,6 @@ import {
   CircleDollarSign,
   Factory,
   Globe2,
-  Layers3,
   List,
   LocateFixed,
   Map as MapIcon,
@@ -39,7 +38,6 @@ const DEFAULT_PANEL_WIDTH = 420;
 const MIN_PANEL_WIDTH = 380;
 const MAX_PANEL_WIDTH = 560;
 
-const formatHost = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 const formatFunding = (company: Company) => {
   const funding = company.options?.funding;
   if (!funding) return 'Not listed';
@@ -464,7 +462,7 @@ function CompanyDetail({ company, onClose, onLocation }: { company: Company; onC
       <div className="detail-handle" aria-hidden="true"></div>
       <div className="detail-heading">
         <CompanyLogo company={company} large />
-        <div><span className="eyebrow">COMPANY PROFILE</span><h2>{company.name}</h2><a href={company.links.website} target="_blank" rel="noreferrer">{formatHost(company.links.website)} <ArrowUpRight size={12} /></a></div>
+        <div><h2>{company.name}</h2></div>
         <button type="button" onClick={onClose} aria-label="Close company details"><X size={18} /></button>
       </div>
       <p className="detail-description">{company.description}</p>
@@ -475,7 +473,6 @@ function CompanyDetail({ company, onClose, onLocation }: { company: Company; onC
         <div><dt><CircleDollarSign size={14} /> Funding</dt><dd>{formatFunding(company)}</dd></div>
       </dl>
       <div className="detail-locations">
-        <span className="detail-section-label"><Layers3 size={13} /> European presence</span>
         <div>{company.locations.map((location) => <button type="button" key={location.id} onClick={() => onLocation(location)}><span className={`location-icon location-icon--${location.type}`}>{location.type === 'factory' ? <Factory size={13} /> : location.type === 'headquarters' ? <Building2 size={13} /> : <MapPin size={13} />}</span><span><b>{location.city}</b><small>{location.type} · {location.country}</small></span><LocateFixed size={14} /></button>)}</div>
       </div>
       {company.options?.remoteHiring && <div className="remote-note"><Radio size={15} /><span><b>Remote-friendly hiring</b><small>This company lists remote-friendly opportunities.</small></span></div>}
