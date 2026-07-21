@@ -67,10 +67,13 @@
 .company-card:hover .card-arrow, .company-card.is-selected .card-arrow { transform: translateX(2px); color: var(--accent); }
 
 .list-cta { display: flex; align-items: center; justify-content: space-between; margin: 10px 12px 12px; padding: 13px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.6); text-decoration: none; transition: color .18s, border-color .18s, background .18s; }
-.list-cta:hover { border-color: rgba(255,92,53,.45); color: var(--accent-dark); background: #fff; }
+.list-cta:hover { border-color: var(--accent); color: #fff; background: var(--accent); }
 .list-cta span { display: flex; flex-direction: column; gap: 3px; }
-.list-cta b { font-size: var(--text-small); }
-.list-cta small { color: var(--muted); font-size: var(--text-xs); }
+.list-cta b { font-size: var(--text-body); }
+.list-cta small { color: var(--muted); font-size: var(--text-small); transition: color .18s; }
+.list-cta svg { transition: transform .18s ease; }
+.list-cta:hover small { color: rgba(255,255,255,.82); }
+.list-cta:hover svg { transform: translate(2px,-2px); }
 .empty-state { min-height: 290px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px; text-align: center; }
 .empty-state > span { color: var(--line-dark); font: 500 48px/1 var(--font-mono); }
 .empty-state h2 { margin: 7px 0 2px; font-size: var(--text-heading); }
