@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://europe-robotics-map.example/schema/company.schema.json",
+  "title": "Robomap Europe company collection",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name", "description", "categories", "addedAt", "links", "locations"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "name": { "type": "string", "minLength": 1 },
+      "description": { "type": "string", "minLength": 20, "maxLength": 240 },
+      "categories": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string" } },
+      "addedAt": { "type": "string", "format": "date" },
+      "links": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["website"],
+        "properties": {
+          "website": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "careers": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "logo": { "type": "string", "format": "uri", "pattern": "^https://" }
+        }
+      },
+      "options": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "founded": { "type": "integer", "minimum": 1800, "maximum": 2100 },
+          "employees": { "type": "string" },
+          "remoteHiring": { "type": "boolean" },
+          "funding": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["stage"],
+            "properties": {
+              "stage": { "type": "string" },
+              "amount": { "type": "number", "minimum": 0 },
+              "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }
+            },
+            "dependentRequired": { "amount": ["currency"] }
+          }
+        }
+      },
+      "locations": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "type", "city", "country", "address", "coordinates"],
+          "properties": {
+            "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+            "type": { "enum": ["headquarters", "office", "factory"] },
+            "city": { "type": "string" },
+            "country": { "type": "string" },
+            "address": { "type": "string" },
+            "coordinates": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "prefixItems": [
+                { "type": "number", "minimum": -180, "maximum": 180 },
+                { "type": "number", "minimum": -90, "maximum": 90 }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

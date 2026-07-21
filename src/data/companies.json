@@ -1,0 +1,146 @@
+[
+  {
+    "id": "wayve",
+    "name": "Wayve",
+    "description": "Builds general-purpose embodied AI that learns to drive across vehicles, cities and levels of autonomy.",
+    "categories": ["Autonomous vehicles", "Embodied AI", "Mobility"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://wayve.ai/",
+      "careers": "https://wayve.ai/careers/",
+      "logo": "https://www.google.com/s2/favicons?domain=wayve.ai&sz=128"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "1001–5000",
+      "funding": { "stage": "Series D", "amount": 2800, "currency": "USD" },
+      "remoteHiring": false
+    },
+    "locations": [
+      { "id": "wayve-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "230–238 York Way, London N7 9AG", "coordinates": [-0.1274, 51.5381] },
+      { "id": "wayve-leonberg", "type": "office", "city": "Leonberg", "country": "Germany", "address": "Riedwiesenstraße 13–17, 71229 Leonberg", "coordinates": [9.0027, 48.7971] }
+    ]
+  },
+  {
+    "id": "sunrise-robotics",
+    "name": "Sunrise Robotics",
+    "description": "Creates intelligent dual-arm robotic cells that make flexible industrial automation easier to deploy and scale.",
+    "categories": ["Factory automation", "Industrial robotics", "Embodied AI"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://sunriserobotics.co/",
+      "careers": "https://sunriserobotics.co/careers",
+      "logo": "https://www.google.com/s2/favicons?domain=sunriserobotics.co&sz=128"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "11–50",
+      "funding": { "stage": "Seed", "amount": 16.8, "currency": "USD" },
+      "remoteHiring": true
+    },
+    "locations": [
+      { "id": "sunrise-ljubljana", "type": "headquarters", "city": "Ljubljana", "country": "Slovenia", "address": "Dunajska cesta 22, Ljubljana", "coordinates": [14.5058, 46.0572] }
+    ]
+  },
+  {
+    "id": "adamo",
+    "name": "Adamo",
+    "description": "Provides low-latency teleoperation software and managed operators for autonomous vehicles, arms and humanoid robots.",
+    "categories": ["Teleoperation", "Robotics software", "Autonomous vehicles"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://adamohq.com/",
+      "logo": "https://www.google.com/s2/favicons?domain=adamohq.com&sz=128"
+    },
+    "options": {
+      "employees": "1–10",
+      "remoteHiring": false
+    },
+    "locations": [
+      { "id": "adamo-london", "type": "office", "city": "London", "country": "United Kingdom", "address": "Unit 10, Paddington Works, 8 Hermitage St, London W2 1BE", "coordinates": [-0.1834, 51.5211] }
+    ]
+  },
+  {
+    "id": "whistle-robotics",
+    "name": "Whistle Robotics",
+    "description": "Builds task-specific robots that bring CNC machine tending and practical automation to smaller factories.",
+    "categories": ["Factory automation", "Industrial robotics", "Machine tending"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://whistlerobotics.com/",
+      "careers": "https://hireflyapp.com/whistle-robotics",
+      "logo": "https://www.google.com/s2/favicons?domain=whistlerobotics.com&sz=128"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "1–10",
+      "remoteHiring": false
+    },
+    "locations": [
+      { "id": "whistle-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "5 Spare St, London SE17 3EP", "coordinates": [-0.0965, 51.4912] }
+    ]
+  },
+  {
+    "id": "neura-robotics",
+    "name": "NEURA Robotics",
+    "description": "Develops cognitive cobots, mobile robots and humanoids designed to perceive, learn and work safely with people.",
+    "categories": ["Humanoids", "Collaborative robots", "Factory automation", "Embodied AI"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://neura-robotics.com/",
+      "careers": "https://jobs.neura-robotics.com/",
+      "logo": "https://www.google.com/s2/favicons?domain=neura-robotics.com&sz=128"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "201–500",
+      "funding": { "stage": "Series C", "currency": "EUR" },
+      "remoteHiring": false
+    },
+    "locations": [
+      { "id": "neura-metzingen", "type": "headquarters", "city": "Metzingen", "country": "Germany", "address": "Gutenbergstrasse 44, 72555 Metzingen", "coordinates": [9.2885, 48.5361] }
+    ]
+  },
+  {
+    "id": "voltrac",
+    "name": "Voltrac",
+    "description": "Builds THOR, a cabinless autonomous electric tractor designed for agriculture and dual-use field operations.",
+    "categories": ["Agriculture", "Autonomous vehicles", "Electric vehicles"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://voltrac.eu/",
+      "careers": "https://jobs.ashbyhq.com/voltrac",
+      "logo": "https://www.google.com/s2/favicons?domain=voltrac.eu&sz=128"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "1–10",
+      "funding": { "stage": "Pre-seed", "amount": 2, "currency": "EUR" },
+      "remoteHiring": false
+    },
+    "locations": [
+      { "id": "voltrac-valencia", "type": "headquarters", "city": "Valencia", "country": "Spain", "address": "Valencia, Spain", "coordinates": [-0.3763, 39.4699] }
+    ]
+  },
+  {
+    "id": "rollo-robotics",
+    "name": "Rollo Robotics",
+    "description": "Develops a stable autonomous monowheel security robot for continuous patrol, sensing and remote communication.",
+    "categories": ["Security", "Autonomous mobile robots", "Computer vision"],
+    "addedAt": "2026-07-21",
+    "links": {
+      "website": "https://1rollo.com/",
+      "careers": "https://1rollo.com/career",
+      "logo": "https://www.google.com/s2/favicons?domain=1rollo.com&sz=128"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": { "stage": "Seed", "amount": 3.7, "currency": "EUR" },
+      "remoteHiring": false
+    },
+    "locations": [
+      { "id": "rollo-viljandi", "type": "headquarters", "city": "Viljandi", "country": "Estonia", "address": "Raua tn 16, 71020 Viljandi, Estonia", "coordinates": [25.5907, 58.3639] }
+    ]
+  }
+]
