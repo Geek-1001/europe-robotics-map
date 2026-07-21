@@ -11,7 +11,6 @@ import {
   CircleDollarSign,
   Factory,
   Globe2,
-  GripVertical,
   Layers3,
   List,
   LocateFixed,
@@ -437,7 +436,7 @@ export default function MapExplorer({ companies }: Props) {
           onPointerDown={startPanelResize}
           onKeyDown={resizePanelWithKeyboard}
           onDoubleClick={() => setPanelWidth(DEFAULT_PANEL_WIDTH)}
-        ><GripVertical size={14} /></div>
+        ></div>
       </aside>
 
       <section className="map-stage" aria-label="Map of European robotics companies">
