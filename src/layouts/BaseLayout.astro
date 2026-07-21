@@ -1,0 +1,54 @@
+---
+import '@fontsource-variable/manrope';
+import '@fontsource/ibm-plex-mono/400.css';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  fullHeight?: boolean;
+}
+
+const {
+  title = 'Robomap Europe — Robotics companies across Europe',
+  description = 'An open, community-maintained atlas of robotics and robotics-adjacent companies, offices and hiring locations across Europe.',
+  fullHeight = false,
+} = Astro.props;
+const pathname = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f2f0e8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <title>{title}</title>
+  </head>
+  <body class:list={{ 'is-full-height': fullHeight }}>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Robomap Europe home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span class="brand-name">Robomap</span>
+        <span class="brand-region">EUROPE</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/" class:list={{ active: pathname === '/' }}>Map</a>
+        <a href="/about" class:list={{ active: pathname.startsWith('/about') }}>About</a>
+        <a class="nav-contribute" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">
+          Add a company
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M4 11 11 4M5 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+        </a>
+      </nav>
+    </header>
+    <main class:list={{ 'full-height-main': fullHeight }}>
+      <slot />
+    </main>
+  </body>
+</html>

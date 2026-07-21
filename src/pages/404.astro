@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Not found — Robomap Europe">
+  <section class="not-found">
+    <span>404 / OUTSIDE SURVEY AREA</span>
+    <h1>This point isn’t<br /><em>on the map.</em></h1>
+    <p>The page may have moved, or perhaps it still needs to be charted.</p>
+    <a href="/">Return to the atlas →</a>
+  </section>
+</BaseLayout>
+<style>
+  .not-found { min-height: calc(100vh - var(--header-height)); padding: 12vh 8vw; background-image: linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px); background-size: 50px 50px; }
+  .not-found span { font: 400 9px var(--font-mono); letter-spacing: .14em; color: var(--accent-dark); }
+  .not-found h1 { font-size: clamp(55px, 10vw, 130px); letter-spacing: -.075em; line-height: .87; margin: 35px 0; }
+  .not-found em { color: var(--accent); font-family: Georgia,serif; font-weight: 400; }
+  .not-found p { color: var(--muted); }
+  .not-found a { display: inline-block; margin-top: 20px; background: var(--ink); color: white; padding: 13px 18px; text-decoration: none; font-size: 12px; }
+</style>

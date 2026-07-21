@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MapExplorer from '../components/MapExplorer';
+import companiesData from '../data/companies.json';
+import type { Company } from '../lib/types';
+---
+
+<BaseLayout fullHeight>
+  <MapExplorer companies={companiesData as Company[]} client:load />
+</BaseLayout>

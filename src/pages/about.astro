@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About — Robomap Europe" description="Why Robomap Europe exists, how its data is maintained, and how to contribute.">
+  <div class="about-page">
+    <section class="about-hero">
+      <span class="about-index">ABOUT / 001</span>
+      <div class="hero-copy">
+        <p class="kicker">A COMMUNITY-MAINTAINED FIELD GUIDE</p>
+        <h1>Find the people building<br />Europe’s <em>physical future.</em></h1>
+      </div>
+      <div class="hero-aside">
+        <span class="coordinate">54.5260° N<br />15.2551° E</span>
+        <p>Robomap Europe is an open index of robotics companies, their real-world footprints, and the places where they hire.</p>
+      </div>
+    </section>
+
+    <section class="manifesto-grid">
+      <div class="manifesto-number">01</div>
+      <div class="manifesto-copy">
+        <span class="section-label">THE PREMISE</span>
+        <h2>Robotics is a local craft<br />with a continental reach.</h2>
+        <p>The best way to understand an ecosystem is to see where it actually lives. This map connects company research, offices, factories and hiring information in one deliberately simple, searchable place.</p>
+      </div>
+      <div class="principles">
+        <article><span>OPEN</span><h3>Built in public</h3><p>The code is MIT-licensed and the directory data is dedicated to the public domain.</p></article>
+        <article><span>USEFUL</span><h3>Hiring-aware</h3><p>Headquarters matter, but so do satellite offices, factories and remote-friendly teams.</p></article>
+        <article><span>ACCESSIBLE</span><h3>Easy to contribute</h3><p>A company only needs a short description, website and European location to join the map.</p></article>
+      </div>
+    </section>
+
+    <section class="contribute-block">
+      <div>
+        <span class="section-label">GROW THE ATLAS</span>
+        <h2>Know a robotics team<br />we should be tracking?</h2>
+      </div>
+      <div class="contribute-copy">
+        <p>Adding a company is a small JSON change. Submit an issue if you’re new to GitHub, or open a pull request if you’re ready to contribute directly.</p>
+        <div class="about-actions">
+          <a class="dark-action" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contribute a company <span>↗</span></a>
+          <a href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Read the guide</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="maker-block">
+      <span class="manifesto-number">02</span>
+      <div>
+        <span class="section-label">THE MAKER</span>
+        <h2>Created by <span>[your name]</span></h2>
+        <p>This section is intentionally waiting for your story. Add a short note about why you made the map and where people can follow your work.</p>
+      </div>
+      <div class="account-links">
+        <a href="#">GitHub <span>↗</span></a>
+        <a href="#">LinkedIn <span>↗</span></a>
+        <a href="#">Website <span>↗</span></a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .about-page { max-width: 1440px; margin: 0 auto; padding: 0 28px 60px; }
+  .about-hero { min-height: 560px; display: grid; grid-template-columns: 80px minmax(0, 1fr) 270px; gap: 28px; align-items: center; border-bottom: 1px solid var(--ink); position: relative; }
+  .about-hero::after { content: ''; width: 11px; height: 11px; background: var(--accent); position: absolute; right: 0; bottom: -6px; border-radius: 50%; }
+  .about-index, .section-label, .kicker, .coordinate { font: 400 9px/1.5 var(--font-mono); letter-spacing: .12em; color: var(--muted); }
+  .about-index { align-self: start; margin-top: 32px; writing-mode: vertical-rl; }
+  .kicker { color: var(--accent-dark); }
+  .hero-copy h1 { font-size: clamp(48px, 6.9vw, 100px); line-height: .91; letter-spacing: -.075em; margin: 19px 0; font-weight: 690; }
+  .hero-copy em { font-family: Georgia, serif; font-weight: 400; color: var(--accent); }
+  .hero-aside { align-self: end; padding-bottom: 50px; }
+  .coordinate { display: block; padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid var(--line-dark); }
+  .hero-aside p, .manifesto-copy p, .contribute-copy p, .maker-block p { font-size: 13px; line-height: 1.65; color: var(--muted); }
+  .manifesto-grid { display: grid; grid-template-columns: 80px 1.05fr 1fr; gap: 28px; padding: 100px 0; border-bottom: 1px solid var(--ink); }
+  .manifesto-number { font: 400 11px var(--font-mono); color: var(--accent-dark); }
+  .manifesto-copy h2, .contribute-block h2, .maker-block h2 { font-size: clamp(32px, 4vw, 58px); line-height: .98; letter-spacing: -.055em; margin: 15px 0 24px; }
+  .manifesto-copy p { max-width: 510px; }
+  .principles { border-top: 1px solid var(--ink); }
+  .principles article { display: grid; grid-template-columns: 70px 1fr; padding: 17px 0; border-bottom: 1px solid var(--line); }
+  .principles article > span { font: 400 8px var(--font-mono); color: var(--accent-dark); }
+  .principles h3 { margin: 0; font-size: 13px; }
+  .principles p { grid-column: 2; margin: 4px 0 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+  .contribute-block { margin: 24px 0; padding: 70px 74px; background: var(--accent); color: #fff; display: grid; grid-template-columns: 1.2fr 1fr; gap: 80px; align-items: end; }
+  .contribute-block .section-label, .contribute-block p { color: #ffe8df; }
+  .contribute-block h2 { margin-bottom: 0; }
+  .about-actions { display: flex; gap: 8px; margin-top: 25px; }
+  .about-actions a { height: 43px; border: 1px solid #fff; padding: 0 16px; display: flex; gap: 26px; align-items: center; text-decoration: none; font-size: 11px; font-weight: 750; }
+  .about-actions .dark-action { background: var(--ink); border-color: var(--ink); }
+  .about-actions a:hover { transform: translateY(-2px); }
+  .maker-block { display: grid; grid-template-columns: 80px 1fr 280px; gap: 28px; padding: 90px 0 30px; align-items: end; }
+  .maker-block h2 span { color: var(--accent); font-family: Georgia, serif; font-weight: 400; }
+  .maker-block p { max-width: 560px; }
+  .account-links { border-top: 1px solid var(--ink); }
+  .account-links a { display: flex; justify-content: space-between; padding: 13px 0; border-bottom: 1px solid var(--line); text-decoration: none; font: 400 10px var(--font-mono); }
+  .account-links a:hover { color: var(--accent-dark); padding-left: 5px; }
+  @media (max-width: 800px) {
+    .about-page { padding: 0 15px 40px; }
+    .about-hero { min-height: 520px; grid-template-columns: 1fr; align-content: center; }
+    .about-index { display: none; }
+    .hero-aside { align-self: auto; padding: 0; max-width: 380px; }
+    .hero-copy h1 { font-size: clamp(45px, 14vw, 72px); }
+    .manifesto-grid { grid-template-columns: 1fr; padding: 70px 0; }
+    .manifesto-number { display: none; }
+    .contribute-block { padding: 45px 24px; grid-template-columns: 1fr; gap: 25px; }
+    .about-actions { flex-wrap: wrap; }
+    .maker-block { grid-template-columns: 1fr; padding-top: 65px; }
+  }
+</style>
