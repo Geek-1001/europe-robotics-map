@@ -11,6 +11,13 @@
   --accent: #ff5c35;
   --accent-dark: #d93b17;
   --green: #2d6e50;
+  --text-heading: 20px;
+  --text-body: 14px;
+  --text-small: 12px;
+  --text-xs: 10px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
   --header-height: 66px;
   --font-sans: 'Manrope Variable', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
@@ -53,7 +60,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-nav .nav-contribute { margin-left: 7px; background: var(--ink); color: #fff; display: flex; gap: 10px; align-items: center; border-color: var(--ink); }
 .site-nav .nav-contribute:hover { background: var(--accent); border-color: var(--accent); }
 
-.full-height-main { height: calc(100vh - var(--header-height)); height: calc(100dvh - var(--header-height)); }
+.full-height-main { height: 100vh; height: 100dvh; }
 
 @media (max-width: 720px) {
   :root { --header-height: 58px; }

@@ -11,6 +11,7 @@ import {
   CircleDollarSign,
   Factory,
   Globe2,
+  GripVertical,
   Layers3,
   List,
   LocateFixed,
@@ -35,6 +36,9 @@ const CLUSTER_HALO_LAYER_ID = 'company-cluster-halo';
 const CLUSTER_LAYER_ID = 'company-clusters';
 const CLUSTER_COUNT_LAYER_ID = 'company-cluster-count';
 const COMPANY_POINT_LAYER_ID = 'company-point-loader';
+const DEFAULT_PANEL_WIDTH = 420;
+const MIN_PANEL_WIDTH = 380;
+const MAX_PANEL_WIDTH = 560;
 
 const formatHost = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 const formatFunding = (company: Company) => {
@@ -64,6 +68,9 @@ export default function MapExplorer({ companies }: Props) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [mobileView, setMobileView] = useState<MobileView>('list');
+  const [panelWidth, setPanelWidth] = useState(DEFAULT_PANEL_WIDTH);
+  const resizeCleanupRef = useRef<(() => void) | null>(null);
+  const panelWidthRef = useRef(DEFAULT_PANEL_WIDTH);
 
   const allCategories = useMemo(() => [...new Set(companies.flatMap((company) => company.categories))].sort(), [companies]);
   const allCountries = useMemo(() => [...new Set(companies.flatMap((company) => company.locations.map((location) => location.country)))].sort(), [companies]);
@@ -120,11 +127,46 @@ export default function MapExplorer({ companies }: Props) {
     setRemoteOnly(false); setSort('added-desc');
   }, []);
 
+  const startPanelResize = (event: React.PointerEvent<HTMLDivElement>) => {
+    if (window.innerWidth <= 720) return;
+    event.preventDefault();
+    const startX = event.clientX;
+    const startWidth = panelWidth;
+    event.currentTarget.setPointerCapture(event.pointerId);
+
+    const handleMove = (moveEvent: PointerEvent) => {
+      setPanelWidth(Math.min(MAX_PANEL_WIDTH, Math.max(MIN_PANEL_WIDTH, startWidth + moveEvent.clientX - startX)));
+    };
+    const stopResize = () => {
+      window.removeEventListener('pointermove', handleMove);
+      window.removeEventListener('pointerup', stopResize);
+      resizeCleanupRef.current = null;
+    };
+
+    resizeCleanupRef.current?.();
+    resizeCleanupRef.current = stopResize;
+    window.addEventListener('pointermove', handleMove);
+    window.addEventListener('pointerup', stopResize, { once: true });
+  };
+
+  const resizePanelWithKeyboard = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    event.preventDefault();
+    if (event.key === 'Home') setPanelWidth(MIN_PANEL_WIDTH);
+    else if (event.key === 'End') setPanelWidth(MAX_PANEL_WIDTH);
+    else setPanelWidth((current) => Math.min(MAX_PANEL_WIDTH, Math.max(MIN_PANEL_WIDTH, current + (event.key === 'ArrowRight' ? 16 : -16))));
+  };
+
+  useEffect(() => () => resizeCleanupRef.current?.(), []);
+
+  useEffect(() => { panelWidthRef.current = panelWidth; }, [panelWidth]);
+
   const fitVisible = useCallback(() => {
     if (!mapRef.current || filteredCompanies.length === 0) return;
     const bounds = new maplibregl.LngLatBounds();
     filteredCompanies.flatMap((company) => company.locations).forEach((location) => bounds.extend(location.coordinates));
-    mapRef.current.fitBounds(bounds, { padding: 70, maxZoom: 6.2, duration: 850 });
+    const sidePadding = window.innerWidth > 720 ? panelWidthRef.current + 48 : 64;
+    mapRef.current.fitBounds(bounds, { padding: { top: 64, right: 64, bottom: 64, left: sidePadding }, maxZoom: 6.2, duration: 850 });
   }, [filteredCompanies]);
 
   useEffect(() => {
@@ -304,7 +346,8 @@ export default function MapExplorer({ companies }: Props) {
   useEffect(() => {
     if (!selectedCompany || !mapRef.current) return;
     const headquarters = selectedCompany.locations.find((location) => location.type === 'headquarters') ?? selectedCompany.locations[0];
-    mapRef.current.flyTo({ center: headquarters.coordinates, zoom: 7, duration: 950, essential: true, padding: { left: 0, right: 0, top: 0, bottom: 80 } });
+    const desktop = window.innerWidth > 720;
+    mapRef.current.flyTo({ center: headquarters.coordinates, zoom: 7, duration: 950, essential: true, padding: { left: desktop ? panelWidthRef.current + 48 : 0, right: desktop ? 442 : 0, top: 0, bottom: 80 } });
   }, [selectedCompany]);
 
   useEffect(() => {
@@ -313,7 +356,18 @@ export default function MapExplorer({ companies }: Props) {
 
   return (
     <div className={`explorer mobile-view--${mobileView}`}>
-      <aside className="directory-panel">
+      <aside className="directory-panel" style={{ '--panel-width': `${panelWidth}px` } as React.CSSProperties}>
+        <header className="directory-header">
+          <div className="directory-header__top">
+            <a className="directory-brand" href="/" aria-label="Europe Robotics Map home">Europe Robotics Map</a>
+            <a className="directory-contribute" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Add company <ArrowUpRight size={14} /></a>
+          </div>
+          <nav className="directory-nav" aria-label="Main navigation">
+            <a className="active" href="/" aria-current="page"><MapIcon size={15} /> Map</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+
         <div className="directory-tools">
           <label className="search-field">
             <Search size={17} aria-hidden="true" />
@@ -370,6 +424,20 @@ export default function MapExplorer({ companies }: Props) {
           )}
           <a className="list-cta" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
         </div>
+
+        <div
+          className="panel-resize-handle"
+          role="separator"
+          aria-label="Resize company directory"
+          aria-orientation="vertical"
+          aria-valuemin={MIN_PANEL_WIDTH}
+          aria-valuemax={MAX_PANEL_WIDTH}
+          aria-valuenow={panelWidth}
+          tabIndex={0}
+          onPointerDown={startPanelResize}
+          onKeyDown={resizePanelWithKeyboard}
+          onDoubleClick={() => setPanelWidth(DEFAULT_PANEL_WIDTH)}
+        ><GripVertical size={14} /></div>
       </aside>
 
       <section className="map-stage" aria-label="Map of European robotics companies">
@@ -384,8 +452,8 @@ export default function MapExplorer({ companies }: Props) {
       </section>
 
       <div className="mobile-switcher" role="tablist" aria-label="Choose map or list view">
-        <button role="tab" aria-selected={mobileView === 'list'} className={mobileView === 'list' ? 'active' : ''} onClick={() => setMobileView('list')}><List size={16} /> List</button>
-        <button role="tab" aria-selected={mobileView === 'map'} className={mobileView === 'map' ? 'active' : ''} onClick={() => setMobileView('map')}><MapIcon size={16} /> Map <span>{filteredCompanies.length}</span></button>
+        <button type="button" role="tab" aria-selected={mobileView === 'list'} className={mobileView === 'list' ? 'active' : ''} onClick={() => setMobileView('list')}><List size={16} /> List</button>
+        <button type="button" role="tab" aria-selected={mobileView === 'map'} className={mobileView === 'map' ? 'active' : ''} onClick={() => setMobileView('map')}><MapIcon size={16} /> Map <span>{filteredCompanies.length}</span></button>
       </div>
     </div>
   );

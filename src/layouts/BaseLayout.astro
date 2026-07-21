@@ -31,20 +31,22 @@ const pathname = Astro.url.pathname;
     <title>{title}</title>
   </head>
   <body class:list={{ 'is-full-height': fullHeight }}>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="Europe Robotics Map home">
-        <span class="brand-name">Europe Robotics Map</span>
-      </a>
-
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="/" class:list={{ active: pathname === '/' }}>Map</a>
-        <a href="/about" class:list={{ active: pathname.startsWith('/about') }}>About</a>
-        <a class="nav-contribute" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">
-          Add a company
-          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M4 11 11 4M5 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+    {!fullHeight && (
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Europe Robotics Map home">
+          <span class="brand-name">Europe Robotics Map</span>
         </a>
-      </nav>
-    </header>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="/" class:list={{ active: pathname === '/' }}>Map</a>
+          <a href="/about" class:list={{ active: pathname.startsWith('/about') }}>About</a>
+          <a class="nav-contribute" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">
+            Add a company
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M4 11 11 4M5 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+          </a>
+        </nav>
+      </header>
+    )}
     <main class:list={{ 'full-height-main': fullHeight }}>
       <slot />
     </main>
