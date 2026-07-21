@@ -1,0 +1,18 @@
+[tools]
+node = "22"
+pnpm = "10.13.1"
+
+[env]
+_.path = ["./node_modules/.bin"]
+
+[tasks.setup]
+description = "Install JavaScript dependencies"
+run = "pnpm install"
+
+[tasks.dev]
+description = "Start the local Astro development server"
+run = "pnpm dev"
+
+[tasks.check]
+description = "Validate data, types, and production build"
+run = "pnpm validate:data && pnpm build"

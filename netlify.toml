@@ -1,0 +1,20 @@
+[build]
+command = "pnpm build"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "22"
+PNPM_VERSION = "10.13.1"
+
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[redirects]]
+from = "/*"
+to = "/404.html"
+status = 404
