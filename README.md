@@ -2,7 +2,7 @@
 
 An open, community-maintained map of robotics and robotics-adjacent companies across Europe, with a practical focus on offices, factories, remote work and hiring.
 
-The site is a static [Astro](https://astro.build/) project. The directory lives in one reviewable JSON file, while the interactive search and map are a small React island. The map uses [MapLibre GL JS](https://maplibre.org/) and [OpenFreeMap](https://openfreemap.org/), so local development and community deployments do not require a Mapbox account or access token.
+The site is a static [Astro](https://astro.build/) project. The directory lives in one reviewable JSON file, while the interactive search and map are a small React island. The map uses [MapLibre GL JS](https://maplibre.org/) and [OpenFreeMap](https://openfreemap.org/).
 
 ## What is included
 
