@@ -93,7 +93,10 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "neura-metzingen", "type": "headquarters", "city": "Metzingen", "country": "Germany", "address": "Gutenbergstrasse 44, 72555 Metzingen" }
+      { "id": "neura-bielefeld", "type": "office", "city": "Bielefeld", "country": "Germany" },
+      { "id": "neura-metzingen", "type": "headquarters", "city": "Metzingen", "country": "Germany", "address": "Gutenbergstrasse 44, 72555 Metzingen" },
+      { "id": "neura-munich", "type": "office", "city": "Munich", "country": "Germany" },
+      { "id": "neura-zurich", "type": "office", "city": "Zürich", "country": "Switzerland" }
     ]
   },
   {

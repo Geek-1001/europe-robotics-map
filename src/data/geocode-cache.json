@@ -708,6 +708,13 @@
         -1.4701,
         53.3811
       ]
+    },
+    "Germany|Bielefeld": {
+      "query": "Bielefeld, Germany",
+      "coordinates": [
+        8.531007,
+        52.0191005
+      ]
     }
   }
 }
