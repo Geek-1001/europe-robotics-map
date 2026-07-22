@@ -35,6 +35,7 @@ const CLUSTER_HALO_LAYER_ID = 'company-cluster-halo';
 const CLUSTER_LAYER_ID = 'company-clusters';
 const CLUSTER_COUNT_LAYER_ID = 'company-cluster-count';
 const COMPANY_POINT_LAYER_ID = 'company-point-loader';
+const COMPANY_FOCUS_ZOOM = 11;
 const DEFAULT_PANEL_WIDTH = 420;
 const MIN_PANEL_WIDTH = 380;
 const MAX_PANEL_WIDTH = 560;
@@ -341,7 +342,7 @@ export default function MapExplorer({ companies }: Props) {
     if (!selectedCompany || !mapRef.current) return;
     const headquarters = selectedCompany.locations.find((location) => location.type === 'headquarters') ?? selectedCompany.locations[0];
     const desktop = window.innerWidth > 720;
-    mapRef.current.flyTo({ center: headquarters.coordinates, zoom: 7, duration: 950, essential: true, padding: { left: desktop ? panelWidthRef.current + 48 : 0, right: desktop ? 442 : 0, top: 0, bottom: 80 } });
+    mapRef.current.flyTo({ center: headquarters.coordinates, zoom: COMPANY_FOCUS_ZOOM, duration: 950, essential: true, padding: { left: desktop ? panelWidthRef.current + 48 : 0, right: desktop ? 442 : 0, top: 0, bottom: 80 } });
   }, [selectedCompany]);
 
   useEffect(() => {
