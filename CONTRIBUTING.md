@@ -1,4 +1,4 @@
-# Contributing to Robomap Europe
+# Contributing to Europe Robotics Map
 
 Thank you for helping make the map more useful. You can contribute a new company, add an office, correct a fact, improve accessibility, or work on the site itself.
 

@@ -1,6 +1,6 @@
 # Code of Conduct
 
-We want Robomap Europe to be a welcoming, useful project for contributors of every background and experience level.
+We want Europe Robotics Map to be a welcoming, useful project for contributors of every background and experience level.
 
 Be respectful, assume good intent, give actionable feedback, and focus disagreements on the work. Harassment, discrimination, threats, doxxing and sustained disruption are not acceptable.
 

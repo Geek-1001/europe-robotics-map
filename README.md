@@ -1,4 +1,4 @@
-# Robomap Europe
+# Europe Robotics Map
 
 An open, community-maintained map of robotics and robotics-adjacent companies across Europe, with a practical focus on offices, factories, remote work and hiring.
 

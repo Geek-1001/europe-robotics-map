@@ -4,7 +4,7 @@ const companiesUrl = new URL('../src/data/companies.json', import.meta.url);
 const cacheUrl = new URL('../src/data/geocode-cache.json', import.meta.url);
 const companies = JSON.parse(await readFile(companiesUrl, 'utf8'));
 const cache = JSON.parse(await readFile(cacheUrl, 'utf8'));
-const endpoint = process.env.ROBOMAP_GEOCODER_URL || 'https://nominatim.openstreetmap.org/search';
+const endpoint = process.env.EUROPE_ROBOTICS_MAP_GEOCODER_URL || 'https://nominatim.openstreetmap.org/search';
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 let requests = 0;
 let changed = false;
@@ -16,7 +16,7 @@ const geocode = async (query) => {
   url.searchParams.set('format', 'jsonv2');
   url.searchParams.set('limit', '1');
   const response = await fetch(url, {
-    headers: { 'User-Agent': 'RobomapEurope/0.1 (https://github.com/ahmedsulaiman/europe-robotics-map)' },
+    headers: { 'User-Agent': 'EuropeRoboticsMap/0.1 (https://github.com/Geek-1001/europe-robotics-map)' },
   });
   requests += 1;
   if (!response.ok) throw new Error(`Geocoder returned ${response.status} for “${query}”.`);

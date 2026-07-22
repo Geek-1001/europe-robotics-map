@@ -87,6 +87,6 @@ Exact addresses are geocoded through the same process. Results are cached under 
 
 Pull-request CI resolves uncached locations, validates every generated coordinate and builds the complete map. After merge, a separate workflow repeats those checks and commits only the refreshed `src/data/geocode-cache.json` file to `main`. The generated commit does not retrigger the workflow.
 
-The default geocoder endpoint is OpenStreetMap Nominatim. Requests are sequential, limited to less than one per second and only made for uncached or changed locations. Deployments can switch providers by setting `ROBOMAP_GEOCODER_URL` to a compatible search endpoint.
+The default geocoder endpoint is OpenStreetMap Nominatim. Requests are sequential, limited to less than one per second and only made for uncached or changed locations. Deployments can switch providers by setting `EUROPE_ROBOTICS_MAP_GEOCODER_URL` to a compatible search endpoint.
 
 Run `pnpm validate:data` after editing. The formal schema is available at `schema/company.schema.json` for editor integrations.

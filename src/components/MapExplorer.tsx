@@ -405,7 +405,7 @@ export default function MapExplorer({ companies }: Props) {
         <header className="directory-header">
           <div className="directory-header__top">
             <a className="directory-brand" href="/" aria-label="Europe Robotics Map home">Europe Robotics Map</a>
-            <a className="directory-contribute" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Add company <ArrowUpRight size={14} /></a>
+            <a className="directory-contribute" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Add company <ArrowUpRight size={14} /></a>
           </div>
         </header>
 
@@ -450,16 +450,16 @@ export default function MapExplorer({ companies }: Props) {
             <div className="empty-state">
               <span>0</span>
               <h2>No companies found.</h2>
-              <a className="list-cta list-cta--empty" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Add a missing company</b><small>Help put it on the map.</small></span><ArrowUpRight size={18} /></a>
+              <a className="list-cta list-cta--empty" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Add a missing company</b><small>Help put it on the map.</small></span><ArrowUpRight size={18} /></a>
             </div>
           ) : (
-            <a className="list-cta" href="https://github.com/ahmedsulaiman/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
+            <a className="list-cta" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
           )}
         </div>
 
         <footer className="directory-footer" aria-label="Project links">
           <span>Made by <a href="https://www.linkedin.com/in/ahmed-sulajman" target="_blank" rel="noreferrer">Ahmed Sulaiman</a></span>
-          <a href="https://github.com/ahmedsulaiman/europe-robotics-map" target="_blank" rel="noreferrer">View on GitHub <ArrowUpRight size={13} /></a>
+          <a href="https://github.com/Geek-1001/europe-robotics-map" target="_blank" rel="noreferrer">View on GitHub <ArrowUpRight size={13} /></a>
         </footer>
 
         <div
