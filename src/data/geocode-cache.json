@@ -722,6 +722,20 @@
         8.531007,
         52.0191005
       ]
+    },
+    "Finland|Helsinki": {
+      "query": "Helsinki, Finland",
+      "coordinates": [
+        24.9435408,
+        60.1666204
+      ]
+    },
+    "Germany|Hamburg": {
+      "query": "Hamburg, Germany",
+      "coordinates": [
+        10.0013165,
+        53.5501721
+      ]
     }
   }
 }

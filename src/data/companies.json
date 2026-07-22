@@ -2373,6 +2373,30 @@
         "city": "Tallinn",
         "country": "Estonia",
         "address": "Teaduspargi 8, 12618 Tallinn"
+      },
+      {
+        "id": "starship-technologies-helsinki",
+        "type": "office",
+        "city": "Helsinki",
+        "country": "Finland"
+      },
+      {
+        "id": "starship-technologies-stockholm",
+        "type": "office",
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
+      {
+        "id": "starship-technologies-london",
+        "type": "office",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      {
+        "id": "starship-technologies-hamburg",
+        "type": "office",
+        "city": "Hamburg",
+        "country": "Germany"
       }
     ]
   },
