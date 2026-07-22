@@ -2338,7 +2338,8 @@
         "id": "moley-robotics-london",
         "type": "headquarters",
         "city": "London",
-        "country": "United Kingdom"
+        "country": "United Kingdom",
+        "address": "Cambridge Grove, London, England W6 0, GB"
       }
     ]
   },

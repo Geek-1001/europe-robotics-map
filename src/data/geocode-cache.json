@@ -469,6 +469,13 @@
         55.6448
       ]
     },
+    "moley-robotics-london": {
+      "query": "Cambridge Grove, London, England W6 0, GB, London, United Kingdom",
+      "coordinates": [
+        -0.2302126,
+        51.4935264
+      ]
+    },
     "starship-technologies-tallinn": {
       "query": "Teaduspargi 8, 12618 Tallinn, Tallinn, Estonia",
       "coordinates": [
