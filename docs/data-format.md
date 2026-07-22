@@ -10,7 +10,6 @@ The directory is the JSON array in `src/data/companies.json`. A useful contribut
   "name": "Example Robotics",
   "description": "Builds autonomous robots for inspecting renewable energy infrastructure.",
   "categories": ["Inspection", "Autonomous mobile robots"],
-  "addedAt": "2026-07-21",
   "links": {
     "website": "https://example.com/"
   },
@@ -19,10 +18,7 @@ The directory is the JSON array in `src/data/companies.json`. A useful contribut
       "id": "example-robotics-berlin",
       "type": "headquarters",
       "city": "Berlin",
-      "country": "Germany",
-      "address": "Berlin, Germany",
-      "coordinates": [13.4217, 52.5091],
-      "isApproximate": true
+      "country": "Germany"
     }
   ]
 }
@@ -61,7 +57,6 @@ Add any details you know; omit the rest rather than filling fields with `null`.
 | `id` | Stable, unique, lowercase kebab-case identifier. |
 | `description` | One factual sentence, ideally under 180 characters. |
 | `categories` | One or more reusable, title-case labels. Companies can have multiple categories. |
-| `addedAt` | Date the entry joined the collection, formatted `YYYY-MM-DD`. |
 | `links.website` | The only required link. Use the canonical HTTPS company URL. |
 | `links.careers` | Optional direct careers page. |
 | `links.logo` | Optional HTTPS image or favicon URL. The UI falls back to initials if it is omitted or fails to load. |
@@ -70,13 +65,28 @@ Add any details you know; omit the rest rather than filling fields with `null`.
 | `options.funding.amount` | Optional disclosed funding in millions, not valuation. Include a three-letter `currency` when using it. |
 | `options.remoteHiring` | Optional boolean: `true` for remote-friendly, `false` for onsite-only. |
 | `locations[].type` | `headquarters`, `office`, or `factory`. |
-| `locations[].coordinates` | `[longitude, latitude]`, matching GeoJSON and MapLibre order. |
-| `locations[].isApproximate` | Optional `true` when the street address is unknown and the marker represents a deliberately offset city- or area-level position. Omit it for verified street addresses. |
+| `locations[].address` | Add the public street address when known. Omit it when only the city is known. |
 
-## Locations without a public street address
+## Exact and approximate locations
 
-When only a city or neighbourhood is known, use a stable point roughly 1–3 km from the city centre rather than reusing the centre coordinate. This keeps nearby company markers individually selectable. Set `address` to `Approximate location in City, Country` (or name the known neighbourhood), and add `isApproximate: true`.
+For an exact location, include its address:
 
-Choose the point once and commit it to the dataset; do not randomise it in the browser. Before adding it, compare nearby records and adjust the point so it does not overlap an existing marker. The map labels these entries as approximate, so the offset must never imply a verified office address.
+```json
+{
+  "id": "example-robotics-munich",
+  "type": "office",
+  "city": "Munich",
+  "country": "Germany",
+  "address": "Example-Straße 12, 80331 Munich"
+}
+```
+
+When only a city is known, omit `address`. Do not add coordinates or an approximation flag. During validation and builds, the project geocodes new cities automatically and generates a stable, pseudo-random point nearby. Generated points are kept apart from existing markers and are labelled as approximate in the interface.
+
+Exact addresses are geocoded through the same process. Results are cached under the hood so ordinary builds do not make network requests, and changing an address automatically invalidates its cached result. Contributors never edit coordinates or the cache themselves.
+
+Pull-request CI resolves uncached locations, validates every generated coordinate and builds the complete map. After merge, a separate workflow repeats those checks and commits only the refreshed `src/data/geocode-cache.json` file to `main`. The generated commit does not retrigger the workflow.
+
+The default geocoder endpoint is OpenStreetMap Nominatim. Requests are sequential, limited to less than one per second and only made for uncached or changed locations. Deployments can switch providers by setting `ROBOMAP_GEOCODER_URL` to a compatible search endpoint.
 
 Run `pnpm validate:data` after editing. The formal schema is available at `schema/company.schema.json` for editor integrations.

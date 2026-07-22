@@ -10,7 +10,7 @@ The site is a static [Astro](https://astro.build/) project. The directory lives 
 - Remote-friendly hiring indicators
 - Company, website and category search
 - Multi-category, country, team-size and remote-hiring filters
-- Sorting by date added, founded year, funding and name
+- Sorting by name, founded year and funding
 - Mobile list/map views
 - Company detail cards with careers links and European locations
 - JSON validation, CI, Netlify configuration and contribution templates
@@ -31,7 +31,7 @@ If Node and pnpm are already installed, `pnpm install && pnpm dev` works too.
 
 ## Data
 
-All company records live in [`src/data/companies.json`](src/data/companies.json). Coordinates use `[longitude, latitude]` order, matching GeoJSON and MapLibre. See [`docs/data-format.md`](docs/data-format.md) for the full field guide.
+All company records live in [`src/data/companies.json`](src/data/companies.json). Contributors provide an exact street address or just a city; coordinates are generated and cached automatically. Pull requests verify every resolved marker, and the merge workflow persists new coordinates in [`src/data/geocode-cache.json`](src/data/geocode-cache.json). See [`docs/data-format.md`](docs/data-format.md) for the full field guide.
 
 Validate a contribution before opening a pull request:
 

@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "pnpm sync:locations && astro check && astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "validate:data": "node scripts/validate-companies.mjs"
+    "sync:locations": "node scripts/geocode-locations.mjs",
+    "validate:data": "pnpm sync:locations && node scripts/validate-companies.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.3.0",

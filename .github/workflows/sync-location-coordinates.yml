@@ -1,0 +1,46 @@
+name: Sync location coordinates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - src/data/companies.json
+      - scripts/geocode-locations.mjs
+      - src/lib/resolve-company-locations.js
+      - scripts/validate-companies.mjs
+      - .github/workflows/sync-location-coordinates.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-location-coordinates
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - run: pnpm install --frozen-lockfile
+      - name: Resolve new and changed locations
+        run: pnpm sync:locations
+      - name: Validate company data and resolved markers
+        run: node scripts/validate-companies.mjs
+      - name: Check and build the site
+        run: pnpm check && pnpm exec astro build
+      - name: Commit generated coordinates
+        run: |
+          if git diff --quiet -- src/data/geocode-cache.json; then
+            echo "Geocoding cache is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/geocode-cache.json
+          git commit -m "chore(data): update geocoding cache"
+          git push

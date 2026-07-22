@@ -1,0 +1,713 @@
+{
+  "locations": {
+    "wayve-london": {
+      "query": "230–238 York Way, London N7 9AG, London, United Kingdom",
+      "coordinates": [
+        -0.1274,
+        51.5381
+      ]
+    },
+    "wayve-leonberg": {
+      "query": "Riedwiesenstraße 13–17, 71229 Leonberg, Leonberg, Germany",
+      "coordinates": [
+        9.0027,
+        48.7971
+      ]
+    },
+    "sunrise-ljubljana": {
+      "query": "Dunajska cesta 22, Ljubljana, Ljubljana, Slovenia",
+      "coordinates": [
+        14.5058,
+        46.0572
+      ]
+    },
+    "adamo-london": {
+      "query": "Unit 10, Paddington Works, 8 Hermitage St, London W2 1BE, London, United Kingdom",
+      "coordinates": [
+        -0.1834,
+        51.5211
+      ]
+    },
+    "whistle-london": {
+      "query": "5 Spare St, London SE17 3EP, London, United Kingdom",
+      "coordinates": [
+        -0.0965,
+        51.4912
+      ]
+    },
+    "neura-metzingen": {
+      "query": "Gutenbergstrasse 44, 72555 Metzingen, Metzingen, Germany",
+      "coordinates": [
+        9.2885,
+        48.5361
+      ]
+    },
+    "rollo-viljandi": {
+      "query": "Raua tn 16, 71020 Viljandi, Estonia, Viljandi, Estonia",
+      "coordinates": [
+        25.5907,
+        58.3639
+      ]
+    },
+    "neuracore-london": {
+      "query": "2 Eastbourne Terrace, London W2 6LG, London, United Kingdom",
+      "coordinates": [
+        -0.1805,
+        51.5175
+      ]
+    },
+    "arthur-robotics-london": {
+      "query": "Somerset House, Strand, London WC2R 1LA, London, United Kingdom",
+      "coordinates": [
+        -0.1172,
+        51.511
+      ]
+    },
+    "mimic-robotics-zurich": {
+      "query": "Elias-Canetti-Strasse 7, 8050 Zürich, Zürich, Switzerland",
+      "coordinates": [
+        8.5409,
+        47.4116
+      ]
+    },
+    "humanoid-london": {
+      "query": "5 Merchant Square, London W2 1AY, London, United Kingdom",
+      "coordinates": [
+        -0.1735,
+        51.5188
+      ]
+    },
+    "flexion-robotics-zurich": {
+      "query": "Affolternstrasse 42, 8050 Zürich, Zürich, Switzerland",
+      "coordinates": [
+        8.542,
+        47.4118
+      ]
+    },
+    "generative-bionics-genoa": {
+      "query": "Via Melen 83, 16152 Genoa, Genoa, Italy",
+      "coordinates": [
+        8.8629,
+        44.4258
+      ]
+    },
+    "stateful-robotics-oxford": {
+      "query": "46 Woodstock Road, Oxford OX2 6HT, Oxford, United Kingdom",
+      "coordinates": [
+        -1.2618,
+        51.761
+      ]
+    },
+    "theker-barcelona": {
+      "query": "Carrer de la Llacuna 162, 2nd Floor, 08018 Barcelona, Barcelona, Spain",
+      "coordinates": [
+        2.1925,
+        41.4062
+      ]
+    },
+    "enchanted-tools-paris": {
+      "query": "18 Rue de la Fontaine au Roi, 75011 Paris, Paris, France",
+      "coordinates": [
+        2.3705,
+        48.8683
+      ]
+    },
+    "autopickr-cambridge": {
+      "query": "184 Cambridge Science Park Road, Cambridge CB4 0GA, Cambridge, United Kingdom",
+      "coordinates": [
+        0.1462,
+        52.2338
+      ]
+    },
+    "ascento-zurich": {
+      "query": "Giesshübelstrasse 40, 8045 Zürich, Zürich, Switzerland",
+      "coordinates": [
+        8.5206,
+        47.358
+      ]
+    },
+    "gravis-robotics-zurich": {
+      "query": "Thurgauerstrasse 119, 8152 Zürich, Zürich, Switzerland",
+      "coordinates": [
+        8.5594,
+        47.4246
+      ]
+    },
+    "sereact-stuttgart": {
+      "query": "Schockenriedstraße 17, 70565 Stuttgart, Stuttgart, Germany",
+      "coordinates": [
+        9.1206,
+        48.7265
+      ]
+    },
+    "antobot-chelmsford": {
+      "query": "Arise Building, Alan Cherry Drive, Chelmsford CM1 1RP, Chelmsford, United Kingdom",
+      "coordinates": [
+        0.4727,
+        51.742
+      ]
+    },
+    "brightpick-bratislava": {
+      "query": "Plynárenská 6, 821 09 Bratislava, Bratislava, Slovakia",
+      "coordinates": [
+        17.1409,
+        48.1433
+      ]
+    },
+    "goodbytz-hamburg": {
+      "query": "Werner-Otto-Straße 13g, 22179 Hamburg, Hamburg, Germany",
+      "coordinates": [
+        10.0726,
+        53.5963
+      ]
+    },
+    "circus-group-munich": {
+      "query": "St.-Martin-Straße 112, 81669 Munich, Munich, Germany",
+      "coordinates": [
+        11.6027,
+        48.1199
+      ]
+    },
+    "robco-munich": {
+      "query": "Augustenstraße 12, 80333 Munich, Munich, Germany",
+      "coordinates": [
+        11.5606,
+        48.1452
+      ]
+    },
+    "idealworks-munich": {
+      "query": "Riesstraße 22, 80992 Munich, Munich, Germany",
+      "coordinates": [
+        11.5381,
+        48.1787
+      ]
+    },
+    "fernride-munich": {
+      "query": "Ingolstädter Straße 172–180, 80939 Munich, Munich, Germany",
+      "coordinates": [
+        11.589,
+        48.2046
+      ]
+    },
+    "opteran-sheffield": {
+      "query": "Innovation Centre, 217 Portobello, Sheffield S1 4DP, Sheffield, United Kingdom",
+      "coordinates": [
+        -1.4812,
+        53.3809
+      ]
+    },
+    "robotiz3d-warrington": {
+      "query": "Innovation Centre, Sci-Tech Daresbury, Keckwick Lane, Warrington WA4 4FS, Warrington, United Kingdom",
+      "coordinates": [
+        -2.6394,
+        53.3452
+      ]
+    },
+    "earth-rover-edgmond": {
+      "query": "Poultry Drive, Edgmond, Newport TF10 8JZ, Edgmond, United Kingdom",
+      "coordinates": [
+        -2.4245,
+        52.7757
+      ]
+    },
+    "olo-robotics-sheffield": {
+      "query": "1 Concourse Way, Sheffield S1 2BJ, Sheffield, United Kingdom",
+      "coordinates": [
+        -1.4621,
+        53.3804
+      ]
+    },
+    "keybotic-barcelona": {
+      "query": "Carrer de Marie Curie 8–14, 08042 Barcelona, Barcelona, Spain",
+      "coordinates": [
+        2.1691,
+        41.437
+      ]
+    },
+    "voliro-zurich": {
+      "query": "Förrlibuckstrasse 150, 8005 Zürich, Zürich, Switzerland",
+      "coordinates": [
+        8.5114,
+        47.3922
+      ]
+    },
+    "extend-robotics-reading": {
+      "query": "200 Brook Drive, Reading RG2 6UB, Reading, United Kingdom",
+      "coordinates": [
+        -0.988,
+        51.4251
+      ]
+    },
+    "recycleye-london": {
+      "query": "11–15 Gibbins Road, London E15 2HU, London, United Kingdom",
+      "coordinates": [
+        -0.0061,
+        51.5388
+      ]
+    },
+    "rocsys-rijswijk": {
+      "query": "Delftweg 65, 2289 BA Rijswijk, Rijswijk, Netherlands",
+      "coordinates": [
+        4.3462,
+        52.0341
+      ]
+    },
+    "agile-robots-munich": {
+      "query": "Plinganserstraße 134, 81369 Munich, Munich, Germany",
+      "coordinates": [
+        11.5405,
+        48.1028
+      ]
+    },
+    "vay-berlin": {
+      "query": "Mariendorfer Damm 1, 12099 Berlin, Berlin, Germany",
+      "coordinates": [
+        13.3843,
+        52.4534
+      ]
+    },
+    "skyports-london": {
+      "query": "170 Kennington Lane, London SE11 5DP, London, United Kingdom",
+      "coordinates": [
+        -0.1116,
+        51.4881
+      ]
+    },
+    "wootzano-newcastle": {
+      "query": "4 Quick Silver Way, Newcastle upon Tyne NE27 0QQ, Newcastle upon Tyne, United Kingdom",
+      "coordinates": [
+        -1.4895,
+        55.0196
+      ]
+    },
+    "hausbots-birmingham": {
+      "query": "Unit 5A, Waterside Business Park, 1649 Pershore Road, Birmingham B30 3DR, Birmingham, United Kingdom",
+      "coordinates": [
+        -1.9297,
+        52.4149
+      ]
+    },
+    "adapta-robotics-bucharest": {
+      "query": "Green Court Bucharest, 4 Gara Herăstrău Street, Building B, Sector 2, Bucharest, Bucharest, Romania",
+      "coordinates": [
+        26.1051,
+        44.479
+      ]
+    },
+    "rivelin-robotics-sheffield": {
+      "query": "Unit 1, Neepsend Triangle, 1 Burton Road, Sheffield S3 8BW, Sheffield, United Kingdom",
+      "coordinates": [
+        -1.4775,
+        53.3947
+      ]
+    },
+    "crover-edinburgh": {
+      "query": "The National Robotarium, Boundary Road North, Edinburgh EH14 4AS, Edinburgh, United Kingdom",
+      "coordinates": [
+        -3.319,
+        55.9097
+      ]
+    },
+    "manna-dublin": {
+      "query": "Slaney Road, Dublin 11, Dublin, Ireland",
+      "coordinates": [
+        -6.3075,
+        53.3982
+      ]
+    },
+    "nomagic-warsaw": {
+      "query": "Rakowiecka 36, 02-532 Warsaw, Warsaw, Poland",
+      "coordinates": [
+        21.0007,
+        52.2088
+      ]
+    },
+    "gideon-zagreb": {
+      "query": "Radnička cesta 177, 10000 Zagreb, Zagreb, Croatia",
+      "coordinates": [
+        15.9726,
+        45.7955
+      ]
+    },
+    "ekobot-vasteras": {
+      "query": "Slakterigatan 10, 721 32 Västerås, Västerås, Sweden",
+      "coordinates": [
+        16.5587,
+        59.6007
+      ]
+    },
+    "german-bionic-augsburg": {
+      "query": "Karl-Drais-Straße 4d, 86159 Augsburg, Augsburg, Germany",
+      "coordinates": [
+        10.8993,
+        48.3349
+      ]
+    },
+    "kilter-skoppum": {
+      "query": "Langmyra 11, 3185 Skoppum, Skoppum, Norway",
+      "coordinates": [
+        10.41,
+        59.3856
+      ]
+    },
+    "dexory-wallingford": {
+      "query": "Unit 9, Verda Park, Wallingford OX10 9SJ, Wallingford, United Kingdom",
+      "coordinates": [
+        -1.1298,
+        51.5948
+      ]
+    },
+    "exotec-croix": {
+      "query": "251 Rue Jean Monnet, 59170 Croix, Croix, France",
+      "coordinates": [
+        3.1514,
+        50.6809
+      ]
+    },
+    "automata-london": {
+      "query": "10 White Lion Street, London N1 9PD, London, United Kingdom",
+      "coordinates": [
+        -0.107,
+        51.5339
+      ]
+    },
+    "zivid-oslo": {
+      "query": "Gjerdrums vei 10A, 0484 Oslo, Oslo, Norway",
+      "coordinates": [
+        10.7686,
+        59.9506
+      ]
+    },
+    "quantum-systems-gilching": {
+      "query": "Dornierstraße 11, 82205 Gilching, Gilching, Germany",
+      "coordinates": [
+        11.3075,
+        48.107
+      ]
+    },
+    "devanthro-munich": {
+      "query": "Freddie-Mercury-Straße 5, 80797 Munich, Munich, Germany",
+      "coordinates": [
+        11.5559,
+        48.1603
+      ]
+    },
+    "blueye-robotics-trondheim": {
+      "query": "Strandveien 43, 7067 Trondheim, Trondheim, Norway",
+      "coordinates": [
+        10.4171,
+        63.4389
+      ]
+    },
+    "tiny-mobile-robots-malling": {
+      "query": "Sofienlystvej 9, 8340 Malling, Malling, Denmark",
+      "coordinates": [
+        10.1901,
+        56.0396
+      ]
+    },
+    "flyingbasket-bolzano": {
+      "query": "Via Enrico Fermi 27, 39100 Bolzano, Bolzano, Italy",
+      "coordinates": [
+        11.3298,
+        46.4803
+      ]
+    },
+    "micropsi-industries-berlin": {
+      "query": "Lise-Meitner-Straße 39–41, 10589 Berlin, Berlin, Germany",
+      "coordinates": [
+        13.3234,
+        52.5287
+      ]
+    },
+    "magazino-munich": {
+      "query": "Landsberger Straße 234, 80687 Munich, Munich, Germany",
+      "coordinates": [
+        11.5002,
+        48.1419
+      ]
+    },
+    "verity-zurich": {
+      "query": "Binzmühlestrasse 81, 8050 Zürich, Zürich, Switzerland",
+      "coordinates": [
+        8.5412,
+        47.4149
+      ]
+    },
+    "1x-moss": {
+      "query": "Henrich Gerners gate 8, 1530 Moss, Moss, Norway",
+      "coordinates": [
+        10.6696,
+        59.437
+      ]
+    },
+    "1x-oslo": {
+      "query": "Biskop Gunnerus gate 14, 0185 Oslo, Oslo, Norway",
+      "coordinates": [
+        10.7523,
+        59.9128
+      ]
+    },
+    "cmr-surgical-cambridge": {
+      "query": "1 Evolution Business Park, Milton Road, Cambridge CB24 9NG, Cambridge, United Kingdom",
+      "coordinates": [
+        0.1489,
+        52.2387
+      ]
+    },
+    "oxa-oxford": {
+      "query": "8050 Alec Issigonis Way, Oxford OX4 2HW, Oxford, United Kingdom",
+      "coordinates": [
+        -1.2042,
+        51.7255
+      ]
+    },
+    "kassow-robots-kastrup": {
+      "query": "Kajakvej 2, 2770 Kastrup, Kastrup, Denmark",
+      "coordinates": [
+        12.6406,
+        55.6448
+      ]
+    },
+    "starship-technologies-tallinn": {
+      "query": "Teaduspargi 8, 12618 Tallinn, Tallinn, Estonia",
+      "coordinates": [
+        24.6615,
+        59.3959
+      ]
+    },
+    "flyability-paudex": {
+      "query": "Route du Lac 3, 1094 Paudex, Paudex, Switzerland",
+      "coordinates": [
+        6.6732,
+        46.5052
+      ]
+    },
+    "universal-robots-odense": {
+      "query": "Energivej 25, 5260 Odense S, Odense, Denmark",
+      "coordinates": [
+        10.4314,
+        55.349
+      ]
+    },
+    "pal-robotics-barcelona": {
+      "query": "Carrer de Pujades 77, 08005 Barcelona, Barcelona, Spain",
+      "coordinates": [
+        2.1944,
+        41.397
+      ]
+    },
+    "engineered-arts-falmouth": {
+      "query": "E1–E3 Church View Business Park, Falmouth TR11 4FZ, Falmouth, United Kingdom",
+      "coordinates": [
+        -5.0857,
+        50.1539
+      ]
+    },
+    "robotnik-paterna": {
+      "query": "Ronda Auguste y Louis Lumière 8, Parque Tecnológico, 46980 Paterna, Paterna, Spain",
+      "coordinates": [
+        -0.4638,
+        39.5488
+      ]
+    },
+    "bluebotics-saint-sulpice": {
+      "query": "Jordils 41B, 1025 Saint-Sulpice, Saint-Sulpice, Switzerland",
+      "coordinates": [
+        6.559,
+        46.5123
+      ]
+    },
+    "autostore-nedre-vats": {
+      "query": "Stokkastrandvegen 85, 5578 Nedre Vats, Nedre Vats, Norway",
+      "coordinates": [
+        5.737,
+        59.498
+      ]
+    },
+    "avular-eindhoven": {
+      "query": "Achtseweg Zuid 221, 5651 GW Eindhoven, Eindhoven, Netherlands",
+      "coordinates": [
+        5.445,
+        51.479
+      ]
+    },
+    "dronamics-sofia": {
+      "query": "4 Iskar Street, 1000 Sofia, Sofia, Bulgaria",
+      "coordinates": [
+        23.3222,
+        42.6986
+      ]
+    },
+    "mobile-industrial-robots-odense": {
+      "query": "Energivej 51, 5260 Odense S, Odense, Denmark",
+      "coordinates": [
+        10.4299,
+        55.3495
+      ]
+    },
+    "wheel-me-oslo": {
+      "query": "Karenslyst allé 57, 0277 Oslo, Oslo, Norway",
+      "coordinates": [
+        10.6778,
+        59.9202
+      ]
+    },
+    "wandercraft-paris": {
+      "query": "88 Rue de Rivoli, 75004 Paris, Paris, France",
+      "coordinates": [
+        2.3525,
+        48.8575
+      ]
+    },
+    "naio-technologies-escalquens": {
+      "query": "235 Rue de la Montagne Noire, 31750 Escalquens, Escalquens, France",
+      "coordinates": [
+        1.5575,
+        43.5176
+      ]
+    },
+    "ecorobotix-yverdon-les-bains": {
+      "query": "Rue Galilée 6, 1400 Yverdon-les-Bains, Yverdon-les-Bains, Switzerland",
+      "coordinates": [
+        6.641,
+        46.7789
+      ]
+    }
+  },
+  "cities": {
+    "Czechia|Prague": {
+      "query": "Prague, Czechia",
+      "coordinates": [
+        14.4378,
+        50.0755
+      ]
+    },
+    "Denmark|Copenhagen": {
+      "query": "Copenhagen, Denmark",
+      "coordinates": [
+        12.5683,
+        55.6761
+      ]
+    },
+    "France|Paris": {
+      "query": "Paris, France",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "France|Suresnes": {
+      "query": "Suresnes, France",
+      "coordinates": [
+        2.2258,
+        48.8714
+      ]
+    },
+    "Germany|Berlin": {
+      "query": "Berlin, Germany",
+      "coordinates": [
+        13.405,
+        52.52
+      ]
+    },
+    "Germany|Munich": {
+      "query": "Munich, Germany",
+      "coordinates": [
+        11.582,
+        48.1351
+      ]
+    },
+    "Germany|Taufkirchen": {
+      "query": "Taufkirchen, Germany",
+      "coordinates": [
+        11.617,
+        48.0487
+      ]
+    },
+    "Italy|Milan": {
+      "query": "Milan, Italy",
+      "coordinates": [
+        9.19,
+        45.4642
+      ]
+    },
+    "Italy|Turin": {
+      "query": "Turin, Italy",
+      "coordinates": [
+        7.6869,
+        45.0703
+      ]
+    },
+    "Netherlands|Amsterdam": {
+      "query": "Amsterdam, Netherlands",
+      "coordinates": [
+        4.9041,
+        52.3676
+      ]
+    },
+    "Romania|Bucharest": {
+      "query": "Bucharest, Romania",
+      "coordinates": [
+        26.1025,
+        44.4268
+      ]
+    },
+    "Serbia|Belgrade": {
+      "query": "Belgrade, Serbia",
+      "coordinates": [
+        20.4489,
+        44.7866
+      ]
+    },
+    "Spain|Barcelona": {
+      "query": "Barcelona, Spain",
+      "coordinates": [
+        2.1734,
+        41.3851
+      ]
+    },
+    "Spain|Valencia": {
+      "query": "Valencia, Spain",
+      "coordinates": [
+        -0.3763,
+        39.4699
+      ]
+    },
+    "Sweden|Stockholm": {
+      "query": "Stockholm, Sweden",
+      "coordinates": [
+        18.0686,
+        59.3293
+      ]
+    },
+    "Switzerland|Zug": {
+      "query": "Zug, Switzerland",
+      "coordinates": [
+        8.5155,
+        47.1662
+      ]
+    },
+    "Switzerland|Zürich": {
+      "query": "Zürich, Switzerland",
+      "coordinates": [
+        8.5417,
+        47.3769
+      ]
+    },
+    "United Kingdom|London": {
+      "query": "London, United Kingdom",
+      "coordinates": [
+        -0.1278,
+        51.5074
+      ]
+    },
+    "United Kingdom|Sheffield": {
+      "query": "Sheffield, United Kingdom",
+      "coordinates": [
+        -1.4701,
+        53.3811
+      ]
+    }
+  }
+}

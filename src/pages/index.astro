@@ -2,9 +2,13 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MapExplorer from '../components/MapExplorer';
 import companiesData from '../data/companies.json';
-import type { Company } from '../lib/types';
+import geocodeCache from '../data/geocode-cache.json';
+import { resolveCompanyLocations } from '../lib/resolve-company-locations';
+import type { Company, CompanyData } from '../lib/types';
+
+const companies = resolveCompanyLocations(companiesData as CompanyData[], geocodeCache) as Company[];
 ---
 
 <BaseLayout fullHeight>
-  <MapExplorer companies={companiesData as Company[]} client:load />
+  <MapExplorer companies={companies} client:load />
 </BaseLayout>

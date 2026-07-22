@@ -27,7 +27,7 @@ import type { Company, CompanyLocation } from '../lib/types';
 import './MapExplorer.css';
 
 interface Props { companies: Company[] }
-type SortKey = 'added-desc' | 'added-asc' | 'founded-desc' | 'founded-asc' | 'funding-desc' | 'funding-asc' | 'name-asc';
+type SortKey = 'founded-desc' | 'founded-asc' | 'funding-desc' | 'funding-asc' | 'name-asc';
 type MobileView = 'list' | 'map';
 
 const COMPANY_SOURCE_ID = 'company-locations';
@@ -62,7 +62,7 @@ export default function MapExplorer({ companies }: Props) {
   const [country, setCountry] = useState('All Europe');
   const [employeeRange, setEmployeeRange] = useState('Any team size');
   const [remoteOnly, setRemoteOnly] = useState(false);
-  const [sort, setSort] = useState<SortKey>('added-desc');
+  const [sort, setSort] = useState<SortKey>('name-asc');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [mobileView, setMobileView] = useState<MobileView>('list');
@@ -88,10 +88,6 @@ export default function MapExplorer({ companies }: Props) {
       })
       .sort((a, b) => {
         if (sort === 'name-asc') return a.name.localeCompare(b.name);
-        if (sort.startsWith('added')) {
-          const result = a.addedAt.localeCompare(b.addedAt);
-          return sort.endsWith('desc') ? -result : result;
-        }
         if (sort.startsWith('founded')) {
           const av = a.options?.founded ?? -Infinity;
           const bv = b.options?.founded ?? -Infinity;
@@ -122,7 +118,7 @@ export default function MapExplorer({ companies }: Props) {
 
   const resetFilters = useCallback(() => {
     setQuery(''); setCategories([]); setCountry('All Europe'); setEmployeeRange('Any team size');
-    setRemoteOnly(false); setSort('added-desc');
+    setRemoteOnly(false); setSort('name-asc');
   }, []);
 
   const startPanelResize = (event: React.PointerEvent<HTMLDivElement>) => {
@@ -430,10 +426,9 @@ export default function MapExplorer({ companies }: Props) {
           <label className="sort-control" title="Sort results">
             <ArrowDownUp size={14} />
             <select value={sort} onChange={(event) => setSort(event.target.value as SortKey)} aria-label="Sort companies">
-              <option value="added-desc">Newest added</option><option value="added-asc">Oldest added</option>
+              <option value="name-asc">Name: A–Z</option>
               <option value="founded-desc">Founded: new–old</option><option value="founded-asc">Founded: old–new</option>
               <option value="funding-desc">Funding: high–low</option><option value="funding-asc">Funding: low–high</option>
-              <option value="name-asc">Name: A–Z</option>
             </select>
           </label>
         </div>
@@ -525,7 +520,6 @@ function CompanyDetail({ company, onClose, onLocation }: { company: Company; onC
         {company.links.careers && <a className="primary-action" href={company.links.careers} target="_blank" rel="noreferrer"><BriefcaseBusiness size={15} /> View open roles <ArrowUpRight size={14} /></a>}
         <a className="secondary-action" href={company.links.website} target="_blank" rel="noreferrer"><Globe2 size={15} /> Website</a>
       </div>
-      <small className="data-note">Added to the collection · {company.addedAt}</small>
     </article>
   );
 }

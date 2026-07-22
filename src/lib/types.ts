@@ -1,10 +1,14 @@
 export type LocationType = 'headquarters' | 'office' | 'factory';
 
-export interface CompanyLocation {
+export interface CompanyLocationData {
   id: string;
   type: LocationType;
   city: string;
   country: string;
+  address?: string;
+}
+
+export interface CompanyLocation extends CompanyLocationData {
   address: string;
   coordinates: [number, number];
   isApproximate?: true;
@@ -16,12 +20,11 @@ export interface CompanyFunding {
   currency?: string;
 }
 
-export interface Company {
+export interface CompanyData {
   id: string;
   name: string;
   description: string;
   categories: string[];
-  addedAt: string;
   links: {
     website: string;
     careers?: string;
@@ -33,5 +36,9 @@ export interface Company {
     funding?: CompanyFunding;
     remoteHiring?: boolean;
   };
+  locations: CompanyLocationData[];
+}
+
+export interface Company extends Omit<CompanyData, 'locations'> {
   locations: CompanyLocation[];
 }

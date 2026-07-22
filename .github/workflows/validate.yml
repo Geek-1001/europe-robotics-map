@@ -1,9 +1,8 @@
 name: Validate
 
 on:
-  push:
-    branches: [main]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,9 +10,14 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
       - run: pnpm install --frozen-lockfile
-      - run: pnpm validate:data
-      - run: pnpm build
+      - name: Resolve new and changed locations
+        run: pnpm sync:locations
+      - name: Validate company data and resolved markers
+        run: node scripts/validate-companies.mjs
+      - name: Check and build the site
+        run: pnpm check && pnpm exec astro build

@@ -4,7 +4,6 @@
     "name": "Wayve",
     "description": "Builds general-purpose embodied AI that learns to drive across vehicles, cities and levels of autonomy.",
     "categories": ["Autonomous vehicles", "Embodied AI", "Mobility"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://wayve.ai/",
       "careers": "https://wayve.ai/careers/",
@@ -17,8 +16,8 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "wayve-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "230–238 York Way, London N7 9AG", "coordinates": [-0.1274, 51.5381] },
-      { "id": "wayve-leonberg", "type": "office", "city": "Leonberg", "country": "Germany", "address": "Riedwiesenstraße 13–17, 71229 Leonberg", "coordinates": [9.0027, 48.7971] }
+      { "id": "wayve-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "230–238 York Way, London N7 9AG" },
+      { "id": "wayve-leonberg", "type": "office", "city": "Leonberg", "country": "Germany", "address": "Riedwiesenstraße 13–17, 71229 Leonberg" }
     ]
   },
   {
@@ -26,7 +25,6 @@
     "name": "Sunrise Robotics",
     "description": "Creates intelligent dual-arm robotic cells that make flexible industrial automation easier to deploy and scale.",
     "categories": ["Factory automation", "Industrial robotics", "Embodied AI"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://sunriserobotics.co/",
       "careers": "https://sunriserobotics.co/careers",
@@ -39,7 +37,7 @@
       "remoteHiring": true
     },
     "locations": [
-      { "id": "sunrise-ljubljana", "type": "headquarters", "city": "Ljubljana", "country": "Slovenia", "address": "Dunajska cesta 22, Ljubljana", "coordinates": [14.5058, 46.0572] }
+      { "id": "sunrise-ljubljana", "type": "headquarters", "city": "Ljubljana", "country": "Slovenia", "address": "Dunajska cesta 22, Ljubljana" }
     ]
   },
   {
@@ -47,7 +45,6 @@
     "name": "Adamo",
     "description": "Provides low-latency teleoperation software and managed operators for autonomous vehicles, arms and humanoid robots.",
     "categories": ["Teleoperation", "Robotics software", "Autonomous vehicles"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://adamohq.com/",
       "logo": "https://www.google.com/s2/favicons?domain=adamohq.com&sz=128"
@@ -57,7 +54,7 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "adamo-london", "type": "office", "city": "London", "country": "United Kingdom", "address": "Unit 10, Paddington Works, 8 Hermitage St, London W2 1BE", "coordinates": [-0.1834, 51.5211] }
+      { "id": "adamo-london", "type": "office", "city": "London", "country": "United Kingdom", "address": "Unit 10, Paddington Works, 8 Hermitage St, London W2 1BE" }
     ]
   },
   {
@@ -65,7 +62,6 @@
     "name": "Whistle Robotics",
     "description": "Builds task-specific robots that bring CNC machine tending and practical automation to smaller factories.",
     "categories": ["Factory automation", "Industrial robotics", "Machine tending"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://whistlerobotics.com/",
       "careers": "https://hireflyapp.com/whistle-robotics",
@@ -77,7 +73,7 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "whistle-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "5 Spare St, London SE17 3EP", "coordinates": [-0.0965, 51.4912] }
+      { "id": "whistle-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "5 Spare St, London SE17 3EP" }
     ]
   },
   {
@@ -85,7 +81,6 @@
     "name": "NEURA Robotics",
     "description": "Develops cognitive cobots, mobile robots and humanoids designed to perceive, learn and work safely with people.",
     "categories": ["Humanoids", "Collaborative robots", "Factory automation", "Embodied AI"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://neura-robotics.com/",
       "careers": "https://jobs.neura-robotics.com/",
@@ -98,7 +93,7 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "neura-metzingen", "type": "headquarters", "city": "Metzingen", "country": "Germany", "address": "Gutenbergstrasse 44, 72555 Metzingen", "coordinates": [9.2885, 48.5361] }
+      { "id": "neura-metzingen", "type": "headquarters", "city": "Metzingen", "country": "Germany", "address": "Gutenbergstrasse 44, 72555 Metzingen" }
     ]
   },
   {
@@ -106,7 +101,6 @@
     "name": "Voltrac",
     "description": "Builds THOR, a cabinless autonomous electric tractor designed for agriculture and dual-use field operations.",
     "categories": ["Agriculture", "Autonomous vehicles", "Electric vehicles"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://voltrac.eu/",
       "careers": "https://jobs.ashbyhq.com/voltrac",
@@ -119,7 +113,7 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "voltrac-valencia", "type": "headquarters", "city": "Valencia", "country": "Spain", "address": "Valencia, Spain", "coordinates": [-0.3763, 39.4699] }
+      { "id": "voltrac-valencia", "type": "headquarters", "city": "Valencia", "country": "Spain" }
     ]
   },
   {
@@ -127,7 +121,6 @@
     "name": "Rollo Robotics",
     "description": "Develops a stable autonomous monowheel security robot for continuous patrol, sensing and remote communication.",
     "categories": ["Security", "Autonomous mobile robots", "Computer vision"],
-    "addedAt": "2026-07-21",
     "links": {
       "website": "https://1rollo.com/",
       "careers": "https://1rollo.com/career",
@@ -140,7 +133,7 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "rollo-viljandi", "type": "headquarters", "city": "Viljandi", "country": "Estonia", "address": "Raua tn 16, 71020 Viljandi, Estonia", "coordinates": [25.5907, 58.3639] }
+      { "id": "rollo-viljandi", "type": "headquarters", "city": "Viljandi", "country": "Estonia", "address": "Raua tn 16, 71020 Viljandi, Estonia" }
     ]
   },
   {
@@ -152,7 +145,6 @@
       "Robotics software",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.neuracore.com/",
       "logo": "https://www.neuracore.com/favicon-96x96.png"
@@ -167,11 +159,7 @@
         "type": "headquarters",
         "city": "London",
         "country": "United Kingdom",
-        "address": "2 Eastbourne Terrace, London W2 6LG",
-        "coordinates": [
-          -0.1805,
-          51.5175
-        ]
+        "address": "2 Eastbourne Terrace, London W2 6LG"
       }
     ]
   },
@@ -184,7 +172,6 @@
       "Industrial robotics",
       "Machine tending"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.arthurrobotics.com/",
       "careers": "https://jobs.ashbyhq.com/arthur",
@@ -200,11 +187,7 @@
         "type": "headquarters",
         "city": "London",
         "country": "United Kingdom",
-        "address": "Somerset House, Strand, London WC2R 1LA",
-        "coordinates": [
-          -0.1172,
-          51.511
-        ]
+        "address": "Somerset House, Strand, London WC2R 1LA"
       }
     ]
   },
@@ -217,7 +200,6 @@
       "Robot learning",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://qualiastudios.dev/",
       "careers": "https://qualiastudios.dev/careers",
@@ -237,25 +219,13 @@
         "id": "qualia-copenhagen",
         "type": "headquarters",
         "city": "Copenhagen",
-        "country": "Denmark",
-        "address": "Approximate location in Copenhagen, Denmark",
-        "coordinates": [
-          12.5858,
-          55.6716
-        ],
-        "isApproximate": true
+        "country": "Denmark"
       },
       {
         "id": "qualia-stockholm",
         "type": "office",
         "city": "Stockholm",
-        "country": "Sweden",
-        "address": "Approximate location in Stockholm, Sweden",
-        "coordinates": [
-          18.0874,
-          59.3375
-        ],
-        "isApproximate": true
+        "country": "Sweden"
       }
     ]
   },
@@ -268,7 +238,6 @@
       "Robot learning",
       "Manipulation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.mimicrobotics.com/",
       "careers": "https://www.mimicrobotics.com/careers",
@@ -287,11 +256,7 @@
         "type": "headquarters",
         "city": "Zürich",
         "country": "Switzerland",
-        "address": "Elias-Canetti-Strasse 7, 8050 Zürich",
-        "coordinates": [
-          8.5409,
-          47.4116
-        ]
+        "address": "Elias-Canetti-Strasse 7, 8050 Zürich"
       }
     ]
   },
@@ -304,7 +269,6 @@
       "Embodied AI",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://thehumanoid.ai/",
       "careers": "https://thehumanoid.ai/careers/",
@@ -326,11 +290,7 @@
         "type": "headquarters",
         "city": "London",
         "country": "United Kingdom",
-        "address": "5 Merchant Square, London W2 1AY",
-        "coordinates": [
-          -0.1735,
-          51.5188
-        ]
+        "address": "5 Merchant Square, London W2 1AY"
       }
     ]
   },
@@ -343,7 +303,6 @@
       "Robotics software",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://flexion.ai/",
       "careers": "https://flexion.ai/careers",
@@ -358,11 +317,7 @@
         "type": "headquarters",
         "city": "Zürich",
         "country": "Switzerland",
-        "address": "Affolternstrasse 42, 8050 Zürich",
-        "coordinates": [
-          8.542,
-          47.4118
-        ]
+        "address": "Affolternstrasse 42, 8050 Zürich"
       }
     ]
   },
@@ -375,7 +330,6 @@
       "Embodied AI",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://gbionics.ai/",
       "careers": "https://gbionics.ai/careers",
@@ -387,11 +341,7 @@
         "type": "headquarters",
         "city": "Genoa",
         "country": "Italy",
-        "address": "Via Melen 83, 16152 Genoa",
-        "coordinates": [
-          8.8629,
-          44.4258
-        ]
+        "address": "Via Melen 83, 16152 Genoa"
       }
     ]
   },
@@ -404,7 +354,6 @@
       "Fleet management",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://statefulrobotics.com/",
       "logo": "https://statefulrobotics.com/wp-content/uploads/2026/03/cropped-favicon-192x192.png"
@@ -424,11 +373,7 @@
         "type": "headquarters",
         "city": "Oxford",
         "country": "United Kingdom",
-        "address": "46 Woodstock Road, Oxford OX2 6HT",
-        "coordinates": [
-          -1.2618,
-          51.761
-        ]
+        "address": "46 Woodstock Road, Oxford OX2 6HT"
       }
     ]
   },
@@ -441,7 +386,6 @@
       "Industrial robotics",
       "Computer vision"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.theker.ai/",
       "careers": "https://www.theker.ai/careers",
@@ -462,11 +406,7 @@
         "type": "headquarters",
         "city": "Barcelona",
         "country": "Spain",
-        "address": "Carrer de la Llacuna 162, 2nd Floor, 08018 Barcelona",
-        "coordinates": [
-          2.1925,
-          41.4062
-        ]
+        "address": "Carrer de la Llacuna 162, 2nd Floor, 08018 Barcelona"
       }
     ]
   },
@@ -479,7 +419,6 @@
       "Inspection",
       "Autonomous vehicles"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.bubble-robotics.com/",
       "logo": "https://cdn.prod.website-files.com/69737a6d46c51867594749f3/69738b4cf36c8720e0747b68_Webclip.png"
@@ -498,25 +437,13 @@
         "id": "bubble-robotics-zurich",
         "type": "headquarters",
         "city": "Zürich",
-        "country": "Switzerland",
-        "address": "Approximate location in Zürich, Switzerland",
-        "coordinates": [
-          8.5294,
-          47.3837
-        ],
-        "isApproximate": true
+        "country": "Switzerland"
       },
       {
         "id": "bubble-robotics-paris",
         "type": "office",
         "city": "Paris",
-        "country": "France",
-        "address": "Approximate location in Paris, France",
-        "coordinates": [
-          2.3371,
-          48.8668
-        ],
-        "isApproximate": true
+        "country": "France"
       }
     ]
   },
@@ -529,7 +456,6 @@
       "Factory automation",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://all3.com/",
       "logo": "https://all3.com/favicon.ico"
@@ -548,61 +474,31 @@
         "id": "all3-london",
         "type": "office",
         "city": "London",
-        "country": "United Kingdom",
-        "address": "Approximate R&D location in London, United Kingdom",
-        "coordinates": [
-          -0.1431,
-          51.5002
-        ],
-        "isApproximate": true
+        "country": "United Kingdom"
       },
       {
         "id": "all3-belgrade",
         "type": "office",
         "city": "Belgrade",
-        "country": "Serbia",
-        "address": "Approximate R&D location in Belgrade, Serbia",
-        "coordinates": [
-          20.4716,
-          44.8009
-        ],
-        "isApproximate": true
+        "country": "Serbia"
       },
       {
         "id": "all3-berlin",
         "type": "office",
         "city": "Berlin",
-        "country": "Germany",
-        "address": "Approximate location in Berlin, Germany",
-        "coordinates": [
-          13.3866,
-          52.5308
-        ],
-        "isApproximate": true
+        "country": "Germany"
       },
       {
         "id": "all3-milan",
         "type": "office",
         "city": "Milan",
-        "country": "Italy",
-        "address": "Approximate location in Milan, Italy",
-        "coordinates": [
-          9.1732,
-          45.4726
-        ],
-        "isApproximate": true
+        "country": "Italy"
       },
       {
         "id": "all3-zug",
         "type": "office",
         "city": "Zug",
-        "country": "Switzerland",
-        "address": "Approximate location in Zug, Switzerland",
-        "coordinates": [
-          8.5258,
-          47.1766
-        ],
-        "isApproximate": true
+        "country": "Switzerland"
       }
     ]
   },
@@ -615,7 +511,6 @@
       "Service robots",
       "Healthcare"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://enchanted.tools/",
       "careers": "https://enchanted.tools/jobs/",
@@ -636,11 +531,7 @@
         "type": "headquarters",
         "city": "Paris",
         "country": "France",
-        "address": "18 Rue de la Fontaine au Roi, 75011 Paris",
-        "coordinates": [
-          2.3705,
-          48.8683
-        ]
+        "address": "18 Rue de la Fontaine au Roi, 75011 Paris"
       }
     ]
   },
@@ -653,7 +544,6 @@
       "Autonomous vehicles",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.arx-robotics.com/",
       "careers": "https://www.arx-robotics.com/careers",
@@ -673,37 +563,19 @@
         "id": "arx-robotics-taufkirchen",
         "type": "headquarters",
         "city": "Taufkirchen",
-        "country": "Germany",
-        "address": "Approximate location in Taufkirchen, Germany",
-        "coordinates": [
-          11.6282,
-          48.0426
-        ],
-        "isApproximate": true
+        "country": "Germany"
       },
       {
         "id": "arx-robotics-berlin",
         "type": "office",
         "city": "Berlin",
-        "country": "Germany",
-        "address": "Approximate location in Berlin, Germany",
-        "coordinates": [
-          13.4219,
-          52.508
-        ],
-        "isApproximate": true
+        "country": "Germany"
       },
       {
         "id": "arx-robotics-london",
         "type": "office",
         "city": "London",
-        "country": "United Kingdom",
-        "address": "Approximate location in London, United Kingdom",
-        "coordinates": [
-          -0.1025,
-          51.5134
-        ],
-        "isApproximate": true
+        "country": "United Kingdom"
       }
     ]
   },
@@ -716,7 +588,6 @@
       "Autonomous mobile robots",
       "Electric vehicles"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.autopickr.com/",
       "logo": "https://images.squarespace-cdn.com/content/v1/61fbfbaf9c3e087202a636dd/6302ec0e-802c-4ff2-aa1f-0e0a67bd9aa2/favicon.ico"
@@ -734,11 +605,7 @@
         "type": "headquarters",
         "city": "Cambridge",
         "country": "United Kingdom",
-        "address": "184 Cambridge Science Park Road, Cambridge CB4 0GA",
-        "coordinates": [
-          0.1462,
-          52.2338
-        ]
+        "address": "184 Cambridge Science Park Road, Cambridge CB4 0GA"
       }
     ]
   },
@@ -751,7 +618,6 @@
       "Autonomous mobile robots",
       "Service robots"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.ascento.ai/",
       "careers": "https://ascento-ag.breezy.hr/",
@@ -771,11 +637,7 @@
         "type": "headquarters",
         "city": "Zürich",
         "country": "Switzerland",
-        "address": "Giesshübelstrasse 40, 8045 Zürich",
-        "coordinates": [
-          8.5206,
-          47.358
-        ]
+        "address": "Giesshübelstrasse 40, 8045 Zürich"
       }
     ]
   },
@@ -788,7 +650,6 @@
       "Autonomous vehicles",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.gravisrobotics.com/",
       "careers": "https://www.gravisrobotics.com/careers",
@@ -809,11 +670,7 @@
         "type": "headquarters",
         "city": "Zürich",
         "country": "Switzerland",
-        "address": "Thurgauerstrasse 119, 8152 Zürich",
-        "coordinates": [
-          8.5594,
-          47.4246
-        ]
+        "address": "Thurgauerstrasse 119, 8152 Zürich"
       }
     ]
   },
@@ -826,7 +683,6 @@
       "Embodied AI",
       "Manipulation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://sereact.ai/",
       "careers": "https://sereact.ai/careers",
@@ -847,11 +703,7 @@
         "type": "headquarters",
         "city": "Stuttgart",
         "country": "Germany",
-        "address": "Schockenriedstraße 17, 70565 Stuttgart",
-        "coordinates": [
-          9.1206,
-          48.7265
-        ]
+        "address": "Schockenriedstraße 17, 70565 Stuttgart"
       }
     ]
   },
@@ -864,7 +716,6 @@
       "Autonomous mobile robots",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://antobot.ai/",
       "logo": "https://antobot.ai/logo.ico"
@@ -879,11 +730,7 @@
         "type": "headquarters",
         "city": "Chelmsford",
         "country": "United Kingdom",
-        "address": "Arise Building, Alan Cherry Drive, Chelmsford CM1 1RP",
-        "coordinates": [
-          0.4727,
-          51.742
-        ]
+        "address": "Arise Building, Alan Cherry Drive, Chelmsford CM1 1RP"
       }
     ]
   },
@@ -896,7 +743,6 @@
       "Autonomous mobile robots",
       "Fleet management"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.monumental.co/",
       "careers": "https://jobs.ashbyhq.com/monumental/",
@@ -916,13 +762,7 @@
         "id": "monumental-amsterdam",
         "type": "headquarters",
         "city": "Amsterdam",
-        "country": "Netherlands",
-        "address": "Approximate location near Artis, Plantage, Amsterdam",
-        "coordinates": [
-          4.9165,
-          52.3662
-        ],
-        "isApproximate": true
+        "country": "Netherlands"
       }
     ]
   },
@@ -935,7 +775,6 @@
       "Autonomous mobile robots",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://brightpick.ai/",
       "careers": "https://brightpick.ai/careers/",
@@ -956,11 +795,7 @@
         "type": "headquarters",
         "city": "Bratislava",
         "country": "Slovakia",
-        "address": "Plynárenská 6, 821 09 Bratislava",
-        "coordinates": [
-          17.1409,
-          48.1433
-        ]
+        "address": "Plynárenská 6, 821 09 Bratislava"
       }
     ]
   },
@@ -973,7 +808,6 @@
       "Service robots",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.goodbytz.com/",
       "logo": "https://framerusercontent.com/images/a1QD4PpTK31vbmStmkO8eadQzc.png"
@@ -988,11 +822,7 @@
         "type": "headquarters",
         "city": "Hamburg",
         "country": "Germany",
-        "address": "Werner-Otto-Straße 13g, 22179 Hamburg",
-        "coordinates": [
-          10.0726,
-          53.5963
-        ]
+        "address": "Werner-Otto-Straße 13g, 22179 Hamburg"
       }
     ]
   },
@@ -1005,7 +835,6 @@
       "Service robots",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.circus-group.com/",
       "careers": "https://www.circus-group.com/career",
@@ -1024,11 +853,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "St.-Martin-Straße 112, 81669 Munich",
-        "coordinates": [
-          11.6027,
-          48.1199
-        ]
+        "address": "St.-Martin-Straße 112, 81669 Munich"
       }
     ]
   },
@@ -1041,7 +866,6 @@
       "Factory automation",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.rob.co/",
       "careers": "https://www.rob.co/en-us/careers",
@@ -1063,11 +887,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "Augustenstraße 12, 80333 Munich",
-        "coordinates": [
-          11.5606,
-          48.1452
-        ]
+        "address": "Augustenstraße 12, 80333 Munich"
       }
     ]
   },
@@ -1080,7 +900,6 @@
       "Warehouse automation",
       "Fleet management"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.idealworks.com/en",
       "careers": "https://idealworks.jobs.personio.de/?language=en",
@@ -1099,11 +918,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "Riesstraße 22, 80992 Munich",
-        "coordinates": [
-          11.5381,
-          48.1787
-        ]
+        "address": "Riesstraße 22, 80992 Munich"
       }
     ]
   },
@@ -1116,7 +931,6 @@
       "Teleoperation",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.fernride.com/",
       "careers": "https://www.fernride.com/careers",
@@ -1137,11 +951,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "Ingolstädter Straße 172–180, 80939 Munich",
-        "coordinates": [
-          11.589,
-          48.2046
-        ]
+        "address": "Ingolstädter Straße 172–180, 80939 Munich"
       }
     ]
   },
@@ -1154,7 +964,6 @@
       "Navigation",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://opteran.com/",
       "logo": "https://opteran.com/images/favicon.png"
@@ -1174,11 +983,7 @@
         "type": "headquarters",
         "city": "Sheffield",
         "country": "United Kingdom",
-        "address": "Innovation Centre, 217 Portobello, Sheffield S1 4DP",
-        "coordinates": [
-          -1.4812,
-          53.3809
-        ]
+        "address": "Innovation Centre, 217 Portobello, Sheffield S1 4DP"
       }
     ]
   },
@@ -1191,7 +996,6 @@
       "Inspection",
       "Autonomous mobile robots"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.robotiz3d.com/",
       "careers": "https://www.robotiz3d.com/careers/",
@@ -1207,11 +1011,7 @@
         "type": "headquarters",
         "city": "Warrington",
         "country": "United Kingdom",
-        "address": "Innovation Centre, Sci-Tech Daresbury, Keckwick Lane, Warrington WA4 4FS",
-        "coordinates": [
-          -2.6394,
-          53.3452
-        ]
+        "address": "Innovation Centre, Sci-Tech Daresbury, Keckwick Lane, Warrington WA4 4FS"
       }
     ]
   },
@@ -1224,7 +1024,6 @@
       "Autonomous mobile robots",
       "Computer vision"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.earthrover.farm/",
       "careers": "https://www.earthrover.farm/join-us",
@@ -1245,11 +1044,7 @@
         "type": "headquarters",
         "city": "Edgmond",
         "country": "United Kingdom",
-        "address": "Poultry Drive, Edgmond, Newport TF10 8JZ",
-        "coordinates": [
-          -2.4245,
-          52.7757
-        ]
+        "address": "Poultry Drive, Edgmond, Newport TF10 8JZ"
       }
     ]
   },
@@ -1262,7 +1057,6 @@
       "Factory automation",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://auar.io/",
       "careers": "https://auar.io/careers",
@@ -1282,13 +1076,7 @@
         "id": "auar-london",
         "type": "headquarters",
         "city": "London",
-        "country": "United Kingdom",
-        "address": "Approximate location in London, United Kingdom",
-        "coordinates": [
-          -0.1568,
-          51.5161
-        ],
-        "isApproximate": true
+        "country": "United Kingdom"
       }
     ]
   },
@@ -1301,7 +1089,6 @@
       "Simulation",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.olo-robotics.com/",
       "logo": "https://www.olo-robotics.com/assets/favicon.6605767b36c5.png",
@@ -1322,11 +1109,7 @@
         "type": "headquarters",
         "city": "Sheffield",
         "country": "United Kingdom",
-        "address": "1 Concourse Way, Sheffield S1 2BJ",
-        "coordinates": [
-          -1.4621,
-          53.3804
-        ]
+        "address": "1 Concourse Way, Sheffield S1 2BJ"
       }
     ]
   },
@@ -1339,7 +1122,6 @@
       "Quadrupeds",
       "Autonomous mobile robots"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://keybotic.com/",
       "careers": "https://keybotic.com/careers/",
@@ -1360,11 +1142,7 @@
         "type": "headquarters",
         "city": "Barcelona",
         "country": "Spain",
-        "address": "Carrer de Marie Curie 8–14, 08042 Barcelona",
-        "coordinates": [
-          2.1691,
-          41.437
-        ]
+        "address": "Carrer de Marie Curie 8–14, 08042 Barcelona"
       }
     ]
   },
@@ -1377,7 +1155,6 @@
       "Healthcare",
       "Collaborative robots"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.moonsurgical.com/",
       "logo": "https://moonsurgical.com/assets/images/favicon/favicon-32x32.png"
@@ -1396,13 +1173,7 @@
         "id": "moon-surgical-paris",
         "type": "headquarters",
         "city": "Paris",
-        "country": "France",
-        "address": "Approximate location in Paris, France",
-        "coordinates": [
-          2.3659,
-          48.8497
-        ],
-        "isApproximate": true
+        "country": "France"
       }
     ]
   },
@@ -1415,7 +1186,6 @@
       "Inspection",
       "Drones"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://voliro.com/",
       "careers": "https://voliro.com/careers/",
@@ -1436,11 +1206,7 @@
         "type": "headquarters",
         "city": "Zürich",
         "country": "Switzerland",
-        "address": "Förrlibuckstrasse 150, 8005 Zürich",
-        "coordinates": [
-          8.5114,
-          47.3922
-        ]
+        "address": "Förrlibuckstrasse 150, 8005 Zürich"
       }
     ]
   },
@@ -1453,7 +1219,6 @@
       "Robot learning",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.extendrobotics.com/",
       "logo": "https://www.extendrobotics.com/favicon.ico"
@@ -1468,11 +1233,7 @@
         "type": "headquarters",
         "city": "Reading",
         "country": "United Kingdom",
-        "address": "200 Brook Drive, Reading RG2 6UB",
-        "coordinates": [
-          -0.988,
-          51.4251
-        ]
+        "address": "200 Brook Drive, Reading RG2 6UB"
       }
     ]
   },
@@ -1485,7 +1246,6 @@
       "Industrial robotics",
       "Computer vision"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://recycleye.com/",
       "careers": "https://recycleye.com/careers/",
@@ -1506,11 +1266,7 @@
         "type": "headquarters",
         "city": "London",
         "country": "United Kingdom",
-        "address": "11–15 Gibbins Road, London E15 2HU",
-        "coordinates": [
-          -0.0061,
-          51.5388
-        ]
+        "address": "11–15 Gibbins Road, London E15 2HU"
       }
     ]
   },
@@ -1523,7 +1279,6 @@
       "Inspection",
       "Autonomous vehicles"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.tethys-robotics.ch/",
       "logo": "https://cdn.prod.website-files.com/651ec018e0c065289f0392b7/656899ca0052cb21504ae9c9_tethys-favicon-32.png"
@@ -1542,13 +1297,7 @@
         "id": "tethys-robotics-zurich",
         "type": "headquarters",
         "city": "Zürich",
-        "country": "Switzerland",
-        "address": "Approximate location near ETH Zürich, 8092 Zürich",
-        "coordinates": [
-          8.5476,
-          47.3763
-        ],
-        "isApproximate": true
+        "country": "Switzerland"
       }
     ]
   },
@@ -1561,7 +1310,6 @@
       "Industrial robotics",
       "Mobility"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.rocsys.com/",
       "careers": "https://www.rocsys.com/careers",
@@ -1582,11 +1330,7 @@
         "type": "headquarters",
         "city": "Rijswijk",
         "country": "Netherlands",
-        "address": "Delftweg 65, 2289 BA Rijswijk",
-        "coordinates": [
-          4.3462,
-          52.0341
-        ]
+        "address": "Delftweg 65, 2289 BA Rijswijk"
       }
     ]
   },
@@ -1599,7 +1343,6 @@
       "Factory automation",
       "Humanoids"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.agile-robots.com/en/",
       "careers": "https://www.agile-robots.com/en/career/",
@@ -1620,11 +1363,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "Plinganserstraße 134, 81369 Munich",
-        "coordinates": [
-          11.5405,
-          48.1028
-        ]
+        "address": "Plinganserstraße 134, 81369 Munich"
       }
     ]
   },
@@ -1637,7 +1376,6 @@
       "Autonomous vehicles",
       "Mobility"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://vay.io/",
       "careers": "https://vayio.typeform.com/apply",
@@ -1658,11 +1396,7 @@
         "type": "headquarters",
         "city": "Berlin",
         "country": "Germany",
-        "address": "Mariendorfer Damm 1, 12099 Berlin",
-        "coordinates": [
-          13.3843,
-          52.4534
-        ]
+        "address": "Mariendorfer Damm 1, 12099 Berlin"
       }
     ]
   },
@@ -1675,7 +1409,6 @@
       "Aerial robotics",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://skyports.net/",
       "careers": "https://skyports.net/careers/",
@@ -1696,11 +1429,7 @@
         "type": "headquarters",
         "city": "London",
         "country": "United Kingdom",
-        "address": "170 Kennington Lane, London SE11 5DP",
-        "coordinates": [
-          -0.1116,
-          51.4881
-        ]
+        "address": "170 Kennington Lane, London SE11 5DP"
       }
     ]
   },
@@ -1713,7 +1442,6 @@
       "Manipulation",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.wootzano.com/",
       "logo": "https://www.wootzano.com/favicon.ico"
@@ -1728,11 +1456,7 @@
         "type": "headquarters",
         "city": "Newcastle upon Tyne",
         "country": "United Kingdom",
-        "address": "4 Quick Silver Way, Newcastle upon Tyne NE27 0QQ",
-        "coordinates": [
-          -1.4895,
-          55.0196
-        ]
+        "address": "4 Quick Silver Way, Newcastle upon Tyne NE27 0QQ"
       }
     ]
   },
@@ -1745,7 +1469,6 @@
       "Construction",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://hausbots.com/",
       "logo": "https://hausbots.com/favicon.ico"
@@ -1760,11 +1483,7 @@
         "type": "headquarters",
         "city": "Birmingham",
         "country": "United Kingdom",
-        "address": "Unit 5A, Waterside Business Park, 1649 Pershore Road, Birmingham B30 3DR",
-        "coordinates": [
-          -1.9297,
-          52.4149
-        ]
+        "address": "Unit 5A, Waterside Business Park, 1649 Pershore Road, Birmingham B30 3DR"
       }
     ]
   },
@@ -1777,7 +1496,6 @@
       "Service robots",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.adaptarobotics.com/",
       "careers": "https://www.adaptarobotics.com/careers/",
@@ -1798,11 +1516,7 @@
         "type": "headquarters",
         "city": "Bucharest",
         "country": "Romania",
-        "address": "Green Court Bucharest, 4 Gara Herăstrău Street, Building B, Sector 2, Bucharest",
-        "coordinates": [
-          26.1051,
-          44.479
-        ]
+        "address": "Green Court Bucharest, 4 Gara Herăstrău Street, Building B, Sector 2, Bucharest"
       }
     ]
   },
@@ -1815,7 +1529,6 @@
       "Factory automation",
       "Machine tending"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.rivelinrobotics.com/",
       "careers": "https://www.rivelinrobotics.com/careers",
@@ -1836,11 +1549,7 @@
         "type": "headquarters",
         "city": "Sheffield",
         "country": "United Kingdom",
-        "address": "Unit 1, Neepsend Triangle, 1 Burton Road, Sheffield S3 8BW",
-        "coordinates": [
-          -1.4775,
-          53.3947
-        ]
+        "address": "Unit 1, Neepsend Triangle, 1 Burton Road, Sheffield S3 8BW"
       }
     ]
   },
@@ -1853,7 +1562,6 @@
       "Inspection",
       "Autonomous mobile robots"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.crover.tech/",
       "careers": "https://www.crover.tech/careers",
@@ -1869,11 +1577,7 @@
         "type": "headquarters",
         "city": "Edinburgh",
         "country": "United Kingdom",
-        "address": "The National Robotarium, Boundary Road North, Edinburgh EH14 4AS",
-        "coordinates": [
-          -3.319,
-          55.9097
-        ]
+        "address": "The National Robotarium, Boundary Road North, Edinburgh EH14 4AS"
       }
     ]
   },
@@ -1886,7 +1590,6 @@
       "Delivery",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.manna.aero/",
       "careers": "https://www.manna.aero/careers",
@@ -1907,11 +1610,7 @@
         "type": "headquarters",
         "city": "Dublin",
         "country": "Ireland",
-        "address": "Slaney Road, Dublin 11",
-        "coordinates": [
-          -6.3075,
-          53.3982
-        ]
+        "address": "Slaney Road, Dublin 11"
       }
     ]
   },
@@ -1924,7 +1623,6 @@
       "Industrial robotics",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.kewazo.com/",
       "careers": "https://www.kewazo.com/careers",
@@ -1944,13 +1642,7 @@
         "id": "kewazo-munich",
         "type": "headquarters",
         "city": "Munich",
-        "country": "Germany",
-        "address": "Approximate location in Munich, Germany",
-        "coordinates": [
-          11.5964,
-          48.1412
-        ],
-        "isApproximate": true
+        "country": "Germany"
       }
     ]
   },
@@ -1963,7 +1655,6 @@
       "Manipulation",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://nomagic.ai/",
       "careers": "https://nomagic.ai/careers",
@@ -1984,11 +1675,7 @@
         "type": "headquarters",
         "city": "Warsaw",
         "country": "Poland",
-        "address": "Rakowiecka 36, 02-532 Warsaw",
-        "coordinates": [
-          21.0007,
-          52.2088
-        ]
+        "address": "Rakowiecka 36, 02-532 Warsaw"
       }
     ]
   },
@@ -2001,7 +1688,6 @@
       "Warehouse automation",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.gideon.ai/",
       "careers": "https://www.gideon.ai/careers",
@@ -2022,11 +1708,7 @@
         "type": "headquarters",
         "city": "Zagreb",
         "country": "Croatia",
-        "address": "Radnička cesta 177, 10000 Zagreb",
-        "coordinates": [
-          15.9726,
-          45.7955
-        ]
+        "address": "Radnička cesta 177, 10000 Zagreb"
       }
     ]
   },
@@ -2039,7 +1721,6 @@
       "Autonomous mobile robots",
       "Computer vision"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.ekobot.se/",
       "logo": "https://www.ekobot.se/favicon.ico"
@@ -2057,11 +1738,7 @@
         "type": "headquarters",
         "city": "Västerås",
         "country": "Sweden",
-        "address": "Slakterigatan 10, 721 32 Västerås",
-        "coordinates": [
-          16.5587,
-          59.6007
-        ]
+        "address": "Slakterigatan 10, 721 32 Västerås"
       }
     ]
   },
@@ -2074,7 +1751,6 @@
       "Industrial robotics",
       "Healthcare"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.germanbionic.com/",
       "careers": "https://www.germanbionic.com/careers/",
@@ -2090,11 +1766,7 @@
         "type": "headquarters",
         "city": "Augsburg",
         "country": "Germany",
-        "address": "Karl-Drais-Straße 4d, 86159 Augsburg",
-        "coordinates": [
-          10.8993,
-          48.3349
-        ]
+        "address": "Karl-Drais-Straße 4d, 86159 Augsburg"
       }
     ]
   },
@@ -2107,7 +1779,6 @@
       "Autonomous mobile robots",
       "Computer vision"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.kiltersystems.com/",
       "careers": "https://career.kiltersystems.com/",
@@ -2128,11 +1799,7 @@
         "type": "headquarters",
         "city": "Skoppum",
         "country": "Norway",
-        "address": "Langmyra 11, 3185 Skoppum",
-        "coordinates": [
-          10.41,
-          59.3856
-        ]
+        "address": "Langmyra 11, 3185 Skoppum"
       }
     ]
   },
@@ -2145,7 +1812,6 @@
       "Autonomous mobile robots",
       "Digital twins"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.dexory.com/",
       "careers": "https://www.dexory.com/careers",
@@ -2166,11 +1832,7 @@
         "type": "headquarters",
         "city": "Wallingford",
         "country": "United Kingdom",
-        "address": "Unit 9, Verda Park, Wallingford OX10 9SJ",
-        "coordinates": [
-          -1.1298,
-          51.5948
-        ]
+        "address": "Unit 9, Verda Park, Wallingford OX10 9SJ"
       }
     ]
   },
@@ -2183,7 +1845,6 @@
       "Autonomous mobile robots",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.exotec.com/",
       "careers": "https://www.exotec.com/careers/",
@@ -2204,11 +1865,7 @@
         "type": "headquarters",
         "city": "Croix",
         "country": "France",
-        "address": "251 Rue Jean Monnet, 59170 Croix",
-        "coordinates": [
-          3.1514,
-          50.6809
-        ]
+        "address": "251 Rue Jean Monnet, 59170 Croix"
       }
     ]
   },
@@ -2221,7 +1878,6 @@
       "Industrial robotics",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.automata.tech/",
       "careers": "https://www.automata.tech/careers",
@@ -2242,11 +1898,7 @@
         "type": "headquarters",
         "city": "London",
         "country": "United Kingdom",
-        "address": "10 White Lion Street, London N1 9PD",
-        "coordinates": [
-          -0.107,
-          51.5339
-        ]
+        "address": "10 White Lion Street, London N1 9PD"
       }
     ]
   },
@@ -2259,7 +1911,6 @@
       "Computer vision",
       "Manipulation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.zivid.com/",
       "careers": "https://www.zivid.com/career-join-zivid",
@@ -2275,11 +1926,7 @@
         "type": "headquarters",
         "city": "Oslo",
         "country": "Norway",
-        "address": "Gjerdrums vei 10A, 0484 Oslo",
-        "coordinates": [
-          10.7686,
-          59.9506
-        ]
+        "address": "Gjerdrums vei 10A, 0484 Oslo"
       }
     ]
   },
@@ -2292,7 +1939,6 @@
       "Drones",
       "Autonomous vehicles"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://quantum-systems.com/",
       "careers": "https://quantum-systems.com/careers/",
@@ -2313,11 +1959,7 @@
         "type": "headquarters",
         "city": "Gilching",
         "country": "Germany",
-        "address": "Dornierstraße 11, 82205 Gilching",
-        "coordinates": [
-          11.3075,
-          48.107
-        ]
+        "address": "Dornierstraße 11, 82205 Gilching"
       }
     ]
   },
@@ -2330,7 +1972,6 @@
       "Teleoperation",
       "Healthcare"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.devanthro.com/",
       "logo": "https://www.devanthro.com/wp-content/uploads/2021/10/cropped-DevanthroSymbolWonT512px-192x192.png"
@@ -2345,11 +1986,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "Freddie-Mercury-Straße 5, 80797 Munich",
-        "coordinates": [
-          11.5559,
-          48.1603
-        ]
+        "address": "Freddie-Mercury-Straße 5, 80797 Munich"
       }
     ]
   },
@@ -2362,7 +1999,6 @@
       "Inspection",
       "Drones"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.blueyerobotics.com/",
       "careers": "https://blueye.recruitee.com/",
@@ -2383,11 +2019,7 @@
         "type": "headquarters",
         "city": "Trondheim",
         "country": "Norway",
-        "address": "Strandveien 43, 7067 Trondheim",
-        "coordinates": [
-          10.4171,
-          63.4389
-        ]
+        "address": "Strandveien 43, 7067 Trondheim"
       }
     ]
   },
@@ -2400,7 +2032,6 @@
       "Construction",
       "Navigation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://tinymobilerobots.com/",
       "careers": "https://tinymobilerobots.com/careers",
@@ -2416,11 +2047,7 @@
         "type": "headquarters",
         "city": "Malling",
         "country": "Denmark",
-        "address": "Sofienlystvej 9, 8340 Malling",
-        "coordinates": [
-          10.1901,
-          56.0396
-        ]
+        "address": "Sofienlystvej 9, 8340 Malling"
       }
     ]
   },
@@ -2433,7 +2060,6 @@
       "Aerial robotics",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://flyingbasket.com/",
       "careers": "https://flyingbasket.com/careers",
@@ -2449,11 +2075,7 @@
         "type": "headquarters",
         "city": "Bolzano",
         "country": "Italy",
-        "address": "Via Enrico Fermi 27, 39100 Bolzano",
-        "coordinates": [
-          11.3298,
-          46.4803
-        ]
+        "address": "Via Enrico Fermi 27, 39100 Bolzano"
       }
     ]
   },
@@ -2466,7 +2088,6 @@
       "Computer vision",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.micropsi-industries.com/",
       "careers": "https://www.micropsi-industries.com/careers/",
@@ -2487,11 +2108,7 @@
         "type": "headquarters",
         "city": "Berlin",
         "country": "Germany",
-        "address": "Lise-Meitner-Straße 39–41, 10589 Berlin",
-        "coordinates": [
-          13.3234,
-          52.5287
-        ]
+        "address": "Lise-Meitner-Straße 39–41, 10589 Berlin"
       }
     ]
   },
@@ -2504,7 +2121,6 @@
       "Autonomous mobile robots",
       "Manipulation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.magazino.eu/en/",
       "careers": "https://www.magazino.eu/en/career/",
@@ -2523,11 +2139,7 @@
         "type": "headquarters",
         "city": "Munich",
         "country": "Germany",
-        "address": "Landsberger Straße 234, 80687 Munich",
-        "coordinates": [
-          11.5002,
-          48.1419
-        ]
+        "address": "Landsberger Straße 234, 80687 Munich"
       }
     ]
   },
@@ -2540,7 +2152,6 @@
       "Warehouse automation",
       "Inspection"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.verity.net/",
       "careers": "https://www.verity.net/careers",
@@ -2561,11 +2172,7 @@
         "type": "headquarters",
         "city": "Zürich",
         "country": "Switzerland",
-        "address": "Binzmühlestrasse 81, 8050 Zürich",
-        "coordinates": [
-          8.5412,
-          47.4149
-        ]
+        "address": "Binzmühlestrasse 81, 8050 Zürich"
       }
     ]
   },
@@ -2578,7 +2185,6 @@
       "Service robots",
       "Embodied AI"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.1x.tech/neo",
       "careers": "https://www.1x.tech/careers",
@@ -2599,22 +2205,14 @@
         "type": "office",
         "city": "Moss",
         "country": "Norway",
-        "address": "Henrich Gerners gate 8, 1530 Moss",
-        "coordinates": [
-          10.6696,
-          59.437
-        ]
+        "address": "Henrich Gerners gate 8, 1530 Moss"
       },
       {
         "id": "1x-oslo",
         "type": "office",
         "city": "Oslo",
         "country": "Norway",
-        "address": "Biskop Gunnerus gate 14, 0185 Oslo",
-        "coordinates": [
-          10.7523,
-          59.9128
-        ]
+        "address": "Biskop Gunnerus gate 14, 0185 Oslo"
       }
     ]
   },
@@ -2627,7 +2225,6 @@
       "Healthcare",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://cmrsurgical.com/",
       "careers": "https://cmrsurgical.com/careers/",
@@ -2648,11 +2245,7 @@
         "type": "headquarters",
         "city": "Cambridge",
         "country": "United Kingdom",
-        "address": "1 Evolution Business Park, Milton Road, Cambridge CB24 9NG",
-        "coordinates": [
-          0.1489,
-          52.2387
-        ]
+        "address": "1 Evolution Business Park, Milton Road, Cambridge CB24 9NG"
       }
     ]
   },
@@ -2665,7 +2258,6 @@
       "Robotics software",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://oxa.tech/",
       "careers": "https://oxa.tech/careers/",
@@ -2686,11 +2278,7 @@
         "type": "headquarters",
         "city": "Oxford",
         "country": "United Kingdom",
-        "address": "8050 Alec Issigonis Way, Oxford OX4 2HW",
-        "coordinates": [
-          -1.2042,
-          51.7255
-        ]
+        "address": "8050 Alec Issigonis Way, Oxford OX4 2HW"
       }
     ]
   },
@@ -2703,7 +2291,6 @@
       "Industrial robotics",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.kassowrobots.com/",
       "careers": "https://www.kassowrobots.com/careers",
@@ -2722,11 +2309,7 @@
         "type": "headquarters",
         "city": "Kastrup",
         "country": "Denmark",
-        "address": "Kajakvej 2, 2770 Kastrup",
-        "coordinates": [
-          12.6406,
-          55.6448
-        ]
+        "address": "Kajakvej 2, 2770 Kastrup"
       }
     ]
   },
@@ -2739,7 +2322,6 @@
       "Service robots",
       "Manipulation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.moley.com/",
       "logo": "https://www.moley.com/favicon.ico"
@@ -2753,13 +2335,7 @@
         "id": "moley-robotics-london",
         "type": "headquarters",
         "city": "London",
-        "country": "United Kingdom",
-        "address": "Approximate location on Cambridge Grove, London W6",
-        "coordinates": [
-          -0.2298,
-          51.4944
-        ],
-        "isApproximate": true
+        "country": "United Kingdom"
       }
     ]
   },
@@ -2772,7 +2348,6 @@
       "Autonomous mobile robots",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.starship.xyz/",
       "careers": "https://www.starship.xyz/careers/",
@@ -2793,11 +2368,7 @@
         "type": "headquarters",
         "city": "Tallinn",
         "country": "Estonia",
-        "address": "Teaduspargi 8, 12618 Tallinn",
-        "coordinates": [
-          24.6615,
-          59.3959
-        ]
+        "address": "Teaduspargi 8, 12618 Tallinn"
       }
     ]
   },
@@ -2810,7 +2381,6 @@
       "Inspection",
       "Aerial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.flyability.com/",
       "careers": "https://www.flyability.com/careers",
@@ -2831,11 +2401,7 @@
         "type": "headquarters",
         "city": "Paudex",
         "country": "Switzerland",
-        "address": "Route du Lac 3, 1094 Paudex",
-        "coordinates": [
-          6.6732,
-          46.5052
-        ]
+        "address": "Route du Lac 3, 1094 Paudex"
       }
     ]
   },
@@ -2848,7 +2414,6 @@
       "Industrial robotics",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.universal-robots.com/",
       "careers": "https://www.universal-robots.com/careers/",
@@ -2869,95 +2434,49 @@
         "type": "headquarters",
         "city": "Odense",
         "country": "Denmark",
-        "address": "Energivej 25, 5260 Odense S",
-        "coordinates": [
-          10.4314,
-          55.349
-        ]
+        "address": "Energivej 25, 5260 Odense S"
       },
       {
         "id": "universal-robots-barcelona",
         "type": "office",
         "city": "Barcelona",
-        "country": "Spain",
-        "address": "Approximate location in Barcelona, Spain",
-        "coordinates": [
-          2.1811,
-          41.3905
-        ],
-        "isApproximate": true
+        "country": "Spain"
       },
       {
         "id": "universal-robots-turin",
         "type": "office",
         "city": "Turin",
-        "country": "Italy",
-        "address": "Approximate location in Turin, Italy",
-        "coordinates": [
-          7.7015,
-          45.0618
-        ],
-        "isApproximate": true
+        "country": "Italy"
       },
       {
         "id": "universal-robots-suresnes",
         "type": "office",
         "city": "Suresnes",
-        "country": "France",
-        "address": "Approximate location in Suresnes, France",
-        "coordinates": [
-          2.2225,
-          48.8737
-        ],
-        "isApproximate": true
+        "country": "France"
       },
       {
         "id": "universal-robots-munich",
         "type": "office",
         "city": "Munich",
-        "country": "Germany",
-        "address": "Approximate location in Munich, Germany",
-        "coordinates": [
-          11.5661,
-          48.1269
-        ],
-        "isApproximate": true
+        "country": "Germany"
       },
       {
         "id": "universal-robots-prague",
         "type": "office",
         "city": "Prague",
-        "country": "Czechia",
-        "address": "Approximate location in Prague, Czechia",
-        "coordinates": [
-          14.4399,
-          50.0696
-        ],
-        "isApproximate": true
+        "country": "Czechia"
       },
       {
         "id": "universal-robots-bucharest",
         "type": "office",
         "city": "Bucharest",
-        "country": "Romania",
-        "address": "Approximate location in Bucharest, Romania",
-        "coordinates": [
-          26.0877,
-          44.4264
-        ],
-        "isApproximate": true
+        "country": "Romania"
       },
       {
         "id": "universal-robots-sheffield",
         "type": "office",
         "city": "Sheffield",
-        "country": "United Kingdom",
-        "address": "Approximate location in Sheffield, United Kingdom",
-        "coordinates": [
-          -1.4592,
-          53.3915
-        ],
-        "isApproximate": true
+        "country": "United Kingdom"
       }
     ]
   },
@@ -2970,7 +2489,6 @@
       "Service robots",
       "Autonomous mobile robots"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://pal-robotics.com/",
       "careers": "https://pal-robotics.com/careers/",
@@ -2986,11 +2504,7 @@
         "type": "headquarters",
         "city": "Barcelona",
         "country": "Spain",
-        "address": "Carrer de Pujades 77, 08005 Barcelona",
-        "coordinates": [
-          2.1944,
-          41.397
-        ]
+        "address": "Carrer de Pujades 77, 08005 Barcelona"
       }
     ]
   },
@@ -3003,7 +2517,6 @@
       "Service robots",
       "Human-robot interaction"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://engineeredarts.com/",
       "logo": "https://media.engineeredarts.com/wp-content/uploads/2024/07/cropped-Site-Icon-E-300x300-1.png",
@@ -3024,23 +2537,13 @@
         "type": "headquarters",
         "city": "Falmouth",
         "country": "United Kingdom",
-        "address": "E1–E3 Church View Business Park, Falmouth TR11 4FZ",
-        "coordinates": [
-          -5.0857,
-          50.1539
-        ]
+        "address": "E1–E3 Church View Business Park, Falmouth TR11 4FZ"
       },
       {
         "id": "engineered-arts-london",
         "type": "office",
         "city": "London",
-        "country": "United Kingdom",
-        "address": "Approximate location in London, United Kingdom",
-        "coordinates": [
-          -0.075,
-          51.526
-        ],
-        "isApproximate": true
+        "country": "United Kingdom"
       }
     ]
   },
@@ -3053,7 +2556,6 @@
       "Manipulation",
       "Industrial robotics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://robotnik.eu/",
       "careers": "https://robotnik.eu/careers/",
@@ -3072,11 +2574,7 @@
         "type": "headquarters",
         "city": "Paterna",
         "country": "Spain",
-        "address": "Ronda Auguste y Louis Lumière 8, Parque Tecnológico, 46980 Paterna",
-        "coordinates": [
-          -0.4638,
-          39.5488
-        ]
+        "address": "Ronda Auguste y Louis Lumière 8, Parque Tecnológico, 46980 Paterna"
       }
     ]
   },
@@ -3089,7 +2587,6 @@
       "Fleet management",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://bluebotics.com/",
       "careers": "https://bluebotics.com/careers",
@@ -3108,11 +2605,7 @@
         "type": "headquarters",
         "city": "Saint-Sulpice",
         "country": "Switzerland",
-        "address": "Jordils 41B, 1025 Saint-Sulpice",
-        "coordinates": [
-          6.559,
-          46.5123
-        ]
+        "address": "Jordils 41B, 1025 Saint-Sulpice"
       }
     ]
   },
@@ -3125,7 +2618,6 @@
       "Industrial robotics",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.autostoresystem.com/",
       "careers": "https://www.autostoresystem.com/careers",
@@ -3144,11 +2636,7 @@
         "type": "headquarters",
         "city": "Nedre Vats",
         "country": "Norway",
-        "address": "Stokkastrandvegen 85, 5578 Nedre Vats",
-        "coordinates": [
-          5.737,
-          59.498
-        ]
+        "address": "Stokkastrandvegen 85, 5578 Nedre Vats"
       }
     ]
   },
@@ -3161,7 +2649,6 @@
       "Drones",
       "Robotics hardware"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.avular.com/",
       "careers": "https://www.avular.com/careers",
@@ -3182,11 +2669,7 @@
         "type": "headquarters",
         "city": "Eindhoven",
         "country": "Netherlands",
-        "address": "Achtseweg Zuid 221, 5651 GW Eindhoven",
-        "coordinates": [
-          5.445,
-          51.479
-        ]
+        "address": "Achtseweg Zuid 221, 5651 GW Eindhoven"
       }
     ]
   },
@@ -3199,7 +2682,6 @@
       "Logistics",
       "Defence"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.dronamics.com/",
       "careers": "https://www.dronamics.com/careers",
@@ -3220,11 +2702,7 @@
         "type": "office",
         "city": "Sofia",
         "country": "Bulgaria",
-        "address": "4 Iskar Street, 1000 Sofia",
-        "coordinates": [
-          23.3222,
-          42.6986
-        ]
+        "address": "4 Iskar Street, 1000 Sofia"
       }
     ]
   },
@@ -3237,7 +2715,6 @@
       "Warehouse automation",
       "Logistics"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://mobile-industrial-robots.com/",
       "careers": "https://mobile-industrial-robots.com/career/",
@@ -3258,11 +2735,7 @@
         "type": "headquarters",
         "city": "Odense",
         "country": "Denmark",
-        "address": "Energivej 51, 5260 Odense S",
-        "coordinates": [
-          10.4299,
-          55.3495
-        ]
+        "address": "Energivej 51, 5260 Odense S"
       }
     ]
   },
@@ -3275,7 +2748,6 @@
       "Robotics hardware",
       "Robotics software"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.wheel.me/",
       "careers": "https://www.wheel.me/join-us",
@@ -3296,11 +2768,7 @@
         "type": "headquarters",
         "city": "Oslo",
         "country": "Norway",
-        "address": "Karenslyst allé 57, 0277 Oslo",
-        "coordinates": [
-          10.6778,
-          59.9202
-        ]
+        "address": "Karenslyst allé 57, 0277 Oslo"
       }
     ]
   },
@@ -3313,7 +2781,6 @@
       "Humanoids",
       "Healthcare"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://en.wandercraft.eu/",
       "careers": "https://wandercraft.welcomekit.co/",
@@ -3334,11 +2801,7 @@
         "type": "headquarters",
         "city": "Paris",
         "country": "France",
-        "address": "88 Rue de Rivoli, 75004 Paris",
-        "coordinates": [
-          2.3525,
-          48.8575
-        ]
+        "address": "88 Rue de Rivoli, 75004 Paris"
       }
     ]
   },
@@ -3351,7 +2814,6 @@
       "Autonomous mobile robots",
       "Electric vehicles"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://www.naio-technologies.com/en/home/",
       "careers": "https://www.naio-technologies.com/en/careers/",
@@ -3372,11 +2834,7 @@
         "type": "headquarters",
         "city": "Escalquens",
         "country": "France",
-        "address": "235 Rue de la Montagne Noire, 31750 Escalquens",
-        "coordinates": [
-          1.5575,
-          43.5176
-        ]
+        "address": "235 Rue de la Montagne Noire, 31750 Escalquens"
       }
     ]
   },
@@ -3389,7 +2847,6 @@
       "Computer vision",
       "Factory automation"
     ],
-    "addedAt": "2026-07-22",
     "links": {
       "website": "https://ecorobotix.com/",
       "careers": "https://ecorobotix.com/careers/",
@@ -3410,11 +2867,7 @@
         "type": "headquarters",
         "city": "Yverdon-les-Bains",
         "country": "Switzerland",
-        "address": "Rue Galilée 6, 1400 Yverdon-les-Bains",
-        "coordinates": [
-          6.641,
-          46.7789
-        ]
+        "address": "Rue Galilée 6, 1400 Yverdon-les-Bains"
       }
     ]
   }
