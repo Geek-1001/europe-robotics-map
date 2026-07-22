@@ -56,6 +56,10 @@
             "city": { "type": "string" },
             "country": { "type": "string" },
             "address": { "type": "string" },
+            "isApproximate": {
+              "const": true,
+              "description": "True when the public street address is unknown and the marker is intentionally placed near the stated city or area."
+            },
             "coordinates": {
               "type": "array",
               "minItems": 2,

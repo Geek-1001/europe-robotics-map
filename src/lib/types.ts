@@ -7,6 +7,7 @@ export interface CompanyLocation {
   country: string;
   address: string;
   coordinates: [number, number];
+  isApproximate?: true;
 }
 
 export interface CompanyFunding {

@@ -142,5 +142,3280 @@
     "locations": [
       { "id": "rollo-viljandi", "type": "headquarters", "city": "Viljandi", "country": "Estonia", "address": "Raua tn 16, 71020 Viljandi, Estonia", "coordinates": [25.5907, 58.3639] }
     ]
+  },
+  {
+    "id": "neuracore",
+    "name": "Neuracore",
+    "description": "Provides a platform for collecting demonstrations, curating datasets, training robot policies and deploying them to real robots.",
+    "categories": [
+      "Robot learning",
+      "Robotics software",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.neuracore.com/",
+      "logo": "https://www.neuracore.com/favicon-96x96.png"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "neuracore-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "2 Eastbourne Terrace, London W2 6LG",
+        "coordinates": [
+          -0.1805,
+          51.5175
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arthur-robotics",
+    "name": "Arthur Robotics",
+    "description": "Builds reprogrammable robotic automation for high-mix production lines without custom tooling.",
+    "categories": [
+      "Factory automation",
+      "Industrial robotics",
+      "Machine tending"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.arthurrobotics.com/",
+      "careers": "https://jobs.ashbyhq.com/arthur",
+      "logo": "https://www.arthurrobotics.com/favicon.png"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "1–10"
+    },
+    "locations": [
+      {
+        "id": "arthur-robotics-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Somerset House, Strand, London WC2R 1LA",
+        "coordinates": [
+          -0.1172,
+          51.511
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qualia",
+    "name": "Qualia",
+    "description": "Fine-tunes vision-language-action models and deploys them on European factory and logistics lines.",
+    "categories": [
+      "Embodied AI",
+      "Robot learning",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://qualiastudios.dev/",
+      "careers": "https://qualiastudios.dev/careers",
+      "logo": "https://qualiastudios.dev/apple-touch-icon.png"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 2,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "qualia-copenhagen",
+        "type": "headquarters",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "address": "Approximate location in Copenhagen, Denmark",
+        "coordinates": [
+          12.5858,
+          55.6716
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "qualia-stockholm",
+        "type": "office",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "address": "Approximate location in Stockholm, Sweden",
+        "coordinates": [
+          18.0874,
+          59.3375
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "mimic-robotics",
+    "name": "Mimic Robotics",
+    "description": "Develops video-action models for general-purpose robotic manipulation.",
+    "categories": [
+      "Embodied AI",
+      "Robot learning",
+      "Manipulation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.mimicrobotics.com/",
+      "careers": "https://www.mimicrobotics.com/careers",
+      "logo": "https://www.mimicrobotics.com/favicon.ico?favicon.f725dee9.ico"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Seed"
+      }
+    },
+    "locations": [
+      {
+        "id": "mimic-robotics-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Elias-Canetti-Strasse 7, 8050 Zürich",
+        "coordinates": [
+          8.5409,
+          47.4116
+        ]
+      }
+    ]
+  },
+  {
+    "id": "humanoid",
+    "name": "Humanoid",
+    "description": "Develops humanoid robots for industrial work and everyday environments.",
+    "categories": [
+      "Humanoids",
+      "Embodied AI",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://thehumanoid.ai/",
+      "careers": "https://thehumanoid.ai/careers/",
+      "logo": "https://thehumanoid.ai/wp-content/uploads/2024/12/cropped-DARK_W_BG_ROUNDED-192x192.png"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series A",
+        "amount": 152,
+        "currency": "USD"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "humanoid-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "5 Merchant Square, London W2 1AY",
+        "coordinates": [
+          -0.1735,
+          51.5188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flexion-robotics",
+    "name": "Flexion Robotics",
+    "description": "Builds hardware-independent autonomy software for humanoid manipulation and locomotion.",
+    "categories": [
+      "Humanoids",
+      "Robotics software",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://flexion.ai/",
+      "careers": "https://flexion.ai/careers",
+      "logo": "https://framerusercontent.com/images/YoPkmaS6Pxjs4kfOa6ehz70MQII.png"
+    },
+    "options": {
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "flexion-robotics-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Affolternstrasse 42, 8050 Zürich",
+        "coordinates": [
+          8.542,
+          47.4118
+        ]
+      }
+    ]
+  },
+  {
+    "id": "generative-bionics",
+    "name": "Generative Bionics",
+    "description": "Develops intelligent humanoid robot platforms designed and manufactured in Italy.",
+    "categories": [
+      "Humanoids",
+      "Embodied AI",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://gbionics.ai/",
+      "careers": "https://gbionics.ai/careers",
+      "logo": "https://gbionics.ai/apple-touch-icon.png"
+    },
+    "locations": [
+      {
+        "id": "generative-bionics-genoa",
+        "type": "headquarters",
+        "city": "Genoa",
+        "country": "Italy",
+        "address": "Via Melen 83, 16152 Genoa",
+        "coordinates": [
+          8.8629,
+          44.4258
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stateful-robotics",
+    "name": "Stateful Robotics",
+    "description": "Develops decision-intelligence software for reliable and productive autonomous robot fleets.",
+    "categories": [
+      "Robotics software",
+      "Fleet management",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://statefulrobotics.com/",
+      "logo": "https://statefulrobotics.com/wp-content/uploads/2026/03/cropped-favicon-192x192.png"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "1–10",
+      "funding": {
+        "stage": "Pre-seed",
+        "amount": 4.8,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "stateful-robotics-oxford",
+        "type": "headquarters",
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "address": "46 Woodstock Road, Oxford OX2 6HT",
+        "coordinates": [
+          -1.2618,
+          51.761
+        ]
+      }
+    ]
+  },
+  {
+    "id": "theker",
+    "name": "Theker",
+    "description": "Builds customised AI and deep-learning robotic automation systems for industrial processes.",
+    "categories": [
+      "Factory automation",
+      "Industrial robotics",
+      "Computer vision"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.theker.ai/",
+      "careers": "https://www.theker.ai/careers",
+      "logo": "https://cdn.prod.website-files.com/5fc4cbd9bf51be84a6399307/643969596c40c8436c43659a_webclip.png"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 85,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "theker-barcelona",
+        "type": "headquarters",
+        "city": "Barcelona",
+        "country": "Spain",
+        "address": "Carrer de la Llacuna 162, 2nd Floor, 08018 Barcelona",
+        "coordinates": [
+          2.1925,
+          41.4062
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bubble-robotics",
+    "name": "Bubble Robotics",
+    "description": "Builds autonomous surface and subsea robot fleets for continuous offshore infrastructure monitoring.",
+    "categories": [
+      "Underwater robotics",
+      "Inspection",
+      "Autonomous vehicles"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.bubble-robotics.com/",
+      "logo": "https://cdn.prod.website-files.com/69737a6d46c51867594749f3/69738b4cf36c8720e0747b68_Webclip.png"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Pre-seed",
+        "amount": 5,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "bubble-robotics-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Approximate location in Zürich, Switzerland",
+        "coordinates": [
+          8.5294,
+          47.3837
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "bubble-robotics-paris",
+        "type": "office",
+        "city": "Paris",
+        "country": "France",
+        "address": "Approximate location in Paris, France",
+        "coordinates": [
+          2.3371,
+          48.8668
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "all3",
+    "name": "all3",
+    "description": "Develops AI-powered building design and robotic construction factories around the Mantis autonomous assembly robot.",
+    "categories": [
+      "Construction",
+      "Factory automation",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://all3.com/",
+      "logo": "https://all3.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Seed",
+        "amount": 25,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "all3-london",
+        "type": "office",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Approximate R&D location in London, United Kingdom",
+        "coordinates": [
+          -0.1431,
+          51.5002
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "all3-belgrade",
+        "type": "office",
+        "city": "Belgrade",
+        "country": "Serbia",
+        "address": "Approximate R&D location in Belgrade, Serbia",
+        "coordinates": [
+          20.4716,
+          44.8009
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "all3-berlin",
+        "type": "office",
+        "city": "Berlin",
+        "country": "Germany",
+        "address": "Approximate location in Berlin, Germany",
+        "coordinates": [
+          13.3866,
+          52.5308
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "all3-milan",
+        "type": "office",
+        "city": "Milan",
+        "country": "Italy",
+        "address": "Approximate location in Milan, Italy",
+        "coordinates": [
+          9.1732,
+          45.4726
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "all3-zug",
+        "type": "office",
+        "city": "Zug",
+        "country": "Switzerland",
+        "address": "Approximate location in Zug, Switzerland",
+        "coordinates": [
+          8.5258,
+          47.1766
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "enchanted-tools",
+    "name": "Enchanted Tools",
+    "description": "Develops expressive humanoid service robots for healthcare, hospitality, retail and public environments.",
+    "categories": [
+      "Humanoids",
+      "Service robots",
+      "Healthcare"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://enchanted.tools/",
+      "careers": "https://enchanted.tools/jobs/",
+      "logo": "https://enchanted.tools/favicon.ico"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Seed",
+        "amount": 16.9,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "enchanted-tools-paris",
+        "type": "headquarters",
+        "city": "Paris",
+        "country": "France",
+        "address": "18 Rue de la Fontaine au Roi, 75011 Paris",
+        "coordinates": [
+          2.3705,
+          48.8683
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arx-robotics",
+    "name": "ARX Robotics",
+    "description": "Builds software-defined unmanned ground vehicles and an operating system for defence and dual-use autonomous fleets.",
+    "categories": [
+      "Defence",
+      "Autonomous vehicles",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.arx-robotics.com/",
+      "careers": "https://www.arx-robotics.com/careers",
+      "logo": "https://cdn.prod.website-files.com/685a80f356c82ad5ff0fa008/6a1ca59aacd17781f85b5301_ARX%20Robotics%20Webclip.png"
+    },
+    "options": {
+      "founded": 2022,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series A",
+        "amount": 42,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "arx-robotics-taufkirchen",
+        "type": "headquarters",
+        "city": "Taufkirchen",
+        "country": "Germany",
+        "address": "Approximate location in Taufkirchen, Germany",
+        "coordinates": [
+          11.6282,
+          48.0426
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "arx-robotics-berlin",
+        "type": "office",
+        "city": "Berlin",
+        "country": "Germany",
+        "address": "Approximate location in Berlin, Germany",
+        "coordinates": [
+          13.4219,
+          52.508
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "arx-robotics-london",
+        "type": "office",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Approximate location in London, United Kingdom",
+        "coordinates": [
+          -0.1025,
+          51.5134
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "autopickr",
+    "name": "AutoPickr",
+    "description": "Builds autonomous electric harvesting robots for high-value crops, initially focused on asparagus.",
+    "categories": [
+      "Agriculture",
+      "Autonomous mobile robots",
+      "Electric vehicles"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.autopickr.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/61fbfbaf9c3e087202a636dd/6302ec0e-802c-4ff2-aa1f-0e0a67bd9aa2/favicon.ico"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "1–10",
+      "funding": {
+        "stage": "Pre-seed"
+      }
+    },
+    "locations": [
+      {
+        "id": "autopickr-cambridge",
+        "type": "headquarters",
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "address": "184 Cambridge Science Park Road, Cambridge CB4 0GA",
+        "coordinates": [
+          0.1462,
+          52.2338
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascento",
+    "name": "Ascento",
+    "description": "Supplies autonomous outdoor security robots as a managed robotic security service.",
+    "categories": [
+      "Security",
+      "Autonomous mobile robots",
+      "Service robots"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.ascento.ai/",
+      "careers": "https://ascento-ag.breezy.hr/",
+      "logo": "https://cdn.prod.website-files.com/64ef43b5288f862fa825106c/64f8664476cebbe5b35a07fa_ascento-icon.png"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Early stage"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "ascento-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Giesshübelstrasse 40, 8045 Zürich",
+        "coordinates": [
+          8.5206,
+          47.358
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gravis-robotics",
+    "name": "Gravis Robotics",
+    "description": "Converts conventional excavators and other heavy machinery into autonomous robots.",
+    "categories": [
+      "Construction",
+      "Autonomous vehicles",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.gravisrobotics.com/",
+      "careers": "https://www.gravisrobotics.com/careers",
+      "logo": "https://cdn.prod.website-files.com/69016a2658231cb1d2ca58c5/691a473a977f3793e042e069_webclip.png"
+    },
+    "options": {
+      "founded": 2022,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 23,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "gravis-robotics-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Thurgauerstrasse 119, 8152 Zürich",
+        "coordinates": [
+          8.5594,
+          47.4246
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sereact",
+    "name": "Sereact",
+    "description": "Develops embodied-AI software for autonomous warehouse perception, reasoning and pick-and-place.",
+    "categories": [
+      "Warehouse automation",
+      "Embodied AI",
+      "Manipulation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://sereact.ai/",
+      "careers": "https://sereact.ai/careers",
+      "logo": "https://sereact.ai/favicon.ico"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 26,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "sereact-stuttgart",
+        "type": "headquarters",
+        "city": "Stuttgart",
+        "country": "Germany",
+        "address": "Schockenriedstraße 17, 70565 Stuttgart",
+        "coordinates": [
+          9.1206,
+          48.7265
+        ]
+      }
+    ]
+  },
+  {
+    "id": "antobot",
+    "name": "Antobot",
+    "description": "Builds autonomous agricultural robots and a universal control platform for scouting, transport and crop care.",
+    "categories": [
+      "Agriculture",
+      "Autonomous mobile robots",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://antobot.ai/",
+      "logo": "https://antobot.ai/logo.ico"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "antobot-chelmsford",
+        "type": "headquarters",
+        "city": "Chelmsford",
+        "country": "United Kingdom",
+        "address": "Arise Building, Alan Cherry Drive, Chelmsford CM1 1RP",
+        "coordinates": [
+          0.4727,
+          51.742
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monumental",
+    "name": "Monumental",
+    "description": "Builds autonomous construction robots for bricklaying and coordinates them through the Atrium software platform.",
+    "categories": [
+      "Construction",
+      "Autonomous mobile robots",
+      "Fleet management"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.monumental.co/",
+      "careers": "https://jobs.ashbyhq.com/monumental/",
+      "logo": "https://www.monumental.co/favicon-32.png"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 32,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "monumental-amsterdam",
+        "type": "headquarters",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "address": "Approximate location near Artis, Plantage, Amsterdam",
+        "coordinates": [
+          4.9165,
+          52.3662
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "brightpick",
+    "name": "Brightpick",
+    "description": "Builds AI-powered mobile robots for warehouse picking, consolidation, dispatch and replenishment.",
+    "categories": [
+      "Warehouse automation",
+      "Autonomous mobile robots",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://brightpick.ai/",
+      "careers": "https://brightpick.ai/careers/",
+      "logo": "https://brightpick.ai/wp-content/themes/brightpick/assets/img/favicon/apple-icon-152x152.png"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 12,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "brightpick-bratislava",
+        "type": "headquarters",
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "address": "Plynárenská 6, 821 09 Bratislava",
+        "coordinates": [
+          17.1409,
+          48.1433
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goodbytz",
+    "name": "GoodBytz",
+    "description": "Builds autonomous robotic kitchen systems that prepare freshly cooked meals at scale.",
+    "categories": [
+      "Food robotics",
+      "Service robots",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.goodbytz.com/",
+      "logo": "https://framerusercontent.com/images/a1QD4PpTK31vbmStmkO8eadQzc.png"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "51–200"
+    },
+    "locations": [
+      {
+        "id": "goodbytz-hamburg",
+        "type": "headquarters",
+        "city": "Hamburg",
+        "country": "Germany",
+        "address": "Werner-Otto-Straße 13g, 22179 Hamburg",
+        "coordinates": [
+          10.0726,
+          53.5963
+        ]
+      }
+    ]
+  },
+  {
+    "id": "circus-group",
+    "name": "Circus Group",
+    "description": "Develops autonomous food-production robots and embodied-AI systems for commercial kitchens.",
+    "categories": [
+      "Food robotics",
+      "Service robots",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.circus-group.com/",
+      "careers": "https://www.circus-group.com/career",
+      "logo": "https://cdn.prod.website-files.com/664c8d7418f6fffcc7b5ca5d/6673f17560b69947eb641dae_favicon-2.png"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Public company"
+      }
+    },
+    "locations": [
+      {
+        "id": "circus-group-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "St.-Martin-Straße 112, 81669 Munich",
+        "coordinates": [
+          11.6027,
+          48.1199
+        ]
+      }
+    ]
+  },
+  {
+    "id": "robco",
+    "name": "RobCo",
+    "description": "Builds modular industrial robots with configurable hardware, no-code programming and AI-based automation.",
+    "categories": [
+      "Industrial robotics",
+      "Factory automation",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.rob.co/",
+      "careers": "https://www.rob.co/en-us/careers",
+      "logo": "https://cdn.prod.website-files.com/68f2341d705f07db40d6f962/68f2341d705f07db40d6ffef_Rmark%20dark.png"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series C",
+        "amount": 100,
+        "currency": "USD"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "robco-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Augustenstraße 12, 80333 Munich",
+        "coordinates": [
+          11.5606,
+          48.1452
+        ]
+      }
+    ]
+  },
+  {
+    "id": "idealworks",
+    "name": "idealworks",
+    "description": "Builds industrial autonomous mobile robots and a vendor-independent orchestration platform for factory and warehouse logistics.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Warehouse automation",
+      "Fleet management"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.idealworks.com/en",
+      "careers": "https://idealworks.jobs.personio.de/?language=en",
+      "logo": "https://cdn.sanity.io/images/aac5tzpp/production/f660c163b90b0b06da4de29cc7e4371d7270aca2-500x500.png?w=64&h=64"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Acquired"
+      }
+    },
+    "locations": [
+      {
+        "id": "idealworks-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Riesstraße 22, 80992 Munich",
+        "coordinates": [
+          11.5381,
+          48.1787
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fernride",
+    "name": "Fernride",
+    "description": "Develops human-assisted autonomous driving systems for yard trucks, container terminals and industrial transport.",
+    "categories": [
+      "Autonomous vehicles",
+      "Teleoperation",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.fernride.com/",
+      "careers": "https://www.fernride.com/careers",
+      "logo": "https://cdn.prod.website-files.com/5fa51840490fb91334d17311/5fafe0b81c0cce6f728e989f_Fernride-Website_Favicon.png"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 18,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "fernride-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Ingolstädter Straße 172–180, 80939 Munich",
+        "coordinates": [
+          11.589,
+          48.2046
+        ]
+      }
+    ]
+  },
+  {
+    "id": "opteran",
+    "name": "Opteran",
+    "description": "Develops machine-autonomy software inspired by insect brains for perception, navigation and decision-making.",
+    "categories": [
+      "Robotics software",
+      "Navigation",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://opteran.com/",
+      "logo": "https://opteran.com/images/favicon.png"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 15,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "opteran-sheffield",
+        "type": "headquarters",
+        "city": "Sheffield",
+        "country": "United Kingdom",
+        "address": "Innovation Centre, 217 Portobello, Sheffield S1 4DP",
+        "coordinates": [
+          -1.4812,
+          53.3809
+        ]
+      }
+    ]
+  },
+  {
+    "id": "robotiz3d",
+    "name": "Robotiz3d",
+    "description": "Builds autonomous road-maintenance robots that inspect, classify and repair cracks and other surface defects.",
+    "categories": [
+      "Construction",
+      "Inspection",
+      "Autonomous mobile robots"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.robotiz3d.com/",
+      "careers": "https://www.robotiz3d.com/careers/",
+      "logo": "https://www.robotiz3d.com/wp-content/uploads/2023/08/cropped-Arres-Eye-Icon-Large-192x192.png"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "robotiz3d-warrington",
+        "type": "headquarters",
+        "city": "Warrington",
+        "country": "United Kingdom",
+        "address": "Innovation Centre, Sci-Tech Daresbury, Keckwick Lane, Warrington WA4 4FS",
+        "coordinates": [
+          -2.6394,
+          53.3452
+        ]
+      }
+    ]
+  },
+  {
+    "id": "earth-rover",
+    "name": "Earth Rover",
+    "description": "Builds autonomous agricultural robots that use AI and concentrated light to identify and destroy weeds without herbicides.",
+    "categories": [
+      "Agriculture",
+      "Autonomous mobile robots",
+      "Computer vision"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.earthrover.farm/",
+      "careers": "https://www.earthrover.farm/join-us",
+      "logo": "https://www.earthrover.farm/favicon.ico"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Grant",
+        "amount": 0.216,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "earth-rover-edgmond",
+        "type": "headquarters",
+        "city": "Edgmond",
+        "country": "United Kingdom",
+        "address": "Poultry Drive, Edgmond, Newport TF10 8JZ",
+        "coordinates": [
+          -2.4245,
+          52.7757
+        ]
+      }
+    ]
+  },
+  {
+    "id": "auar",
+    "name": "AUAR",
+    "description": "Builds robotic on-site microfactories that let regional partners manufacture and assemble timber homes.",
+    "categories": [
+      "Construction",
+      "Factory automation",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://auar.io/",
+      "careers": "https://auar.io/careers",
+      "logo": "https://auar.io/wp-content/themes/theme/assets/img/icon/favicon-96x96.png"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 2.6,
+        "currency": "GBP"
+      }
+    },
+    "locations": [
+      {
+        "id": "auar-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Approximate location in London, United Kingdom",
+        "coordinates": [
+          -0.1568,
+          51.5161
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "olo-robotics",
+    "name": "OLO Robotics",
+    "description": "Provides a hardware-independent platform for programming, simulating, visualising and controlling robotic systems.",
+    "categories": [
+      "Robotics software",
+      "Simulation",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.olo-robotics.com/",
+      "logo": "https://www.olo-robotics.com/assets/favicon.6605767b36c5.png",
+      "careers": "https://www.olo-robotics.com/careers"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 5,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "olo-robotics-sheffield",
+        "type": "headquarters",
+        "city": "Sheffield",
+        "country": "United Kingdom",
+        "address": "1 Concourse Way, Sheffield S1 2BJ",
+        "coordinates": [
+          -1.4621,
+          53.3804
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keybotic",
+    "name": "Keybotic",
+    "description": "Builds autonomous quadruped robots for inspection and operation in hazardous or hard-to-access industrial facilities.",
+    "categories": [
+      "Inspection",
+      "Quadrupeds",
+      "Autonomous mobile robots"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://keybotic.com/",
+      "careers": "https://keybotic.com/careers/",
+      "logo": "https://keybotic.com/wp-content/uploads/2023/12/favicon.png"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 3,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "keybotic-barcelona",
+        "type": "headquarters",
+        "city": "Barcelona",
+        "country": "Spain",
+        "address": "Carrer de Marie Curie 8–14, 08042 Barcelona",
+        "coordinates": [
+          2.1691,
+          41.437
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moon-surgical",
+    "name": "Moon Surgical",
+    "description": "Develops Maestro, a compact robotic assistant for minimally invasive surgery.",
+    "categories": [
+      "Medical robotics",
+      "Healthcare",
+      "Collaborative robots"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.moonsurgical.com/",
+      "logo": "https://moonsurgical.com/assets/images/favicon/favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 55.4,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "moon-surgical-paris",
+        "type": "headquarters",
+        "city": "Paris",
+        "country": "France",
+        "address": "Approximate location in Paris, France",
+        "coordinates": [
+          2.3659,
+          48.8497
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "voliro",
+    "name": "Voliro",
+    "description": "Builds aerial robots that physically interact with structures for industrial inspection and maintenance at height.",
+    "categories": [
+      "Aerial robotics",
+      "Inspection",
+      "Drones"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://voliro.com/",
+      "careers": "https://voliro.com/careers/",
+      "logo": "https://cdn.voliro.com/wp-content/themes/voliro_theme/assets/favicon/favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Series A",
+        "amount": 12,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "voliro-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Förrlibuckstrasse 150, 8005 Zürich",
+        "coordinates": [
+          8.5114,
+          47.3922
+        ]
+      }
+    ]
+  },
+  {
+    "id": "extend-robotics",
+    "name": "Extend Robotics",
+    "description": "Develops immersive VR teleoperation and data-collection systems for controlling and training robots.",
+    "categories": [
+      "Teleoperation",
+      "Robot learning",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.extendrobotics.com/",
+      "logo": "https://www.extendrobotics.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "1–10"
+    },
+    "locations": [
+      {
+        "id": "extend-robotics-reading",
+        "type": "headquarters",
+        "city": "Reading",
+        "country": "United Kingdom",
+        "address": "200 Brook Drive, Reading RG2 6UB",
+        "coordinates": [
+          -0.988,
+          51.4251
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recycleye",
+    "name": "Recycleye",
+    "description": "Builds AI-powered robotic sorting systems and analytics for recovering valuable materials from waste.",
+    "categories": [
+      "Waste sorting",
+      "Industrial robotics",
+      "Computer vision"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://recycleye.com/",
+      "careers": "https://recycleye.com/careers/",
+      "logo": "https://recycleye.com/wp-content/uploads/2021/05/cropped-Recycleye-logo-copy-192x192.png"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 17,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "recycleye-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "11–15 Gibbins Road, London E15 2HU",
+        "coordinates": [
+          -0.0061,
+          51.5388
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tethys-robotics",
+    "name": "Tethys Robotics",
+    "description": "Builds autonomous underwater robots for inspection, search and mapping in rough-water environments.",
+    "categories": [
+      "Underwater robotics",
+      "Inspection",
+      "Autonomous vehicles"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.tethys-robotics.ch/",
+      "logo": "https://cdn.prod.website-files.com/651ec018e0c065289f0392b7/656899ca0052cb21504ae9c9_tethys-favicon-32.png"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Early stage",
+        "amount": 3.3,
+        "currency": "CHF"
+      }
+    },
+    "locations": [
+      {
+        "id": "tethys-robotics-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Approximate location near ETH Zürich, 8092 Zürich",
+        "coordinates": [
+          8.5476,
+          47.3763
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "rocsys",
+    "name": "Rocsys",
+    "description": "Builds robotic hands-free charging systems for electric and autonomous vehicles.",
+    "categories": [
+      "Electric vehicles",
+      "Industrial robotics",
+      "Mobility"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.rocsys.com/",
+      "careers": "https://www.rocsys.com/careers",
+      "logo": "https://www.rocsys.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 36,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "rocsys-rijswijk",
+        "type": "headquarters",
+        "city": "Rijswijk",
+        "country": "Netherlands",
+        "address": "Delftweg 65, 2289 BA Rijswijk",
+        "coordinates": [
+          4.3462,
+          52.0341
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agile-robots",
+    "name": "Agile Robots",
+    "description": "Builds AI-driven robotic arms, mobile manipulators, humanoids and industrial automation systems.",
+    "categories": [
+      "Industrial robotics",
+      "Factory automation",
+      "Humanoids"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.agile-robots.com/en/",
+      "careers": "https://www.agile-robots.com/en/career/",
+      "logo": "https://www.agile-robots.com/_assets/b9df004e7f37d8e39e1f5da3327f12bc/Icons/Meta/AgileRobots/icon.1770275987.svg"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "1001–5000",
+      "funding": {
+        "stage": "Series C",
+        "amount": 220,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "agile-robots-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Plinganserstraße 134, 81369 Munich",
+        "coordinates": [
+          11.5405,
+          48.1028
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vay",
+    "name": "Vay",
+    "description": "Develops remote-driving technology for rental-car delivery and autonomous and industrial mobility operations.",
+    "categories": [
+      "Teleoperation",
+      "Autonomous vehicles",
+      "Mobility"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://vay.io/",
+      "careers": "https://vayio.typeform.com/apply",
+      "logo": "https://vay.io/favicon.ico"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series B",
+        "amount": 95,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "vay-berlin",
+        "type": "headquarters",
+        "city": "Berlin",
+        "country": "Germany",
+        "address": "Mariendorfer Damm 1, 12099 Berlin",
+        "coordinates": [
+          13.3843,
+          52.4534
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skyports",
+    "name": "Skyports",
+    "description": "Builds electric-air-taxi infrastructure and operates drone delivery, surveying and inspection services.",
+    "categories": [
+      "Drones",
+      "Aerial robotics",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://skyports.net/",
+      "careers": "https://skyports.net/careers/",
+      "logo": "https://cdn.prod.website-files.com/69c17ab4aa497ef1736d7289/69caa32829101e50b739dfda_skyports-favicon.png"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Strategic investment",
+        "amount": 110,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "skyports-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "170 Kennington Lane, London SE11 5DP",
+        "coordinates": [
+          -0.1116,
+          51.4881
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wootzano",
+    "name": "Wootzano",
+    "description": "Builds dexterous robotic systems and electronic skin for handling delicate fresh produce.",
+    "categories": [
+      "Agriculture",
+      "Manipulation",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.wootzano.com/",
+      "logo": "https://www.wootzano.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "wootzano-newcastle",
+        "type": "headquarters",
+        "city": "Newcastle upon Tyne",
+        "country": "United Kingdom",
+        "address": "4 Quick Silver Way, Newcastle upon Tyne NE27 0QQ",
+        "coordinates": [
+          -1.4895,
+          55.0196
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hausbots",
+    "name": "HausBots",
+    "description": "Builds wall-climbing robotic crawlers for inspection, testing, painting and maintenance.",
+    "categories": [
+      "Inspection",
+      "Construction",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://hausbots.com/",
+      "logo": "https://hausbots.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "1–10"
+    },
+    "locations": [
+      {
+        "id": "hausbots-birmingham",
+        "type": "headquarters",
+        "city": "Birmingham",
+        "country": "United Kingdom",
+        "address": "Unit 5A, Waterside Business Park, 1649 Pershore Road, Birmingham B30 3DR",
+        "coordinates": [
+          -1.9297,
+          52.4149
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adapta-robotics",
+    "name": "Adapta Robotics",
+    "description": "Builds custom industrial and service robots for automated device testing and retail scanning.",
+    "categories": [
+      "Industrial robotics",
+      "Service robots",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.adaptarobotics.com/",
+      "careers": "https://www.adaptarobotics.com/careers/",
+      "logo": "https://www.adaptarobotics.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 2,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "adapta-robotics-bucharest",
+        "type": "headquarters",
+        "city": "Bucharest",
+        "country": "Romania",
+        "address": "Green Court Bucharest, 4 Gara Herăstrău Street, Building B, Sector 2, Bucharest",
+        "coordinates": [
+          26.1051,
+          44.479
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rivelin-robotics",
+    "name": "Rivelin Robotics",
+    "description": "Builds robotic systems for hazardous metalworking and automated post-processing of additively manufactured components.",
+    "categories": [
+      "Industrial robotics",
+      "Factory automation",
+      "Machine tending"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.rivelinrobotics.com/",
+      "careers": "https://www.rivelinrobotics.com/careers",
+      "logo": "https://www.rivelinrobotics.com/rr_favicon.png"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Grant",
+        "amount": 0.676,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "rivelin-robotics-sheffield",
+        "type": "headquarters",
+        "city": "Sheffield",
+        "country": "United Kingdom",
+        "address": "Unit 1, Neepsend Triangle, 1 Burton Road, Sheffield S3 8BW",
+        "coordinates": [
+          -1.4775,
+          53.3947
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crover",
+    "name": "Crover",
+    "description": "Builds a robot that moves through bulk grain to inspect conditions and collect samples below the surface.",
+    "categories": [
+      "Agriculture",
+      "Inspection",
+      "Autonomous mobile robots"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.crover.tech/",
+      "careers": "https://www.crover.tech/careers",
+      "logo": "https://www.crover.tech/favicon.ico"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "crover-edinburgh",
+        "type": "headquarters",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "address": "The National Robotarium, Boundary Road North, Edinburgh EH14 4AS",
+        "coordinates": [
+          -3.319,
+          55.9097
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manna",
+    "name": "Manna",
+    "description": "Operates autonomous delivery drones for transporting food, groceries and medicines to customers.",
+    "categories": [
+      "Drones",
+      "Delivery",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.manna.aero/",
+      "careers": "https://www.manna.aero/careers",
+      "logo": "https://framerusercontent.com/images/z7vQWrAcNjqDKMazVVcHKp0SPo.png"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 50,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "manna-dublin",
+        "type": "headquarters",
+        "city": "Dublin",
+        "country": "Ireland",
+        "address": "Slaney Road, Dublin 11",
+        "coordinates": [
+          -6.3075,
+          53.3982
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kewazo",
+    "name": "KEWAZO",
+    "description": "Builds robotic material-transport systems for scaffolding, construction sites and industrial plants.",
+    "categories": [
+      "Construction",
+      "Industrial robotics",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.kewazo.com/",
+      "careers": "https://www.kewazo.com/careers",
+      "logo": "https://framerusercontent.com/images/0bQC0IltQ6vEcjIQFS0JMtH0LI.png"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Series A",
+        "amount": 5,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "kewazo-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Approximate location in Munich, Germany",
+        "coordinates": [
+          11.5964,
+          48.1412
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "nomagic",
+    "name": "Nomagic",
+    "description": "Builds AI-powered robotic picking systems for warehouse fulfilment and intralogistics.",
+    "categories": [
+      "Warehouse automation",
+      "Manipulation",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://nomagic.ai/",
+      "careers": "https://nomagic.ai/careers",
+      "logo": "https://nomagic.ai/favicon.ico"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 44,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "nomagic-warsaw",
+        "type": "headquarters",
+        "city": "Warsaw",
+        "country": "Poland",
+        "address": "Rakowiecka 36, 02-532 Warsaw",
+        "coordinates": [
+          21.0007,
+          52.2088
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gideon",
+    "name": "Gideon",
+    "description": "Builds autonomous mobile robots for moving pallets and materials through warehouses, factories and logistics yards.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Warehouse automation",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.gideon.ai/",
+      "careers": "https://www.gideon.ai/careers",
+      "logo": "https://www.gideon.ai/wp-content/themes/gideon-web-2022/static/ui/favicon/favicon-32x32.png?x72312"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 31,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "gideon-zagreb",
+        "type": "headquarters",
+        "city": "Zagreb",
+        "country": "Croatia",
+        "address": "Radnička cesta 177, 10000 Zagreb",
+        "coordinates": [
+          15.9726,
+          45.7955
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ekobot",
+    "name": "Ekobot",
+    "description": "Builds autonomous agricultural robots that mechanically remove weeds with plant-level precision.",
+    "categories": [
+      "Agriculture",
+      "Autonomous mobile robots",
+      "Computer vision"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.ekobot.se/",
+      "logo": "https://www.ekobot.se/favicon.ico"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Acquired"
+      }
+    },
+    "locations": [
+      {
+        "id": "ekobot-vasteras",
+        "type": "headquarters",
+        "city": "Västerås",
+        "country": "Sweden",
+        "address": "Slakterigatan 10, 721 32 Västerås",
+        "coordinates": [
+          16.5587,
+          59.6007
+        ]
+      }
+    ]
+  },
+  {
+    "id": "german-bionic",
+    "name": "German Bionic",
+    "description": "Builds AI-powered wearable exoskeletons that support workers during lifting, carrying and repetitive physical work.",
+    "categories": [
+      "Exoskeletons",
+      "Industrial robotics",
+      "Healthcare"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.germanbionic.com/",
+      "careers": "https://www.germanbionic.com/careers/",
+      "logo": "https://framerusercontent.com/images/8OeQDK2nlzzl6NrRFsD13bDddgs.png"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "51–200"
+    },
+    "locations": [
+      {
+        "id": "german-bionic-augsburg",
+        "type": "headquarters",
+        "city": "Augsburg",
+        "country": "Germany",
+        "address": "Karl-Drais-Straße 4d, 86159 Augsburg",
+        "coordinates": [
+          10.8993,
+          48.3349
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kilter",
+    "name": "Kilter",
+    "description": "Builds precision agricultural robots that apply individual herbicide droplets directly to detected weeds.",
+    "categories": [
+      "Agriculture",
+      "Autonomous mobile robots",
+      "Computer vision"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.kiltersystems.com/",
+      "careers": "https://career.kiltersystems.com/",
+      "logo": "https://www.kiltersystems.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Series A",
+        "amount": 95,
+        "currency": "NOK"
+      }
+    },
+    "locations": [
+      {
+        "id": "kilter-skoppum",
+        "type": "headquarters",
+        "city": "Skoppum",
+        "country": "Norway",
+        "address": "Langmyra 11, 3185 Skoppum",
+        "coordinates": [
+          10.41,
+          59.3856
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dexory",
+    "name": "Dexory",
+    "description": "Builds autonomous warehouse-scanning robots and a digital-twin platform for inventory and operational intelligence.",
+    "categories": [
+      "Warehouse automation",
+      "Autonomous mobile robots",
+      "Digital twins"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.dexory.com/",
+      "careers": "https://www.dexory.com/careers",
+      "logo": "https://cdn.prod.website-files.com/672df24a07935ada864724fb/67519cdbf53636c436e7d94b_Dexory_monogram_lime.png"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series C",
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "dexory-wallingford",
+        "type": "headquarters",
+        "city": "Wallingford",
+        "country": "United Kingdom",
+        "address": "Unit 9, Verda Park, Wallingford OX10 9SJ",
+        "coordinates": [
+          -1.1298,
+          51.5948
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exotec",
+    "name": "Exotec",
+    "description": "Builds Skypod warehouse robots and storage systems for high-throughput goods-to-person order fulfilment.",
+    "categories": [
+      "Warehouse automation",
+      "Autonomous mobile robots",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.exotec.com/",
+      "careers": "https://www.exotec.com/careers/",
+      "logo": "https://www.exotec.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "1001–5000",
+      "funding": {
+        "stage": "Series D",
+        "amount": 335,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "exotec-croix",
+        "type": "headquarters",
+        "city": "Croix",
+        "country": "France",
+        "address": "251 Rue Jean Monnet, 59170 Croix",
+        "coordinates": [
+          3.1514,
+          50.6809
+        ]
+      }
+    ]
+  },
+  {
+    "id": "automata",
+    "name": "Automata",
+    "description": "Builds modular laboratory robotics and orchestration software for integrated life-science automation.",
+    "categories": [
+      "Lab automation",
+      "Industrial robotics",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.automata.tech/",
+      "careers": "https://www.automata.tech/careers",
+      "logo": "https://cdn.prod.website-files.com/68b56a65d0f80cfb0ab4991d/68b56cdd97a47e5933fbff53_Automata-Fav-icon-graphite.png"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 40,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "automata-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "10 White Lion Street, London N1 9PD",
+        "coordinates": [
+          -0.107,
+          51.5339
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zivid",
+    "name": "Zivid",
+    "description": "Builds industrial colour 3D cameras and machine-vision systems for robotic picking, inspection and manipulation.",
+    "categories": [
+      "Machine vision",
+      "Computer vision",
+      "Manipulation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.zivid.com/",
+      "careers": "https://www.zivid.com/career-join-zivid",
+      "logo": "https://www.zivid.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "51–200"
+    },
+    "locations": [
+      {
+        "id": "zivid-oslo",
+        "type": "headquarters",
+        "city": "Oslo",
+        "country": "Norway",
+        "address": "Gjerdrums vei 10A, 0484 Oslo",
+        "coordinates": [
+          10.7686,
+          59.9506
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quantum-systems",
+    "name": "Quantum Systems",
+    "description": "Builds AI-enabled unmanned air, ground and maritime systems with mission software and intelligence analytics.",
+    "categories": [
+      "Defence",
+      "Drones",
+      "Autonomous vehicles"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://quantum-systems.com/",
+      "careers": "https://quantum-systems.com/careers/",
+      "logo": "https://quantum-systems.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "1001–5000",
+      "funding": {
+        "stage": "Series D",
+        "amount": 1200,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "quantum-systems-gilching",
+        "type": "headquarters",
+        "city": "Gilching",
+        "country": "Germany",
+        "address": "Dornierstraße 11, 82205 Gilching",
+        "coordinates": [
+          11.3075,
+          48.107
+        ]
+      }
+    ]
+  },
+  {
+    "id": "devanthro",
+    "name": "Devanthro",
+    "description": "Builds Robody humanoid telepresence robots for remotely delivering care and physical assistance in homes.",
+    "categories": [
+      "Humanoids",
+      "Teleoperation",
+      "Healthcare"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.devanthro.com/",
+      "logo": "https://www.devanthro.com/wp-content/uploads/2021/10/cropped-DevanthroSymbolWonT512px-192x192.png"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "1–10"
+    },
+    "locations": [
+      {
+        "id": "devanthro-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Freddie-Mercury-Straße 5, 80797 Munich",
+        "coordinates": [
+          11.5559,
+          48.1603
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blueye-robotics",
+    "name": "Blueye Robotics",
+    "description": "Builds professional underwater drones for inspection, observation and data collection below the waterline.",
+    "categories": [
+      "Underwater robotics",
+      "Inspection",
+      "Drones"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.blueyerobotics.com/",
+      "careers": "https://blueye.recruitee.com/",
+      "logo": "https://www.blueyerobotics.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 10,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "blueye-robotics-trondheim",
+        "type": "headquarters",
+        "city": "Trondheim",
+        "country": "Norway",
+        "address": "Strandveien 43, 7067 Trondheim",
+        "coordinates": [
+          10.4171,
+          63.4389
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tiny-mobile-robots",
+    "name": "TinyMobileRobots",
+    "description": "Builds autonomous mobile robots for outdoor line marking and high-precision surveying.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Construction",
+      "Navigation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://tinymobilerobots.com/",
+      "careers": "https://tinymobilerobots.com/careers",
+      "logo": "https://tinymobilerobots.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "51–200"
+    },
+    "locations": [
+      {
+        "id": "tiny-mobile-robots-malling",
+        "type": "headquarters",
+        "city": "Malling",
+        "country": "Denmark",
+        "address": "Sofienlystvej 9, 8340 Malling",
+        "coordinates": [
+          10.1901,
+          56.0396
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flyingbasket",
+    "name": "FlyingBasket",
+    "description": "Builds heavy-lift electric cargo drones capable of transporting payloads of up to approximately 100 kilograms.",
+    "categories": [
+      "Drones",
+      "Aerial robotics",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://flyingbasket.com/",
+      "careers": "https://flyingbasket.com/careers",
+      "logo": "https://flyingbasket.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "flyingbasket-bolzano",
+        "type": "headquarters",
+        "city": "Bolzano",
+        "country": "Italy",
+        "address": "Via Enrico Fermi 27, 39100 Bolzano",
+        "coordinates": [
+          11.3298,
+          46.4803
+        ]
+      }
+    ]
+  },
+  {
+    "id": "micropsi-industries",
+    "name": "Micropsi Industries",
+    "description": "Develops vision software that lets industrial robots learn variable tasks from human demonstrations.",
+    "categories": [
+      "Robot learning",
+      "Computer vision",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.micropsi-industries.com/",
+      "careers": "https://www.micropsi-industries.com/careers/",
+      "logo": "https://cdn.prod.website-files.com/5e7e43ab017d759ded0ce0cb/6603f96bc908fcf24a5c0d72_micropsi-favicon-32.png"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 30,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "micropsi-industries-berlin",
+        "type": "headquarters",
+        "city": "Berlin",
+        "country": "Germany",
+        "address": "Lise-Meitner-Straße 39–41, 10589 Berlin",
+        "coordinates": [
+          13.3234,
+          52.5287
+        ]
+      }
+    ]
+  },
+  {
+    "id": "magazino",
+    "name": "Magazino",
+    "description": "Builds mobile robots that identify, pick and transport individual items for e-commerce and production logistics.",
+    "categories": [
+      "Warehouse automation",
+      "Autonomous mobile robots",
+      "Manipulation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.magazino.eu/en/",
+      "careers": "https://www.magazino.eu/en/career/",
+      "logo": "https://www.magazino.eu/wp-content/themes/magazinoeu/favicon.ico"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Acquired"
+      }
+    },
+    "locations": [
+      {
+        "id": "magazino-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Landsberger Straße 234, 80687 Munich",
+        "coordinates": [
+          11.5002,
+          48.1419
+        ]
+      }
+    ]
+  },
+  {
+    "id": "verity",
+    "name": "Verity",
+    "description": "Builds autonomous indoor warehouse drones and software for continuous inventory tracking and operational intelligence.",
+    "categories": [
+      "Drones",
+      "Warehouse automation",
+      "Inspection"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.verity.net/",
+      "careers": "https://www.verity.net/careers",
+      "logo": "https://www.verity.net/favicon.webp"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 32,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "verity-zurich",
+        "type": "headquarters",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "address": "Binzmühlestrasse 81, 8050 Zürich",
+        "coordinates": [
+          8.5412,
+          47.4149
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1x",
+    "name": "1X",
+    "description": "Develops humanoid robots designed to perform household tasks and learn through real-world deployment.",
+    "categories": [
+      "Humanoids",
+      "Service robots",
+      "Embodied AI"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.1x.tech/neo",
+      "careers": "https://www.1x.tech/careers",
+      "logo": "https://www.1x.tech/favicon/favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series B",
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "1x-moss",
+        "type": "office",
+        "city": "Moss",
+        "country": "Norway",
+        "address": "Henrich Gerners gate 8, 1530 Moss",
+        "coordinates": [
+          10.6696,
+          59.437
+        ]
+      },
+      {
+        "id": "1x-oslo",
+        "type": "office",
+        "city": "Oslo",
+        "country": "Norway",
+        "address": "Biskop Gunnerus gate 14, 0185 Oslo",
+        "coordinates": [
+          10.7523,
+          59.9128
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cmr-surgical",
+    "name": "CMR Surgical",
+    "description": "Develops Versius, a modular surgical robotics system for minimally invasive procedures.",
+    "categories": [
+      "Medical robotics",
+      "Healthcare",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://cmrsurgical.com/",
+      "careers": "https://cmrsurgical.com/careers/",
+      "logo": "https://cmrsurgical.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series D",
+        "amount": 600,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "cmr-surgical-cambridge",
+        "type": "headquarters",
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "address": "1 Evolution Business Park, Milton Road, Cambridge CB24 9NG",
+        "coordinates": [
+          0.1489,
+          52.2387
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oxa",
+    "name": "Oxa",
+    "description": "Develops autonomous-driving software for industrial vehicles in logistics, passenger transport, mining and other controlled environments.",
+    "categories": [
+      "Autonomous vehicles",
+      "Robotics software",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://oxa.tech/",
+      "careers": "https://oxa.tech/careers/",
+      "logo": "https://oxa.tech/images/favicons/favicon.svg"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series D",
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "oxa-oxford",
+        "type": "headquarters",
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "address": "8050 Alec Issigonis Way, Oxford OX4 2HW",
+        "coordinates": [
+          -1.2042,
+          51.7255
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kassow-robots",
+    "name": "Kassow Robots",
+    "description": "Builds seven-axis collaborative robot arms for flexible industrial automation.",
+    "categories": [
+      "Collaborative robots",
+      "Industrial robotics",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.kassowrobots.com/",
+      "careers": "https://www.kassowrobots.com/careers",
+      "logo": "https://cdn.prod.website-files.com/63d54839f7e09bd5bf27f6c2/645b61fc577bd36c48df2ae7_Favicon.png"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Acquired"
+      }
+    },
+    "locations": [
+      {
+        "id": "kassow-robots-kastrup",
+        "type": "headquarters",
+        "city": "Kastrup",
+        "country": "Denmark",
+        "address": "Kajakvej 2, 2770 Kastrup",
+        "coordinates": [
+          12.6406,
+          55.6448
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moley-robotics",
+    "name": "Moley Robotics",
+    "description": "Builds robotic kitchens that reproduce chef movements to prepare complete meals automatically.",
+    "categories": [
+      "Food robotics",
+      "Service robots",
+      "Manipulation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.moley.com/",
+      "logo": "https://www.moley.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "moley-robotics-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Approximate location on Cambridge Grove, London W6",
+        "coordinates": [
+          -0.2298,
+          51.4944
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "starship-technologies",
+    "name": "Starship Technologies",
+    "description": "Builds autonomous pavement robots for short-distance delivery of food, groceries and parcels.",
+    "categories": [
+      "Delivery",
+      "Autonomous mobile robots",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.starship.xyz/",
+      "careers": "https://www.starship.xyz/careers/",
+      "logo": "https://www.starship.xyz/wp-content/uploads/2024/11/cropped-Starship_app_icon_ios_1024-1-192x192.png"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series C",
+        "amount": 50,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "starship-technologies-tallinn",
+        "type": "headquarters",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "address": "Teaduspargi 8, 12618 Tallinn",
+        "coordinates": [
+          24.6615,
+          59.3959
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flyability",
+    "name": "Flyability",
+    "description": "Builds collision-tolerant inspection drones for confined, inaccessible and hazardous indoor environments.",
+    "categories": [
+      "Drones",
+      "Inspection",
+      "Aerial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.flyability.com/",
+      "careers": "https://www.flyability.com/careers",
+      "logo": "https://www.flyability.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series C",
+        "amount": 22,
+        "currency": "CHF"
+      }
+    },
+    "locations": [
+      {
+        "id": "flyability-paudex",
+        "type": "headquarters",
+        "city": "Paudex",
+        "country": "Switzerland",
+        "address": "Route du Lac 3, 1094 Paudex",
+        "coordinates": [
+          6.6732,
+          46.5052
+        ]
+      }
+    ]
+  },
+  {
+    "id": "universal-robots",
+    "name": "Universal Robots",
+    "description": "Builds collaborative robotic arms that automate manufacturing tasks alongside human workers.",
+    "categories": [
+      "Collaborative robots",
+      "Industrial robotics",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.universal-robots.com/",
+      "careers": "https://www.universal-robots.com/careers/",
+      "logo": "https://www.universal-robots.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2005,
+      "employees": "1001–5000",
+      "funding": {
+        "stage": "Acquired",
+        "amount": 350,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "universal-robots-odense",
+        "type": "headquarters",
+        "city": "Odense",
+        "country": "Denmark",
+        "address": "Energivej 25, 5260 Odense S",
+        "coordinates": [
+          10.4314,
+          55.349
+        ]
+      },
+      {
+        "id": "universal-robots-barcelona",
+        "type": "office",
+        "city": "Barcelona",
+        "country": "Spain",
+        "address": "Approximate location in Barcelona, Spain",
+        "coordinates": [
+          2.1811,
+          41.3905
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "universal-robots-turin",
+        "type": "office",
+        "city": "Turin",
+        "country": "Italy",
+        "address": "Approximate location in Turin, Italy",
+        "coordinates": [
+          7.7015,
+          45.0618
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "universal-robots-suresnes",
+        "type": "office",
+        "city": "Suresnes",
+        "country": "France",
+        "address": "Approximate location in Suresnes, France",
+        "coordinates": [
+          2.2225,
+          48.8737
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "universal-robots-munich",
+        "type": "office",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Approximate location in Munich, Germany",
+        "coordinates": [
+          11.5661,
+          48.1269
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "universal-robots-prague",
+        "type": "office",
+        "city": "Prague",
+        "country": "Czechia",
+        "address": "Approximate location in Prague, Czechia",
+        "coordinates": [
+          14.4399,
+          50.0696
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "universal-robots-bucharest",
+        "type": "office",
+        "city": "Bucharest",
+        "country": "Romania",
+        "address": "Approximate location in Bucharest, Romania",
+        "coordinates": [
+          26.0877,
+          44.4264
+        ],
+        "isApproximate": true
+      },
+      {
+        "id": "universal-robots-sheffield",
+        "type": "office",
+        "city": "Sheffield",
+        "country": "United Kingdom",
+        "address": "Approximate location in Sheffield, United Kingdom",
+        "coordinates": [
+          -1.4592,
+          53.3915
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "pal-robotics",
+    "name": "PAL Robotics",
+    "description": "Builds humanoid, service and mobile robots for research, logistics, retail and assisted living.",
+    "categories": [
+      "Humanoids",
+      "Service robots",
+      "Autonomous mobile robots"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://pal-robotics.com/",
+      "careers": "https://pal-robotics.com/careers/",
+      "logo": "https://pal-robotics.com/wp-content/uploads/2024/02/cropped-favicon-2-192x192.png"
+    },
+    "options": {
+      "founded": 2004,
+      "employees": "51–200"
+    },
+    "locations": [
+      {
+        "id": "pal-robotics-barcelona",
+        "type": "headquarters",
+        "city": "Barcelona",
+        "country": "Spain",
+        "address": "Carrer de Pujades 77, 08005 Barcelona",
+        "coordinates": [
+          2.1944,
+          41.397
+        ]
+      }
+    ]
+  },
+  {
+    "id": "engineered-arts",
+    "name": "Engineered Arts",
+    "description": "Builds expressive social humanoid robots including Ameca, RoboThespian and Mesmer.",
+    "categories": [
+      "Humanoids",
+      "Service robots",
+      "Human-robot interaction"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://engineeredarts.com/",
+      "logo": "https://media.engineeredarts.com/wp-content/uploads/2024/07/cropped-Site-Icon-E-300x300-1.png",
+      "careers": "https://engineeredarts.com/uk/careers"
+    },
+    "options": {
+      "founded": 2004,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 10,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "engineered-arts-falmouth",
+        "type": "headquarters",
+        "city": "Falmouth",
+        "country": "United Kingdom",
+        "address": "E1–E3 Church View Business Park, Falmouth TR11 4FZ",
+        "coordinates": [
+          -5.0857,
+          50.1539
+        ]
+      },
+      {
+        "id": "engineered-arts-london",
+        "type": "office",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Approximate location in London, United Kingdom",
+        "coordinates": [
+          -0.075,
+          51.526
+        ],
+        "isApproximate": true
+      }
+    ]
+  },
+  {
+    "id": "robotnik",
+    "name": "Robotnik",
+    "description": "Builds autonomous mobile robots and mobile manipulators for industry, logistics, inspection and research.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Manipulation",
+      "Industrial robotics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://robotnik.eu/",
+      "careers": "https://robotnik.eu/careers/",
+      "logo": "https://robotnik.eu/favicon.ico"
+    },
+    "options": {
+      "founded": 2002,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Acquired"
+      }
+    },
+    "locations": [
+      {
+        "id": "robotnik-paterna",
+        "type": "headquarters",
+        "city": "Paterna",
+        "country": "Spain",
+        "address": "Ronda Auguste y Louis Lumière 8, Parque Tecnológico, 46980 Paterna",
+        "coordinates": [
+          -0.4638,
+          39.5488
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bluebotics",
+    "name": "BlueBotics",
+    "description": "Develops navigation and fleet-management technology for autonomous mobile robots and automated guided vehicles.",
+    "categories": [
+      "Navigation",
+      "Fleet management",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://bluebotics.com/",
+      "careers": "https://bluebotics.com/careers",
+      "logo": "https://bluebotics.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2001,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Acquired"
+      }
+    },
+    "locations": [
+      {
+        "id": "bluebotics-saint-sulpice",
+        "type": "headquarters",
+        "city": "Saint-Sulpice",
+        "country": "Switzerland",
+        "address": "Jordils 41B, 1025 Saint-Sulpice",
+        "coordinates": [
+          6.559,
+          46.5123
+        ]
+      }
+    ]
+  },
+  {
+    "id": "autostore",
+    "name": "AutoStore",
+    "description": "Builds cube-based automated storage and retrieval systems for dense, high-throughput warehouse fulfilment.",
+    "categories": [
+      "Warehouse automation",
+      "Industrial robotics",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.autostoresystem.com/",
+      "careers": "https://www.autostoresystem.com/careers",
+      "logo": "https://www.autostoresystem.com/favicon.ico"
+    },
+    "options": {
+      "founded": 1995,
+      "employees": "1001–5000",
+      "funding": {
+        "stage": "Public company"
+      }
+    },
+    "locations": [
+      {
+        "id": "autostore-nedre-vats",
+        "type": "headquarters",
+        "city": "Nedre Vats",
+        "country": "Norway",
+        "address": "Stokkastrandvegen 85, 5578 Nedre Vats",
+        "coordinates": [
+          5.737,
+          59.498
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avular",
+    "name": "Avular",
+    "description": "Develops mobile-robotics core technology and custom autonomous robots and drones for industrial applications.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Drones",
+      "Robotics hardware"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.avular.com/",
+      "careers": "https://www.avular.com/careers",
+      "logo": "https://www.avular.com/icon.png?icon.3cw05s48pk1bm.png"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 1.8,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "avular-eindhoven",
+        "type": "headquarters",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "address": "Achtseweg Zuid 221, 5651 GW Eindhoven",
+        "coordinates": [
+          5.445,
+          51.479
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dronamics",
+    "name": "Dronamics",
+    "description": "Builds Black Swan unmanned cargo aircraft for long-range middle-mile logistics and dual-use missions.",
+    "categories": [
+      "Drones",
+      "Logistics",
+      "Defence"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.dronamics.com/",
+      "careers": "https://www.dronamics.com/careers",
+      "logo": "https://www.dronamics.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2014,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series A",
+        "amount": 12.5,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "dronamics-sofia",
+        "type": "office",
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "address": "4 Iskar Street, 1000 Sofia",
+        "coordinates": [
+          23.3222,
+          42.6986
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mobile-industrial-robots",
+    "name": "Mobile Industrial Robots",
+    "description": "Builds autonomous mobile robots for transporting materials through factories, warehouses and healthcare facilities.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Warehouse automation",
+      "Logistics"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://mobile-industrial-robots.com/",
+      "careers": "https://mobile-industrial-robots.com/career/",
+      "logo": "https://mobile-industrial-robots.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2013,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Acquired",
+        "amount": 272,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "mobile-industrial-robots-odense",
+        "type": "headquarters",
+        "city": "Odense",
+        "country": "Denmark",
+        "address": "Energivej 51, 5260 Odense S",
+        "coordinates": [
+          10.4299,
+          55.3495
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wheel-me",
+    "name": "wheel.me",
+    "description": "Builds autonomous wheel modules and software that convert existing objects and equipment into mobile robots.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Robotics hardware",
+      "Robotics software"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.wheel.me/",
+      "careers": "https://www.wheel.me/join-us",
+      "logo": "https://cdn.prod.website-files.com/64a6d5b7273668a13afdff42/64ba38054a0de66a3362bc60_favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2013,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Private equity",
+        "amount": 14.1,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "wheel-me-oslo",
+        "type": "headquarters",
+        "city": "Oslo",
+        "country": "Norway",
+        "address": "Karenslyst allé 57, 0277 Oslo",
+        "coordinates": [
+          10.6778,
+          59.9202
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wandercraft",
+    "name": "Wandercraft",
+    "description": "Builds self-balancing walking exoskeletons and the Calvin-40 industrial humanoid robot.",
+    "categories": [
+      "Exoskeletons",
+      "Humanoids",
+      "Healthcare"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://en.wandercraft.eu/",
+      "careers": "https://wandercraft.welcomekit.co/",
+      "logo": "https://cdn.prod.website-files.com/622f44804ae66481b4e5532d/62372edc919bb11b4d3a4db3_favicon.png"
+    },
+    "options": {
+      "founded": 2012,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series D",
+        "amount": 75,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "wandercraft-paris",
+        "type": "headquarters",
+        "city": "Paris",
+        "country": "France",
+        "address": "88 Rue de Rivoli, 75004 Paris",
+        "coordinates": [
+          2.3525,
+          48.8575
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naio-technologies",
+    "name": "Naïo Technologies",
+    "description": "Builds electric autonomous agricultural robots for mechanical weeding, seeding and crop maintenance.",
+    "categories": [
+      "Agriculture",
+      "Autonomous mobile robots",
+      "Electric vehicles"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://www.naio-technologies.com/en/home/",
+      "careers": "https://www.naio-technologies.com/en/careers/",
+      "logo": "https://www.naio-technologies.com/wp-content/themes/naiotech/favicons/favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2011,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Series B",
+        "amount": 33.8,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "naio-technologies-escalquens",
+        "type": "headquarters",
+        "city": "Escalquens",
+        "country": "France",
+        "address": "235 Rue de la Montagne Noire, 31750 Escalquens",
+        "coordinates": [
+          1.5575,
+          43.5176
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ecorobotix",
+    "name": "Ecorobotix",
+    "description": "Builds AI-powered ultra-high-precision crop spraying systems that treat plants individually and reduce chemical use.",
+    "categories": [
+      "Agriculture",
+      "Computer vision",
+      "Factory automation"
+    ],
+    "addedAt": "2026-07-22",
+    "links": {
+      "website": "https://ecorobotix.com/",
+      "careers": "https://ecorobotix.com/careers/",
+      "logo": "https://ecorobotix.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2011,
+      "employees": "201–500",
+      "funding": {
+        "stage": "Series D",
+        "amount": 105,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "ecorobotix-yverdon-les-bains",
+        "type": "headquarters",
+        "city": "Yverdon-les-Bains",
+        "country": "Switzerland",
+        "address": "Rue Galilée 6, 1400 Yverdon-les-Bains",
+        "coordinates": [
+          6.641,
+          46.7789
+        ]
+      }
+    ]
   }
 ]

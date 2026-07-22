@@ -518,7 +518,7 @@ function CompanyDetail({ company, onClose, onLocation }: { company: Company; onC
         <div><dt><CircleDollarSign size={14} /> Funding</dt><dd>{formatFunding(company)}</dd></div>
       </dl>
       <div className="detail-locations">
-        <div>{company.locations.map((location) => <button type="button" key={location.id} onClick={() => onLocation(location)}><span className={`location-icon location-icon--${location.type}`}>{location.type === 'factory' ? <Factory size={13} /> : location.type === 'headquarters' ? <Building2 size={13} /> : <MapPin size={13} />}</span><span><b>{location.city}</b><small>{location.type} · {location.country}</small></span><LocateFixed size={14} /></button>)}</div>
+        <div>{company.locations.map((location) => <button type="button" key={location.id} onClick={() => onLocation(location)} title={location.address}><span className={`location-icon location-icon--${location.type}`}>{location.type === 'factory' ? <Factory size={13} /> : location.type === 'headquarters' ? <Building2 size={13} /> : <MapPin size={13} />}</span><span><b>{location.city}</b><small>{location.type} · {location.country}{location.isApproximate && ' · approximate'}</small></span><LocateFixed size={14} /></button>)}</div>
       </div>
       {company.options?.remoteHiring && <div className="remote-note"><Radio size={15} /><span><b>Remote-friendly hiring</b><small>This company lists remote-friendly opportunities.</small></span></div>}
       <div className="detail-actions">

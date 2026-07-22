@@ -21,7 +21,8 @@ The directory is the JSON array in `src/data/companies.json`. A useful contribut
       "city": "Berlin",
       "country": "Germany",
       "address": "Berlin, Germany",
-      "coordinates": [13.405, 52.52]
+      "coordinates": [13.4217, 52.5091],
+      "isApproximate": true
     }
   ]
 }
@@ -70,5 +71,12 @@ Add any details you know; omit the rest rather than filling fields with `null`.
 | `options.remoteHiring` | Optional boolean: `true` for remote-friendly, `false` for onsite-only. |
 | `locations[].type` | `headquarters`, `office`, or `factory`. |
 | `locations[].coordinates` | `[longitude, latitude]`, matching GeoJSON and MapLibre order. |
+| `locations[].isApproximate` | Optional `true` when the street address is unknown and the marker represents a deliberately offset city- or area-level position. Omit it for verified street addresses. |
+
+## Locations without a public street address
+
+When only a city or neighbourhood is known, use a stable point roughly 1–3 km from the city centre rather than reusing the centre coordinate. This keeps nearby company markers individually selectable. Set `address` to `Approximate location in City, Country` (or name the known neighbourhood), and add `isApproximate: true`.
+
+Choose the point once and commit it to the dataset; do not randomise it in the browser. Before adding it, compare nearby records and adjust the point so it does not overlap an existing marker. The map labels these entries as approximate, so the offset must never imply a verified office address.
 
 Run `pnpm validate:data` after editing. The formal schema is available at `schema/company.schema.json` for editor integrations.

@@ -12,7 +12,7 @@ If you do not want to edit code, open an **Add a company** issue and provide the
 2. Edit `src/data/companies.json`.
 3. Follow `docs/data-format.md` and keep descriptions factual and brief.
 4. Add the careers or logo link if they are readily available; both are optional.
-5. Use approximate city-centre coordinates only when a public street address is unavailable. Coordinates are `[longitude, latitude]`.
+5. When a public street address is unavailable, use a stable, slightly offset city-level coordinate and set `isApproximate: true`; see `docs/data-format.md`. Coordinates are `[longitude, latitude]`.
 6. Run `pnpm validate:data` and `pnpm build`.
 7. Open a pull request explaining what changed.
 
