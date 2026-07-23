@@ -2797,6 +2797,13 @@
         "city": "Oslo",
         "country": "Norway",
         "address": "Karenslyst allé 57, 0277 Oslo"
+      },
+      {
+        "id": "wheel-me-gamle-fredrikstad",
+        "type": "office",
+        "city": "Gamle Fredrikstad",
+        "country": "Norway",
+        "address": "Habornveien 53, 1630 Gamle Fredrikstad"
       }
     ]
   },
