@@ -1079,7 +1079,8 @@
         "id": "auar-london",
         "type": "headquarters",
         "city": "London",
-        "country": "United Kingdom"
+        "country": "United Kingdom",
+        "address": "Unit 18, Uplands Business Park, London E17 5QJ"
       }
     ]
   },
