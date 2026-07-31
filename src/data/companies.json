@@ -1747,6 +1747,37 @@
     ]
   },
   {
+    "id": "qlayers",
+    "name": "Qlayers",
+    "description": "Builds robotic systems that apply protective coatings to storage tanks, ships and wind turbines with virtually no overspray.",
+    "categories": [
+      "Industrial robotics",
+      "Robotics hardware"
+    ],
+    "links": {
+      "website": "https://www.qlayers.com/",
+      "careers": "https://www.qlayers.com/career/",
+      "logo": "https://www.qlayers.com/wp-content/uploads/2025/01/cropped-favicon-180x180.png"
+    },
+    "options": {
+      "founded": 2017,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Private equity"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "qlayers-delft",
+        "type": "headquarters",
+        "city": "Delft",
+        "country": "Netherlands",
+        "address": "Ampèreweg 2, 2627 BG Delft"
+      }
+    ]
+  },
+  {
     "id": "german-bionic",
     "name": "German Bionic",
     "description": "Builds AI-powered wearable exoskeletons that support workers during lifting, carrying and repetitive physical work.",

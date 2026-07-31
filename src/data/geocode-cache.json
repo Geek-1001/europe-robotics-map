@@ -594,6 +594,13 @@
         10.9655802,
         59.1893664
       ]
+    },
+    "qlayers-delft": {
+      "query": "Ampèreweg 2, 2627 BG Delft, Delft, Netherlands",
+      "coordinates": [
+        4.3692622,
+        51.9875649
+      ]
     }
   },
   "cities": {
