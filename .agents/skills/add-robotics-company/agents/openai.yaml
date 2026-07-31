@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Robotics Company"
+  short_description: "Research, verify, and add robotics companies"
+  default_prompt: "Use $add-robotics-company to research a robotics company URL and add it to the map data."
