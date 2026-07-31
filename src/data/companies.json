@@ -2937,5 +2937,37 @@
         "address": "Rue Galilée 6, 1400 Yverdon-les-Bains"
       }
     ]
+  },
+  {
+    "id": "uma",
+    "name": "UMA",
+    "description": "Builds general-purpose mobile and humanoid robots for logistics, manufacturing and other real-world work.",
+    "categories": [
+      "Humanoids",
+      "Autonomous mobile robots",
+      "Embodied AI"
+    ],
+    "links": {
+      "website": "https://uma.bot/",
+      "careers": "https://app.dover.com/jobs/uma",
+      "logo": "https://uma.bot/icon.svg"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Pre-seed"
+      },
+      "remoteHiring": false
+    },
+    "locations": [
+      {
+        "id": "uma-paris",
+        "type": "headquarters",
+        "city": "Paris",
+        "country": "France",
+        "address": "5 Rue de la Manutention, 75016 Paris"
+      }
+    ]
   }
 ]

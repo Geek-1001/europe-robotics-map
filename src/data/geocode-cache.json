@@ -601,6 +601,13 @@
         4.3692622,
         51.9875649
       ]
+    },
+    "uma-paris": {
+      "query": "5 Rue de la Manutention, 75016 Paris, Paris, France",
+      "coordinates": [
+        2.2959343,
+        48.8639537
+      ]
     }
   },
   "cities": {
