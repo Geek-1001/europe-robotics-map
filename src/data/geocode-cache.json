@@ -608,6 +608,69 @@
         2.2959343,
         48.8639537
       ]
+    },
+    "innok-robotics-regenstauf": {
+      "query": "Bahnweg 4, 93128 Regenstauf, Regenstauf, Germany",
+      "coordinates": [
+        12.1243369,
+        49.116382
+      ]
+    },
+    "cognibotics-lund": {
+      "query": "Scheelevägen 15, 223 70 Lund, Lund, Sweden",
+      "coordinates": [
+        13.2155039,
+        55.7121526
+      ]
+    },
+    "maritime-robotics-trondheim": {
+      "query": "Brattørkaia 11, 7010 Trondheim, Trondheim, Norway",
+      "coordinates": [
+        10.400382,
+        63.439944
+      ]
+    },
+    "maritime-robotics-vanvikan": {
+      "query": "Verkstedveien 4G, 7125 Vanvikan, Vanvikan, Norway",
+      "coordinates": [
+        10.240927,
+        63.5567499
+      ]
+    },
+    "perceptual-robotics-bristol": {
+      "query": "Filton Road, Stoke Gifford, BS34 8RB, Bristol, United Kingdom",
+      "coordinates": [
+        -2.5569628,
+        51.5117554
+      ]
+    },
+    "perceptual-robotics-marousi": {
+      "query": "Sina 5, Marousi, Athens 151 24, Marousi, Greece",
+      "coordinates": [
+        23.8049311,
+        38.0457494
+      ]
+    },
+    "hyperion-robotics-espoo": {
+      "query": "Vitikka 6, 02630 Espoo, Espoo, Finland",
+      "coordinates": [
+        24.7665159,
+        60.2070768
+      ]
+    },
+    "hive-autonomy-london": {
+      "query": "Capital House, 25 Chapel Street, London NW1 5DH, London, United Kingdom",
+      "coordinates": [
+        -0.1685682,
+        51.5197458
+      ]
+    },
+    "hive-autonomy-kristiansand": {
+      "query": "Stemmane 12, 4636 Kristiansand, Kristiansand, Norway",
+      "coordinates": [
+        8.1343056,
+        58.1732904
+      ]
     }
   },
   "cities": {
@@ -763,6 +826,20 @@
       "coordinates": [
         10.0013165,
         53.5501721
+      ]
+    },
+    "Greece|Elliniko": {
+      "query": "Elliniko, Greece",
+      "coordinates": [
+        23.7471137,
+        37.8925913
+      ]
+    },
+    "United Kingdom|Flixborough": {
+      "query": "Flixborough, United Kingdom",
+      "coordinates": [
+        -0.6822297,
+        53.6248597
       ]
     }
   }

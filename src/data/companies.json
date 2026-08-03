@@ -2969,5 +2969,322 @@
         "address": "5 Rue de la Manutention, 75016 Paris"
       }
     ]
+  },
+  {
+    "id": "mkind",
+    "name": "mkind",
+    "description": "Builds AI-native robotic work cells for surface finishing, welding and coating in high-mix manufacturing.",
+    "categories": [
+      "Factory automation",
+      "Industrial robotics",
+      "Robot learning"
+    ],
+    "links": {
+      "website": "https://mkind.ai/",
+      "logo": "https://mkind.ai/assets/icon-dark.png"
+    },
+    "options": {
+      "founded": 2026,
+      "employees": "1–10",
+      "funding": {
+        "stage": "Pre-seed",
+        "amount": 3,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "mkind-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "innok-robotics",
+    "name": "Innok Robotics",
+    "description": "Builds multiterrain autonomous mobile robots for industrial logistics, inspection and outdoor operations.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Logistics",
+      "Inspection"
+    ],
+    "links": {
+      "website": "https://www.innok-robotics.de/en/",
+      "careers": "https://www.innok-robotics.de/en/career",
+      "logo": "https://www.innok-robotics.de/hubfs/Identity/innok-robotics-favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2012,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Growth financing",
+        "amount": 3.3,
+        "currency": "EUR"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "innok-robotics-regenstauf",
+        "type": "headquarters",
+        "city": "Regenstauf",
+        "country": "Germany",
+        "address": "Bahnweg 4, 93128 Regenstauf"
+      }
+    ]
+  },
+  {
+    "id": "cognibotics",
+    "name": "Cognibotics",
+    "description": "Develops high-speed, long-reach industrial robots and motion-control software for logistics and manufacturing automation.",
+    "categories": [
+      "Industrial robotics",
+      "Warehouse automation",
+      "Robotics software"
+    ],
+    "links": {
+      "website": "https://www.cognibotics.com/en",
+      "logo": "https://a.storyblok.com/f/251941/512x256/66a58431c3/cognibotics-logo-no-text-blue-512.png/m/512x0"
+    },
+    "options": {
+      "founded": 2013,
+      "employees": "11–50",
+      "funding": {
+        "stage": "EIC Accelerator blended finance",
+        "amount": 6.5,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "cognibotics-lund",
+        "type": "headquarters",
+        "city": "Lund",
+        "country": "Sweden",
+        "address": "Scheelevägen 15, 223 70 Lund"
+      }
+    ]
+  },
+  {
+    "id": "kyber",
+    "name": "Kyber",
+    "description": "Provides ultra-low-latency infrastructure for remotely controlling and observing robots, drones and autonomous vehicles.",
+    "categories": [
+      "Teleoperation",
+      "Robotics software",
+      "Autonomous vehicles"
+    ],
+    "links": {
+      "website": "https://kyber.tech/",
+      "careers": "https://kyber.tech/about/#careers",
+      "logo": "https://kyber.tech/favicon.svg"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 5,
+        "currency": "USD"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "kyber-paris",
+        "type": "headquarters",
+        "city": "Paris",
+        "country": "France"
+      }
+    ]
+  },
+  {
+    "id": "acumino",
+    "name": "Acumino",
+    "description": "Develops AI-powered robot models for dexterous industrial tasks including assembly, material handling and packaging.",
+    "categories": [
+      "Robot learning",
+      "Factory automation",
+      "Manipulation"
+    ],
+    "links": {
+      "website": "https://acumino.ai/",
+      "logo": "https://acumino.ai/favicon.svg"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 11.7,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "acumino-elliniko",
+        "type": "office",
+        "city": "Elliniko",
+        "country": "Greece"
+      }
+    ]
+  },
+  {
+    "id": "maritime-robotics",
+    "name": "Maritime Robotics",
+    "description": "Builds autonomous surface vessels and navigation systems for ocean mapping, monitoring, energy and maritime security.",
+    "categories": [
+      "Autonomous vehicles",
+      "Navigation",
+      "Inspection"
+    ],
+    "links": {
+      "website": "https://www.maritimerobotics.com/",
+      "careers": "https://www.maritimerobotics.com/career",
+      "logo": "https://www.maritimerobotics.com/favicons/favicon-32x32.png"
+    },
+    "options": {
+      "founded": 2005,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Growth investment",
+        "amount": 28,
+        "currency": "EUR"
+      }
+    },
+    "locations": [
+      {
+        "id": "maritime-robotics-trondheim",
+        "type": "headquarters",
+        "city": "Trondheim",
+        "country": "Norway",
+        "address": "Brattørkaia 11, 7010 Trondheim"
+      },
+      {
+        "id": "maritime-robotics-vanvikan",
+        "type": "factory",
+        "city": "Vanvikan",
+        "country": "Norway",
+        "address": "Verkstedveien 4G, 7125 Vanvikan"
+      }
+    ]
+  },
+  {
+    "id": "perceptual-robotics",
+    "name": "Perceptual Robotics",
+    "description": "Develops autonomous drones and AI analytics for wind turbine inspection, damage assessment and maintenance planning.",
+    "categories": [
+      "Drones",
+      "Inspection",
+      "Computer vision"
+    ],
+    "links": {
+      "website": "https://www.perceptual-robotics.com/",
+      "logo": "https://www.perceptual-robotics.com/wp-content/uploads/2021/07/cropped-PR-Favicon-01-192x192.png"
+    },
+    "options": {
+      "founded": 2016,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Equity and grant funding",
+        "amount": 4,
+        "currency": "GBP"
+      }
+    },
+    "locations": [
+      {
+        "id": "perceptual-robotics-bristol",
+        "type": "headquarters",
+        "city": "Bristol",
+        "country": "United Kingdom",
+        "address": "Filton Road, Stoke Gifford, BS34 8RB"
+      },
+      {
+        "id": "perceptual-robotics-marousi",
+        "type": "office",
+        "city": "Marousi",
+        "country": "Greece",
+        "address": "Sina 5, Marousi, Athens 151 24"
+      }
+    ]
+  },
+  {
+    "id": "hyperion-robotics",
+    "name": "Hyperion Robotics",
+    "description": "Uses computational design, industrial robotics and low-carbon concrete to manufacture foundations for energy and infrastructure projects.",
+    "categories": [
+      "Construction",
+      "Factory automation",
+      "Industrial robotics"
+    ],
+    "links": {
+      "website": "https://www.hyperionrobotics.com/",
+      "logo": "https://www.hyperionrobotics.com/wp-content/uploads/2025/01/site-logo.svg"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Growth funding",
+        "amount": 7.4,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "hyperion-robotics-espoo",
+        "type": "headquarters",
+        "city": "Espoo",
+        "country": "Finland",
+        "address": "Vitikka 6, 02630 Espoo"
+      },
+      {
+        "id": "hyperion-robotics-flixborough",
+        "type": "factory",
+        "city": "Flixborough",
+        "country": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "id": "hive-autonomy",
+    "name": "HIVE",
+    "description": "Develops physical AI that retrofits industrial machines with autonomy and coordinates mixed fleets across construction, mining and logistics.",
+    "categories": [
+      "Autonomous vehicles",
+      "Fleet management",
+      "Robotics software"
+    ],
+    "links": {
+      "website": "https://hiveautonomy.no/",
+      "logo": "https://framerusercontent.com/images/hS8ybs3Bg2eIZcf4PrRapBoLD8.png"
+    },
+    "options": {
+      "founded": 2022,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed",
+        "amount": 15,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "hive-autonomy-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Capital House, 25 Chapel Street, London NW1 5DH"
+      },
+      {
+        "id": "hive-autonomy-kristiansand",
+        "type": "office",
+        "city": "Kristiansand",
+        "country": "Norway",
+        "address": "Stemmane 12, 4636 Kristiansand"
+      }
+    ]
   }
 ]
