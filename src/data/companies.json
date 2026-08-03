@@ -3286,5 +3286,36 @@
         "address": "Stemmane 12, 4636 Kristiansand"
       }
     ]
+  },
+  {
+    "id": "reimagine-robotics",
+    "name": "Reimagine Robotics",
+    "description": "Develops configurable AI-powered robots that workers teach through demonstration and correction for manufacturing and electronics disassembly.",
+    "categories": [
+      "Robot learning",
+      "Factory automation",
+      "Manipulation"
+    ],
+    "links": {
+      "website": "https://reimaginerobotics.ai/",
+      "careers": "https://reimaginerobotics.ai/careers",
+      "logo": "https://reimaginerobotics.ai/favicon.ico"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Pre-seed"
+      }
+    },
+    "locations": [
+      {
+        "id": "reimagine-robotics-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "SE17 3EP"
+      }
+    ]
   }
 ]
