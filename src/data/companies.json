@@ -3317,5 +3317,31 @@
         "address": "SE17 3EP"
       }
     ]
+  },
+  {
+    "id": "nucleus-robotics",
+    "name": "Nucleus Robotics",
+    "description": "Develops humanoid robots and an operator framework for autonomous, imitation-trained factory work with teleoperation for exceptions.",
+    "categories": [
+      "Humanoids",
+      "Factory automation",
+      "Robot learning",
+      "Teleoperation"
+    ],
+    "links": {
+      "website": "https://nucleuslab.ai/",
+      "logo": "https://nucleuslab.ai/favicon-light.ico"
+    },
+    "options": {
+      "founded": 2026
+    },
+    "locations": [
+      {
+        "id": "nucleus-robotics-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany"
+      }
+    ]
   }
 ]
