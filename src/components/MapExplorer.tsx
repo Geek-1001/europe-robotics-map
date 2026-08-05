@@ -39,6 +39,7 @@ const COMPANY_FOCUS_ZOOM = 11;
 const DEFAULT_PANEL_WIDTH = 420;
 const MIN_PANEL_WIDTH = 380;
 const MAX_PANEL_WIDTH = 560;
+const COMPANY_SEARCH_PARAM = 'company';
 
 const formatFunding = (company: Company) => {
   const funding = company.options?.funding;
@@ -122,6 +123,31 @@ export default function MapExplorer({ companies }: Props) {
     setRemoteOnly(false); setSort('name-asc');
   }, []);
 
+  const selectCompany = useCallback((companyId: string | null) => {
+    setSelectedId(companyId);
+
+    const url = new URL(window.location.href);
+    const currentCompanyId = url.searchParams.get(COMPANY_SEARCH_PARAM);
+    if (currentCompanyId === companyId || (!currentCompanyId && companyId === null)) return;
+
+    if (companyId) url.searchParams.set(COMPANY_SEARCH_PARAM, companyId);
+    else url.searchParams.delete(COMPANY_SEARCH_PARAM);
+    window.history.replaceState(window.history.state, '', url);
+  }, []);
+
+  useEffect(() => {
+    const restoreCompanyFromUrl = () => {
+      const companyId = new URL(window.location.href).searchParams.get(COMPANY_SEARCH_PARAM);
+      const validCompanyId = companies.some((company) => company.id === companyId) ? companyId : null;
+      setSelectedId(validCompanyId);
+      if (validCompanyId) setMobileView('map');
+    };
+
+    restoreCompanyFromUrl();
+    window.addEventListener('popstate', restoreCompanyFromUrl);
+    return () => window.removeEventListener('popstate', restoreCompanyFromUrl);
+  }, [companies]);
+
   const startPanelResize = (event: React.PointerEvent<HTMLDivElement>) => {
     if (window.innerWidth <= 720) return;
     event.preventDefault();
@@ -165,8 +191,8 @@ export default function MapExplorer({ companies }: Props) {
   }, [filteredCompanies]);
 
   useEffect(() => {
-    if (mapReady) fitVisible();
-  }, [mapReady, fitVisible]);
+    if (mapReady && !selectedCompany) fitVisible();
+  }, [mapReady, fitVisible, selectedCompany]);
 
   useEffect(() => {
     if (!mapContainerRef.current || mapRef.current) return;
@@ -291,7 +317,7 @@ export default function MapExplorer({ companies }: Props) {
 
       element.append(core);
       element.addEventListener('click', () => {
-        setSelectedId(company.id);
+        selectCompany(company.id);
         setMobileView('map');
       });
       return new maplibregl.Marker({ element, anchor: 'bottom' });
@@ -336,18 +362,18 @@ export default function MapExplorer({ companies }: Props) {
       markerCache.clear();
       markersOnScreen.clear();
     };
-  }, [companies, mapReady, selectedId]);
+  }, [companies, mapReady, selectCompany, selectedId]);
 
   useEffect(() => {
-    if (!selectedCompany || !mapRef.current) return;
+    if (!mapReady || !selectedCompany || !mapRef.current) return;
     const headquarters = selectedCompany.locations.find((location) => location.type === 'headquarters') ?? selectedCompany.locations[0];
     const desktop = window.innerWidth > 720;
     mapRef.current.flyTo({ center: headquarters.coordinates, zoom: COMPANY_FOCUS_ZOOM, duration: 950, essential: true, padding: { left: desktop ? panelWidthRef.current + 48 : 0, right: desktop ? 442 : 0, top: 0, bottom: 80 } });
-  }, [selectedCompany]);
+  }, [mapReady, selectedCompany]);
 
   useEffect(() => {
-    if (selectedId && !filteredCompanies.some((company) => company.id === selectedId)) setSelectedId(null);
-  }, [filteredCompanies, selectedId]);
+    if (selectedId && !filteredCompanies.some((company) => company.id === selectedId)) selectCompany(null);
+  }, [filteredCompanies, selectCompany, selectedId]);
 
   useEffect(() => {
     if (!filtersOpen) return;
@@ -436,7 +462,7 @@ export default function MapExplorer({ companies }: Props) {
 
         <div className="company-list" aria-live="polite">
           {filteredCompanies.map((company, index) => (
-            <button className={`company-card ${selectedId === company.id ? 'is-selected' : ''}`} type="button" key={company.id} onClick={() => { setSelectedId(company.id); setMobileView('map'); }} style={{ '--delay': `${Math.min(index * 45, 360)}ms` } as React.CSSProperties}>
+            <button className={`company-card ${selectedId === company.id ? 'is-selected' : ''}`} type="button" key={company.id} onClick={() => { selectCompany(company.id); setMobileView('map'); }} style={{ '--delay': `${Math.min(index * 45, 360)}ms` } as React.CSSProperties}>
               <CompanyLogo company={company} />
               <span className="company-card__body">
                 <span className="company-card__top"><strong>{company.name}</strong>{company.options?.remoteHiring && <span className="remote-tag"><Radio size={10} /> Remote</span>}</span>
@@ -485,7 +511,7 @@ export default function MapExplorer({ companies }: Props) {
         {mapFailed && <div className="map-error"><MapIcon size={24} /><strong>Map tiles are offline</strong><span>The company index still works. Check your connection to load the geographic layer.</span></div>}
 
         {selectedCompany && (
-          <CompanyDetail company={selectedCompany} onClose={() => setSelectedId(null)} onLocation={(location) => mapRef.current?.flyTo({ center: location.coordinates, zoom: 9, duration: 850, essential: true })} />
+          <CompanyDetail company={selectedCompany} onClose={() => selectCompany(null)} onLocation={(location) => mapRef.current?.flyTo({ center: location.coordinates, zoom: 9, duration: 850, essential: true })} />
         )}
       </section>
 
