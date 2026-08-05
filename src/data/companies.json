@@ -3347,7 +3347,7 @@
   {
     "id": "meili-robots",
     "name": "Meili Robots",
-    "description": "Develops vendor-independent software for coordinating, routing and monitoring mixed-brand mobile robot fleets across industrial facilities.",
+    "description": "Universal fleet manager for mobile robots. Vendor and hardware agnostic across multiple industry segments",
     "categories": [
       "Fleet management",
       "Robotics software",
