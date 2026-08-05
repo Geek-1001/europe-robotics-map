@@ -3343,5 +3343,33 @@
         "country": "Germany"
       }
     ]
+  },
+  {
+    "id": "meili-robots",
+    "name": "Meili Robots",
+    "description": "Develops vendor-independent software for coordinating, routing and monitoring mixed-brand mobile robot fleets across industrial facilities.",
+    "categories": [
+      "Fleet management",
+      "Robotics software",
+      "Autonomous mobile robots"
+    ],
+    "links": {
+      "website": "https://meilirobots.com/",
+      "careers": "https://meilirobots.com/about",
+      "logo": "https://images.squarespace-cdn.com/content/v1/6616ae8561bf6a6177fc5d75/1712762569418-8M196FLZN1W63ATDL1J5/favicon.ico?format=100w"
+    },
+    "options": {
+      "founded": 2019,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "meili-robots-kongens-lyngby",
+        "type": "headquarters",
+        "city": "Kongens Lyngby",
+        "country": "Denmark",
+        "address": "Diplomvej 381, 2800 Kongens Lyngby"
+      }
+    ]
   }
 ]

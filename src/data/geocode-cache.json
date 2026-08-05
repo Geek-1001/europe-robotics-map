@@ -678,6 +678,13 @@
         -0.09972,
         51.48568
       ]
+    },
+    "meili-robots-kongens-lyngby": {
+      "query": "Diplomvej 381, 2800 Kongens Lyngby, Kongens Lyngby, Denmark",
+      "coordinates": [
+        12.512894,
+        55.782762
+      ]
     }
   },
   "cities": {
