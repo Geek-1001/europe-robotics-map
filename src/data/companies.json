@@ -3573,5 +3573,39 @@
         "address": "Elektrovej 331, 2800 Kongens Lyngby"
       }
     ]
+  },
+  {
+    "id": "synaos",
+    "name": "SYNAOS",
+    "description": "Develops vendor-agnostic software that orchestrates mobile robots, forklifts and workers across factory and warehouse intralogistics.",
+    "categories": [
+      "Fleet management",
+      "Robotics software",
+      "Warehouse automation"
+    ],
+    "links": {
+      "website": "https://www.synaos.com/en",
+      "careers": "https://www.synaos.com/en/career",
+      "logo": "https://cdn.prod.website-files.com/61fa39c3eda3ef38a97fde68/6218edefa67638e072368165_Coral-Favicon-32px.png"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "51–200",
+      "funding": {
+        "stage": "Seed",
+        "amount": 6,
+        "currency": "EUR"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "synaos-hanover",
+        "type": "headquarters",
+        "city": "Hanover",
+        "country": "Germany",
+        "address": "Goseriede 4, 30159 Hanover"
+      }
+    ]
   }
 ]

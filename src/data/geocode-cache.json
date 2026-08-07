@@ -727,6 +727,13 @@
         12.513566,
         55.783613
       ]
+    },
+    "synaos-hanover": {
+      "query": "Goseriede 4, 30159 Hanover, Hanover, Germany",
+      "coordinates": [
+        9.7329141,
+        52.3773769
+      ]
     }
   },
   "cities": {
