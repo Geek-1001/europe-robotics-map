@@ -3405,5 +3405,173 @@
         "country": "Germany"
       }
     ]
+  },
+  {
+    "id": "sonair",
+    "name": "Sonair",
+    "description": "Develops safety-certified 3D ultrasonic sensors that help autonomous robots detect people and obstacles in shared spaces.",
+    "categories": [
+      "Robotics hardware",
+      "Autonomous mobile robots",
+      "Industrial robotics"
+    ],
+    "links": {
+      "website": "https://www.sonair.com/",
+      "careers": "https://www.sonair.com/company",
+      "logo": "https://cdn.prod.website-files.com/65eeb61f568fba33bac91879/686cd15c6379ac783594bb70_favicon.jpg"
+    },
+    "options": {
+      "founded": 2022,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Venture round",
+        "amount": 6,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "sonair-oslo",
+        "type": "headquarters",
+        "city": "Oslo",
+        "country": "Norway",
+        "address": "Gullhaug Torg 2D, 0484 Oslo"
+      },
+      {
+        "id": "sonair-odense",
+        "type": "office",
+        "city": "Odense",
+        "country": "Denmark",
+        "address": "Kochsgade 31, 5000 Odense"
+      },
+      {
+        "id": "sonair-kirchzarten",
+        "type": "office",
+        "city": "Kirchzarten",
+        "country": "Germany"
+      }
+    ]
+  },
+  {
+    "id": "riact",
+    "name": "RiACT",
+    "description": "Develops hardware-agnostic software for configuring, programming and operating industrial robots across brands.",
+    "categories": [
+      "Robotics software",
+      "Factory automation",
+      "Industrial robotics"
+    ],
+    "links": {
+      "website": "https://www.riact.ai/",
+      "careers": "https://www.riact.ai/careers",
+      "logo": "https://cdn.prod.website-files.com/64eda916ec10005d85a2aa19/64edafba86509a92f81b56fc_FavIcon_32x32.jpg"
+    },
+    "options": {
+      "founded": 2018,
+      "employees": "1–10",
+      "funding": {
+        "stage": "Venture round"
+      }
+    },
+    "locations": [
+      {
+        "id": "riact-valby",
+        "type": "headquarters",
+        "city": "Valby",
+        "country": "Denmark",
+        "address": "Carl Jacobsens Vej 20A, 2500 Valby"
+      }
+    ]
+  },
+  {
+    "id": "erletek",
+    "name": "ERLEtek",
+    "description": "Develops mobile 3D-printing robots that build concrete and clay wall structures directly on construction sites.",
+    "categories": [
+      "Construction",
+      "Autonomous mobile robots",
+      "Robotics hardware"
+    ],
+    "links": {
+      "website": "https://erletek.io/",
+      "careers": "https://dk.linkedin.com/jobs/view/robotics-engineer-at-erletek-4443349597",
+      "logo": "https://erletek.io/assets/images/favicon.png?v=36ea96f0"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "1–10",
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "erletek-kongens-lyngby",
+        "type": "headquarters",
+        "city": "Kongens Lyngby",
+        "country": "Denmark",
+        "address": "Centrifugevej 374, 2800 Kongens Lyngby"
+      }
+    ]
+  },
+  {
+    "id": "robotize",
+    "name": "Robotize",
+    "description": "Builds autonomous mobile robots and fleet software for transporting pallets, carts and materials inside factories and warehouses.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Logistics",
+      "Fleet management"
+    ],
+    "links": {
+      "website": "https://robotize.com/",
+      "careers": "https://robotize.com/careers",
+      "logo": "https://robotize.com/hubfs/Favicon-Robotize-green-on-black_bg.png"
+    },
+    "options": {
+      "founded": 2016,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Corporate minority investment"
+      }
+    },
+    "locations": [
+      {
+        "id": "robotize-kongens-lyngby",
+        "type": "headquarters",
+        "city": "Kongens Lyngby",
+        "country": "Denmark",
+        "address": "Maglebjergvej 5B, 2800 Kongens Lyngby"
+      }
+    ]
+  },
+  {
+    "id": "agrirobot",
+    "name": "AgriRobot",
+    "description": "Develops certifiable safety and perception software that enables agricultural robots to operate without continuous field supervision.",
+    "categories": [
+      "Agriculture",
+      "Robotics software",
+      "Computer vision"
+    ],
+    "links": {
+      "website": "https://agrirobot.ai/",
+      "careers": "https://dk.linkedin.com/jobs/view/senior-robotics-perception-engineer-at-agrirobot-4437169471",
+      "logo": "https://agrirobot.ai/wp-content/uploads/2023/03/cropped-Favicon-32x32.jpg"
+    },
+    "options": {
+      "founded": 2021,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Seed"
+      }
+    },
+    "locations": [
+      {
+        "id": "agrirobot-kongens-lyngby",
+        "type": "headquarters",
+        "city": "Kongens Lyngby",
+        "country": "Denmark",
+        "address": "Elektrovej 331, 2800 Kongens Lyngby"
+      }
+    ]
   }
 ]
