@@ -855,6 +855,13 @@
         -0.6822297,
         53.6248597
       ]
+    },
+    "Germany|Aachen": {
+      "query": "Aachen, Germany",
+      "coordinates": [
+        6.083862,
+        50.776351
+      ]
     }
   }
 }

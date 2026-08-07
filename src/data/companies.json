@@ -3371,5 +3371,39 @@
         "address": "Diplomvej 381, 2800 Kongens Lyngby"
       }
     ]
+  },
+  {
+    "id": "athenyx-robotics",
+    "name": "Athenyx Robotics",
+    "description": "Develops a hardware-agnostic Physical AI platform for creating, deploying and improving robot skills in industrial manufacturing.",
+    "categories": [
+      "Robotics software",
+      "Robot learning",
+      "Embodied AI"
+    ],
+    "links": {
+      "website": "https://athenyxrobotics.com/",
+      "careers": "https://athenyxrobotics.com/careers",
+      "logo": "https://athenyxrobotics.com/apple-touch-icon.png"
+    },
+    "options": {
+      "founded": 2026,
+      "employees": "1–10",
+      "remoteHiring": false
+    },
+    "locations": [
+      {
+        "id": "athenyx-robotics-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      {
+        "id": "athenyx-robotics-aachen",
+        "type": "office",
+        "city": "Aachen",
+        "country": "Germany"
+      }
+    ]
   }
 ]
