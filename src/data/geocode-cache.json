@@ -685,6 +685,55 @@
         12.512894,
         55.782762
       ]
+    },
+    "sonair-oslo": {
+      "query": "Gullhaug Torg 2D, 0484 Oslo, Oslo, Norway",
+      "coordinates": [
+        10.76582,
+        59.95016
+      ]
+    },
+    "sonair-odense": {
+      "query": "Kochsgade 31, 5000 Odense, Odense, Denmark",
+      "coordinates": [
+        10.398754,
+        55.403328
+      ]
+    },
+    "riact-valby": {
+      "query": "Carl Jacobsens Vej 20A, 2500 Valby, Valby, Denmark",
+      "coordinates": [
+        12.516694,
+        55.654262
+      ]
+    },
+    "erletek-kongens-lyngby": {
+      "query": "Centrifugevej 374, 2800 Kongens Lyngby, Kongens Lyngby, Denmark",
+      "coordinates": [
+        12.513232,
+        55.781493
+      ]
+    },
+    "robotize-kongens-lyngby": {
+      "query": "Maglebjergvej 5B, 2800 Kongens Lyngby, Kongens Lyngby, Denmark",
+      "coordinates": [
+        12.5186608,
+        55.7986186
+      ]
+    },
+    "agrirobot-kongens-lyngby": {
+      "query": "Elektrovej 331, 2800 Kongens Lyngby, Kongens Lyngby, Denmark",
+      "coordinates": [
+        12.513566,
+        55.783613
+      ]
+    },
+    "synaos-hanover": {
+      "query": "Goseriede 4, 30159 Hanover, Hanover, Germany",
+      "coordinates": [
+        9.7329141,
+        52.3773769
+      ]
     }
   },
   "cities": {
@@ -854,6 +903,20 @@
       "coordinates": [
         -0.6822297,
         53.6248597
+      ]
+    },
+    "Germany|Aachen": {
+      "query": "Aachen, Germany",
+      "coordinates": [
+        6.083862,
+        50.776351
+      ]
+    },
+    "Germany|Kirchzarten": {
+      "query": "Kirchzarten, Germany",
+      "coordinates": [
+        7.954201,
+        47.9626264
       ]
     }
   }
