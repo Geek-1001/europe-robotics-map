@@ -1,5 +1,32 @@
 [
   {
+  "id": "ep-equipment",
+  "name": "EP Equipment",
+  "description": "Builds autonomous mobile robots, automated pallet trucks and warehouse automation solutions for intralogistics.",
+  "categories": [
+    "Warehouse automation",
+    "Autonomous mobile robots",
+    "Logistics"
+  ],
+  "links": {
+    "website": "https://ep-equipment.com/",
+    "careers": "https://ep-equipment.com/careers/",
+    "logo": "https://www.google.com/s2/favicons?domain=ep-equipment.com&sz=128"
+  },
+  "options": {
+    "founded": 2007
+  },
+  "locations": [
+    {
+      "id": "ep-equipment-cologne",
+      "type": "headquarters",
+      "city": "Cologne",
+      "country": "Germany",
+      "address": "Schanzenstraße 35, 51063 Cologne"
+    }
+  ]
+},
+  {
     "id": "wayve",
     "name": "Wayve",
     "description": "Builds general-purpose embodied AI that learns to drive across vehicles, cities and levels of autonomy.",
@@ -73,7 +100,7 @@
       "remoteHiring": false
     },
     "locations": [
-      { "id": "whistle-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "5 Spare St, London SE17 3EP" }
+      { "id": "whistle-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "5 Spare St, London SE17 3" }
     ]
   },
   {
@@ -142,7 +169,7 @@
   {
     "id": "neuracore",
     "name": "Neuracore",
-    "description": "Provides a platform for collecting demonstrations, curating datasets, training robot policies and deploying them to real robots.",
+    "description": "Provides a platform for collecting demonstrations, curating datasets, training robot policies and dloying them to real robots.",
     "categories": [
       "Robot learning",
       "Robotics software",
@@ -169,7 +196,7 @@
   {
     "id": "arthur-robotics",
     "name": "Arthur Robotics",
-    "description": "Builds reprogrammable robotic automation for high-mix production lines without custom tooling.",
+    "description": "Builds rrogrammable robotic automation for high-mix production lines without custom tooling.",
     "categories": [
       "Factory automation",
       "Industrial robotics",
@@ -197,7 +224,7 @@
   {
     "id": "qualia",
     "name": "Qualia",
-    "description": "Fine-tunes vision-language-action models and deploys them on European factory and logistics lines.",
+    "description": "Fine-tunes vision-language-action models and dloys them on European factory and logistics lines.",
     "categories": [
       "Embodied AI",
       "Robot learning",
