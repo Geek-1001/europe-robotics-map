@@ -4,7 +4,7 @@ import react from '@astrojs/react';
 export default defineConfig({
   integrations: [react()],
   output: 'static',
-  site: 'https://europe-robotics-map.netlify.app',
+  site: 'https://europeroboticsmap.com',
   vite: {
     build: {
       sourcemap: true,
