@@ -67,6 +67,7 @@ export default function MapExplorer({ companies }: Props) {
   const [remoteOnly, setRemoteOnly] = useState(false);
   const [sort, setSort] = useState<SortKey>('name-asc');
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedMapLocation, setSelectedMapLocation] = useState<{ id: string } | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [mobileView, setMobileView] = useState<MobileView>('list');
   const [panelWidth, setPanelWidth] = useState(DEFAULT_PANEL_WIDTH);
@@ -124,8 +125,9 @@ export default function MapExplorer({ companies }: Props) {
     setRemoteOnly(false); setSort('name-asc');
   }, []);
 
-  const selectCompany = useCallback((companyId: string | null) => {
+  const selectCompany = useCallback((companyId: string | null, locationId: string | null = null) => {
     setSelectedId(companyId);
+    setSelectedMapLocation(locationId ? { id: locationId } : null);
 
     const url = new URL(window.location.href);
     const currentCompanyId = url.searchParams.get(COMPANY_SEARCH_PARAM);
@@ -141,6 +143,7 @@ export default function MapExplorer({ companies }: Props) {
       const companyId = new URL(window.location.href).searchParams.get(COMPANY_SEARCH_PARAM);
       const validCompanyId = companies.some((company) => company.id === companyId) ? companyId : null;
       setSelectedId(validCompanyId);
+      setSelectedMapLocation(null);
       if (validCompanyId) setMobileView('map');
     };
 
@@ -294,12 +297,12 @@ export default function MapExplorer({ companies }: Props) {
     const markerCache = new Map<string, maplibregl.Marker>();
     let markersOnScreen = new Map<string, maplibregl.Marker>();
 
-    const makeLogoMarker = (company: Company, city: string) => {
+    const makeLogoMarker = (company: Company, location: CompanyLocation) => {
       const element = document.createElement('button');
       element.className = `map-marker${selectedId === company.id ? ' is-selected' : ''}`;
       element.type = 'button';
-      element.setAttribute('aria-label', `${company.name} in ${city}`);
-      element.title = `${company.name} · ${city}`;
+      element.setAttribute('aria-label', `${company.name} in ${location.city}`);
+      element.title = `${company.name} · ${location.city}`;
 
       const core = document.createElement('span');
       core.className = 'map-marker__core';
@@ -318,7 +321,7 @@ export default function MapExplorer({ companies }: Props) {
 
       element.append(core);
       element.addEventListener('click', () => {
-        selectCompany(company.id);
+        selectCompany(company.id, location.id);
         setMobileView('map');
       });
       return new maplibregl.Marker({ element, anchor: 'bottom' });
@@ -339,8 +342,9 @@ export default function MapExplorer({ companies }: Props) {
         let marker = markerCache.get(id);
         if (!marker) {
           const company = companies.find((item) => item.id === properties.companyId);
-          if (!company) return;
-          marker = makeLogoMarker(company, String(properties.city));
+          const location = company?.locations.find((item) => item.id === properties.locationId);
+          if (!company || !location) return;
+          marker = makeLogoMarker(company, location);
           markerCache.set(id, marker);
         }
 
@@ -368,9 +372,10 @@ export default function MapExplorer({ companies }: Props) {
   useEffect(() => {
     if (!mapReady || !selectedCompany || !mapRef.current) return;
     const headquarters = selectedCompany.locations.find((location) => location.type === 'headquarters') ?? selectedCompany.locations[0];
+    const focusLocation = selectedCompany.locations.find((location) => location.id === selectedMapLocation?.id) ?? headquarters;
     const desktop = window.innerWidth > 720;
-    mapRef.current.flyTo({ center: headquarters.coordinates, zoom: COMPANY_FOCUS_ZOOM, duration: 950, essential: true, padding: { left: desktop ? panelWidthRef.current + 48 : 0, right: desktop ? 442 : 0, top: 0, bottom: 80 } });
-  }, [mapReady, selectedCompany]);
+    mapRef.current.flyTo({ center: focusLocation.coordinates, zoom: COMPANY_FOCUS_ZOOM, duration: 950, essential: true, padding: { left: desktop ? panelWidthRef.current + 48 : 0, right: desktop ? 442 : 0, top: 0, bottom: 80 } });
+  }, [mapReady, selectedCompany, selectedMapLocation]);
 
   useEffect(() => {
     if (selectedId && !filteredCompanies.some((company) => company.id === selectedId)) selectCompany(null);
