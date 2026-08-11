@@ -188,6 +188,7 @@ export default function MapExplorer({ companies }: Props) {
 
   const fitVisible = useCallback(() => {
     if (!mapRef.current || filteredCompanies.length === 0) return;
+    mapRef.current.setPadding({ top: 0, right: 0, bottom: 0, left: 0 });
     const bounds = new maplibregl.LngLatBounds();
     filteredCompanies.flatMap((company) => company.locations).forEach((location) => bounds.extend(location.coordinates));
     const sidePadding = window.innerWidth > 720 ? panelWidthRef.current + 48 : 64;
