@@ -22,6 +22,7 @@ const pathname = Astro.url.pathname;
 const siteUrl = Astro.site ?? Astro.url.origin;
 const canonicalUrl = new URL(pathname, siteUrl);
 const imageUrl = new URL(image, siteUrl);
+const addCompanyUrl = 'https://github.com/Geek-1001/europe-robotics-map/issues/new?template=add-company.yml';
 ---
 
 <!doctype html>
@@ -66,7 +67,7 @@ const imageUrl = new URL(image, siteUrl);
 
         <nav class="site-nav" aria-label="Main navigation">
           <a href="/" class:list={{ active: pathname === '/' }}>Map</a>
-          <a class="nav-contribute" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">
+          <a class="nav-contribute" href={addCompanyUrl} target="_blank" rel="noreferrer">
             Add a company
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M4 11 11 4M5 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
           </a>

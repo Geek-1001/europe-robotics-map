@@ -40,6 +40,7 @@ const DEFAULT_PANEL_WIDTH = 420;
 const MIN_PANEL_WIDTH = 380;
 const MAX_PANEL_WIDTH = 560;
 const COMPANY_SEARCH_PARAM = 'company';
+const ADD_COMPANY_URL = 'https://github.com/Geek-1001/europe-robotics-map/issues/new?template=add-company.yml';
 
 const formatFunding = (company: Company) => {
   const funding = company.options?.funding;
@@ -432,7 +433,7 @@ export default function MapExplorer({ companies }: Props) {
         <header className="directory-header">
           <div className="directory-header__top">
             <a className="directory-brand" href="/" aria-label="Europe Robotics Map home">Europe Robotics Map</a>
-            <a className="directory-contribute" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Add company <ArrowUpRight size={14} /></a>
+            <a className="directory-contribute" href={ADD_COMPANY_URL} target="_blank" rel="noreferrer">Add company <ArrowUpRight size={14} /></a>
           </div>
         </header>
 
@@ -477,10 +478,10 @@ export default function MapExplorer({ companies }: Props) {
             <div className="empty-state">
               <span>0</span>
               <h2>No companies found.</h2>
-              <a className="list-cta list-cta--empty" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Add a missing company</b><small>Help put it on the map.</small></span><ArrowUpRight size={18} /></a>
+              <a className="list-cta list-cta--empty" href={ADD_COMPANY_URL} target="_blank" rel="noreferrer"><span><b>Add a missing company</b><small>Help put it on the map.</small></span><ArrowUpRight size={18} /></a>
             </div>
           ) : (
-            <a className="list-cta" href="https://github.com/Geek-1001/europe-robotics-map/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
+            <a className="list-cta" href={ADD_COMPANY_URL} target="_blank" rel="noreferrer"><span><b>Missing a company?</b><small>Add the next point to the map.</small></span><ArrowUpRight size={18} /></a>
           )}
         </div>
 

@@ -1,0 +1,52 @@
+name: Add a company
+description: Suggest a new robotics company based in Europe
+title: "Add company: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Europe Robotics Map. Please submit one company per issue.
+
+        The company should have a meaningful robotics, automation, embodied AI, autonomous-systems or robotics-enabling focus, with at least one headquarters, office or factory in geographic Europe, including the United Kingdom.
+
+        The company website and European location are required. Add the optional details when they are easy to verify; it is fine to leave them blank.
+
+  - type: input
+    id: website
+    attributes:
+      label: Company website
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: European location
+      description: A city and country is enough. Include the full public street address when known.
+    validations:
+      required: true
+
+  - type: input
+    id: careers
+    attributes:
+      label: Careers page
+      description: Optional direct link to the company's careers or open-roles page.
+      placeholder: https://example.com/careers
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Company description
+      description: Optional factual sentence about what the company builds, ideally under 180 characters.
+      placeholder: Builds autonomous robots for inspecting renewable energy infrastructure.
+
+  - type: dropdown
+    id: remote-hiring
+    attributes:
+      label: Remote-friendly hiring
+      description: Optional. Select Not sure if the company's remote policy is unclear.
+      options:
+        - "Yes"
+        - "No"
+        - Not sure

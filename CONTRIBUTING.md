@@ -4,7 +4,7 @@ Thank you for helping make the map more useful. You can contribute a new company
 
 ## The easiest route
 
-If you do not want to edit code, open an **Add a company** issue and provide the company website, European location and a one-sentence description. A maintainer can turn that into a data change.
+If you do not want to edit code, open an [**Add a company** issue](https://github.com/Geek-1001/europe-robotics-map/issues/new?template=add-company.yml). The company website and European location are required; the form also accepts an optional careers page, short description and remote-hiring status. A maintainer can turn that into a data change.
 
 ## Adding or updating a company
 
@@ -27,7 +27,7 @@ Do not edit `src/data/geocode-cache.json`. Pull-request checks resolve new or ch
 - Avoid marketing superlatives. Describe what the company builds.
 - Do not copy long descriptions from company websites.
 - Link directly to the canonical website, and include a careers page when one is available.
-- Keep one company per pull request when possible.
+- Keep one company per issue or pull request when possible.
 
 ## Code contributions
 
