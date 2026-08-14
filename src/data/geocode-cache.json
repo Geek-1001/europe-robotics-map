@@ -734,6 +734,13 @@
         9.7329141,
         52.3773769
       ]
+    },
+    "coprod-prilly": {
+      "query": "Avenue des Cerisiers 13, 1008 Prilly, Prilly, Switzerland",
+      "coordinates": [
+        6.6056005,
+        46.5383937
+      ]
     }
   },
   "cities": {

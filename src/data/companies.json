@@ -3607,5 +3607,38 @@
         "address": "Goseriede 4, 30159 Hanover"
       }
     ]
+  },
+  {
+    "id": "coprod",
+    "name": "coprod",
+    "description": "Builds a unified robotics stack of modular hardware and real-time EtherCAT controls for developing interoperable robots.",
+    "categories": [
+      "Robotics hardware",
+      "Robotics software"
+    ],
+    "links": {
+      "website": "https://coprod.co/",
+      "careers": "https://coprod.co/jobs/",
+      "logo": "https://coprod.co/assets/Logos/Black/coprod_black_logo.svg"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "1–10",
+      "funding": {
+        "stage": "Venture Kick Stage 2",
+        "amount": 0.04,
+        "currency": "CHF"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "coprod-prilly",
+        "type": "headquarters",
+        "city": "Prilly",
+        "country": "Switzerland",
+        "address": "Avenue des Cerisiers 13, 1008 Prilly"
+      }
+    ]
   }
 ]
