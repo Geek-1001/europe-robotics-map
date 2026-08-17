@@ -741,6 +741,41 @@
         6.6056005,
         46.5383937
       ]
+    },
+    "mitsubishi-electric-pl": {
+      "query": "Krakowska 48, 32-083 Balice, Balice, Poland",
+      "coordinates": [
+        19.7828183,
+        50.0829241
+      ]
+    },
+    "mitsubishi-electric-cz": {
+      "query": "Radlická 740,158 00 Praha 5-Radlice, Prague, Czech Republic",
+      "coordinates": [
+        14.372451,
+        50.0552114
+      ]
+    },
+    "mitsubishi-electric-sk": {
+      "query": "Levicka 7, 949 01 Nitra, Nitra, Slovakia",
+      "coordinates": [
+        18.1145443,
+        48.3156103
+      ]
+    },
+    "mitsubishi-electric-hu": {
+      "query": "Szabadsag ut. 117, 2040 Budaors, Budaors, Hungary",
+      "coordinates": [
+        18.9466845,
+        47.4600628
+      ]
+    },
+    "mitsubishi-electric-ro": {
+      "query": "Calea Aradului 85A, 300643 Timisoara, Timisoara, Romania",
+      "coordinates": [
+        21.2214282,
+        45.7740015
+      ]
     }
   },
   "cities": {

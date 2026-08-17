@@ -1,5 +1,52 @@
 [
   {
+    "id": "mitsubishi-electric",
+    "name": "Mitsubishi Electric",
+    "description": "Mitsubishi Electric provides industrial automation and robotics solutions, including FA equipment, industrial robots, technical support, service, application design and optimization.",
+    "categories": ["Industrial robotics", "Factory automation","Robotics software", "Collaborative robots"],
+    "links": {
+      "website": "https://emea-fa.mitsubishielectric.com/fa/",
+      "logo": "https://www.google.com/s2/favicons?domain=mitsubishielectric.com&sz=128"
+    },
+    "options": {
+      "founded": 1924,
+      "employees": "1001-5000"
+    },
+    "locations": [
+      {
+        "id": "mitsubishi-electric-pl",
+        "type": "office",
+        "city": "Balice",
+        "address": "Krakowska 48, 32-083 Balice",
+        "country": "Poland"
+      },        {
+        "id": "mitsubishi-electric-cz",
+        "type": "office",
+        "city": "Prague",
+        "address": "Radlická 740,158 00 Praha 5-Radlice",
+        "country": "Czech Republic"
+      },        {
+        "id": "mitsubishi-electric-sk",
+        "type": "office",
+        "city": "Nitra",
+        "address": "Levicka 7, 949 01 Nitra",
+        "country": "Slovakia"
+      },        {
+        "id": "mitsubishi-electric-hu",
+        "type": "office",
+        "city": "Budaors",
+        "address": "Szabadsag ut. 117, 2040 Budaors",
+        "country": "Hungary"
+      },        {
+        "id": "mitsubishi-electric-ro",
+        "type": "office",
+        "city": "Timisoara",
+        "address": "Calea Aradului 85A, 300643 Timisoara",
+        "country": "Romania"
+      }
+    ]
+  },
+  {
     "id": "wayve",
     "name": "Wayve",
     "description": "Builds general-purpose embodied AI that learns to drive across vehicles, cities and levels of autonomy.",
