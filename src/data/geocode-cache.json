@@ -776,6 +776,13 @@
         21.2214282,
         45.7740015
       ]
+    },
+    "stanley-robotics-paris": {
+      "query": "6 Boulevard Montmartre, 75009 Paris, Paris, France",
+      "coordinates": [
+        2.3425749,
+        48.8717322
+      ]
     }
   },
   "cities": {

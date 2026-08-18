@@ -3687,5 +3687,36 @@
         "address": "Avenue des Cerisiers 13, 1008 Prilly"
       }
     ]
+  },
+  {
+    "id": "stanley-robotics",
+    "name": "Stanley Robotics",
+    "description": "Builds autonomous robots and fleet software that lift, move and park vehicles at airports, logistics hubs and other outdoor compounds.",
+    "categories": [
+      "Autonomous mobile robots",
+      "Logistics",
+      "Fleet management"
+    ],
+    "links": {
+      "website": "https://www.stanley-robotics.com/",
+      "careers": "https://stanley-robotics.welcomekit.co/",
+      "logo": "https://www.stanley-robotics.com/wp-content/uploads/2022/06/cropped-stanley-robotics-logo-icone-512px-192x192.png"
+    },
+    "options": {
+      "founded": 2015,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Corporate investment"
+      }
+    },
+    "locations": [
+      {
+        "id": "stanley-robotics-paris",
+        "type": "office",
+        "city": "Paris",
+        "country": "France",
+        "address": "6 Boulevard Montmartre, 75009 Paris"
+      }
+    ]
   }
 ]
