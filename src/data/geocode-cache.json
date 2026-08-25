@@ -783,6 +783,13 @@
         2.3425749,
         48.8717322
       ]
+    },
+    "infitrue-boblingen": {
+      "query": "Röhrer Weg 8, 71032 Böblingen, Böblingen, Germany",
+      "coordinates": [
+        9.0126843,
+        48.6739139
+      ]
     }
   },
   "cities": {

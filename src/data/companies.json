@@ -3718,5 +3718,57 @@
         "address": "6 Boulevard Montmartre, 75009 Paris"
       }
     ]
+  },
+  {
+    "id": "infitrue",
+    "name": "INFITRUE",
+    "description": "Develops custom actuators, servo drives and motion-control systems for robotics and industrial automation.",
+    "categories": [
+      "Robotics hardware",
+      "Industrial robotics"
+    ],
+    "links": {
+      "website": "https://www.infitrue.com/",
+      "careers": "https://www.infitrue.com/company/careers",
+      "logo": "https://cdn.prod.website-files.com/69fe0aa86ed4b2a01ea65bfd/6a19e69879faa58eae3a01e5_Page%20logo.png"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "1–10"
+    },
+    "locations": [
+      {
+        "id": "infitrue-boblingen",
+        "type": "headquarters",
+        "city": "Böblingen",
+        "country": "Germany",
+        "address": "Röhrer Weg 8, 71032 Böblingen"
+      }
+    ]
+  },
+  {
+    "id": "kognexus",
+    "name": "Kognexus",
+    "description": "Develops high-performance actuator and drive systems that help robotics teams move from prototypes to production.",
+    "categories": [
+      "Robotics hardware",
+      "Robotics software"
+    ],
+    "links": {
+      "website": "https://www.kognexus.com/",
+      "logo": "https://www.kognexus.com/favicon.ico"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "1–10"
+    },
+    "locations": [
+      {
+        "id": "kognexus-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany"
+      }
+    ]
   }
 ]
