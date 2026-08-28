@@ -1,5 +1,24 @@
 [
   {
+    "id": "telekinesis",
+    "name": "Telekinesis",
+    "description": "Builds an agentic operating system that uses reusable skills and natural-language prompts to program robots for manufacturing and logistics.",
+    "categories": ["Robotics software", "Embodied AI", "Robot learning", "Factory automation"],
+    "links": {
+      "website": "https://telekinesis.ai/",
+      "careers": "https://telekinesis.ai/careers/",
+      "logo": "https://telekinesis.ai/wp-content/uploads/2021/08/Icon-Clearspace.webp"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "11–50",
+      "funding": { "stage": "Pre-seed" }
+    },
+    "locations": [
+      { "id": "telekinesis-frankfurt", "type": "headquarters", "city": "Frankfurt am Main", "country": "Germany", "address": "Taunusanlage 8, 60329 Frankfurt am Main" }
+    ]
+  },
+  {
     "id": "mitsubishi-electric",
     "name": "Mitsubishi Electric",
     "description": "Mitsubishi Electric provides industrial automation and robotics solutions, including FA equipment, industrial robots, technical support, service, application design and optimization.",

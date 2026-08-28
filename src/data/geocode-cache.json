@@ -783,6 +783,13 @@
         9.0126843,
         48.6739139
       ]
+    },
+    "telekinesis-frankfurt": {
+      "query": "Taunusanlage 8, 60329 Frankfurt am Main, Frankfurt am Main, Germany",
+      "coordinates": [
+        8.6686305,
+        50.1117129
+      ]
     }
   },
   "cities": {
