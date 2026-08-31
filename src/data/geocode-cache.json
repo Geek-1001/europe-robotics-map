@@ -790,6 +790,13 @@
         8.6686305,
         50.1117129
       ]
+    },
+    "robominder-london": {
+      "query": "Battersea Power Station, London SW11 8BZ, London, United Kingdom",
+      "coordinates": [
+        -0.1445821,
+        51.4817738
+      ]
     }
   },
   "cities": {

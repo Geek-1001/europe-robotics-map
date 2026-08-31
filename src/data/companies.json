@@ -1,5 +1,22 @@
 [
   {
+    "id": "robominder",
+    "name": "Robominder",
+    "description": "Develops perception, planning, simulation and integration software for industrial robot arms, mobile manipulators and humanoids.",
+    "categories": ["Robotics software", "Industrial robotics", "Computer vision", "Simulation"],
+    "links": {
+      "website": "https://www.robominder.ai/",
+      "logo": "https://www.robominder.ai/favicon.ico"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "1–10"
+    },
+    "locations": [
+      { "id": "robominder-london", "type": "headquarters", "city": "London", "country": "United Kingdom", "address": "Battersea Power Station, London SW11 8BZ" }
+    ]
+  },
+  {
     "id": "telekinesis",
     "name": "Telekinesis",
     "description": "Builds an agentic operating system that uses reusable skills and natural-language prompts to program robots for manufacturing and logistics.",
