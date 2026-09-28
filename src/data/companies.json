@@ -3775,5 +3775,41 @@
         "country": "Germany"
       }
     ]
+  },
+  {
+    "id": "vesoma",
+    "name": "Vesoma",
+    "description": "Develops self-improving humanoid robots that learn physical tasks through real-world interaction for manufacturing, logistics and warehousing.",
+    "categories": [
+      "Humanoids",
+      "Robot learning",
+      "Embodied AI"
+    ],
+    "links": {
+      "website": "https://vesoma.com/",
+      "careers": "https://vesoma.com/careers",
+      "logo": "https://vesoma.com/icon.svg"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "51–200",
+      "remoteHiring": false
+    },
+    "locations": [
+      {
+        "id": "vesoma-limassol",
+        "type": "headquarters",
+        "city": "Limassol",
+        "country": "Cyprus",
+        "address": "Alexandreias 6, 3013 Limassol"
+      },
+      {
+        "id": "vesoma-garching",
+        "type": "office",
+        "city": "Garching bei München",
+        "country": "Germany",
+        "address": "Zeppelinstraße 22D, 85748 Garching bei München"
+      }
+    ]
   }
 ]

@@ -797,6 +797,20 @@
         -0.1445821,
         51.4817738
       ]
+    },
+    "vesoma-limassol": {
+      "query": "Alexandreias 6, 3013 Limassol, Limassol, Cyprus",
+      "coordinates": [
+        33.0272194,
+        34.6638932
+      ]
+    },
+    "vesoma-garching": {
+      "query": "Zeppelinstraße 22D, 85748 Garching bei München, Garching bei München, Germany",
+      "coordinates": [
+        11.619359,
+        48.2538321
+      ]
     }
   },
   "cities": {
