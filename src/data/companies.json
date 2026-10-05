@@ -3811,5 +3811,31 @@
         "address": "Zeppelinstraße 22D, 85748 Garching bei München"
       }
     ]
+  },
+  {
+    "id": "kinisi",
+    "name": "Kinisi",
+    "description": "Builds wheeled humanoid robots that pick, place and sort materials in warehouses, factories and other commercial spaces.",
+    "categories": [
+      "Humanoids",
+      "Manipulation",
+      "Warehouse automation"
+    ],
+    "links": {
+      "website": "https://www.bearrobotics.ai/kinisi",
+      "logo": "https://images.squarespace-cdn.com/content/v1/652cbb3fb1f91809d4610dc0/0b4c44c9-c8cc-43a4-a87d-dc467471c193/kinisi-logo.webp"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "11–50"
+    },
+    "locations": [
+      {
+        "id": "kinisi-bristol",
+        "type": "office",
+        "city": "Bristol",
+        "country": "United Kingdom"
+      }
+    ]
   }
 ]

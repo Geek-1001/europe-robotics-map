@@ -995,6 +995,13 @@
         7.954201,
         47.9626264
       ]
+    },
+    "United Kingdom|Bristol": {
+      "query": "Bristol, United Kingdom",
+      "coordinates": [
+        -2.5816622,
+        51.4430141
+      ]
     }
   }
 }
