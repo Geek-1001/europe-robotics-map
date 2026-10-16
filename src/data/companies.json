@@ -3837,5 +3837,39 @@
         "country": "United Kingdom"
       }
     ]
+  },
+  {
+    "id": "minimal",
+    "name": "Minimal",
+    "description": "Develops electric cargo vehicles and a road-going autonomous delivery robot for urban logistics, supported by fleet-management software.",
+    "categories": [
+      "Autonomous vehicles",
+      "Electric vehicles",
+      "Logistics"
+    ],
+    "links": {
+      "website": "https://www.minimal.tech/",
+      "careers": "https://www.minimal.tech/careers",
+      "logo": "https://www.minimal.tech/favicon.svg"
+    },
+    "options": {
+      "founded": 2023,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Pre-seed",
+        "amount": 4.5,
+        "currency": "GBP"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "minimal-london",
+        "type": "headquarters",
+        "city": "London",
+        "country": "United Kingdom",
+        "address": "Central Way, NW10 7FY"
+      }
+    ]
   }
 ]

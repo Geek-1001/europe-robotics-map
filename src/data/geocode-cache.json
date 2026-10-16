@@ -811,6 +811,13 @@
         11.619359,
         48.2538321
       ]
+    },
+    "minimal-london": {
+      "query": "Central Way, NW10 7FY, London, United Kingdom",
+      "coordinates": [
+        -0.2661882,
+        51.53321
+      ]
     }
   },
   "cities": {
