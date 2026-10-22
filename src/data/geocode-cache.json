@@ -818,6 +818,13 @@
         -0.2661882,
         51.53321
       ]
+    },
+    "enact-intelligence-zurich": {
+      "query": "Binzstrasse 15, 8045 Zurich, Zurich, Switzerland",
+      "coordinates": [
+        8.5162979,
+        47.3628046
+      ]
     }
   },
   "cities": {

@@ -3871,5 +3871,39 @@
         "address": "Central Way, NW10 7FY"
       }
     ]
+  },
+  {
+    "id": "enact-intelligence",
+    "name": "Enact Intelligence",
+    "description": "Develops force-aware robots with integrated sensing, actuation and AI for dexterous tasks in industrial settings.",
+    "categories": [
+      "Embodied AI",
+      "Manipulation",
+      "Industrial robotics",
+      "Robotics hardware"
+    ],
+    "links": {
+      "website": "https://enact-intelligence.com/",
+      "careers": "https://enact-intelligence.com/join/",
+      "logo": "https://enact-intelligence.com/enact-logo-color.svg"
+    },
+    "options": {
+      "founded": 2026,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Pre-seed",
+        "amount": 30,
+        "currency": "USD"
+      }
+    },
+    "locations": [
+      {
+        "id": "enact-intelligence-zurich",
+        "type": "headquarters",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "address": "Binzstrasse 15, 8045 Zurich"
+      }
+    ]
   }
 ]
