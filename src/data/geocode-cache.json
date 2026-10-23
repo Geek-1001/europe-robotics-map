@@ -825,6 +825,13 @@
         8.5162979,
         47.3628046
       ]
+    },
+    "evasive-robotics-dresden": {
+      "query": "Lübecker Str. 29, 01159 Dresden, Dresden, Germany",
+      "coordinates": [
+        13.7007994,
+        51.0476413
+      ]
     }
   },
   "cities": {

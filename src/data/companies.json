@@ -3905,5 +3905,38 @@
         "address": "Binzstrasse 15, 8045 Zurich"
       }
     ]
+  },
+  {
+    "id": "evasive-robotics",
+    "name": "EVASIVE ROBOTICS",
+    "description": "Develops real-time motion planning software that coordinates industrial robots in shared workspaces for assembly, palletizing and warehouse tasks.",
+    "categories": [
+      "Robotics software",
+      "Industrial robotics",
+      "Factory automation",
+      "Warehouse automation"
+    ],
+    "links": {
+      "website": "https://evasive-robotics.com/"
+    },
+    "options": {
+      "founded": 2024,
+      "employees": "11–50",
+      "funding": {
+        "stage": "Pre-seed",
+        "amount": 2.1,
+        "currency": "EUR"
+      },
+      "remoteHiring": true
+    },
+    "locations": [
+      {
+        "id": "evasive-robotics-dresden",
+        "type": "headquarters",
+        "city": "Dresden",
+        "country": "Germany",
+        "address": "Lübecker Str. 29, 01159 Dresden"
+      }
+    ]
   }
 ]
