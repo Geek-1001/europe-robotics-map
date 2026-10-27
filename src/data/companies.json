@@ -3938,5 +3938,24 @@
         "address": "Lübecker Str. 29, 01159 Dresden"
       }
     ]
+  },
+  {
+    "id": "machenta",
+    "name": "Machenta",
+    "description": "Develops a simulation-trained robot foundation model that lets robots learn new physical tasks from a single demonstration without further training.",
+    "categories": ["Robot learning", "Robotics software", "Embodied AI"],
+    "links": {
+      "website": "https://machenta.com/",
+      "careers": "https://machenta.com/team",
+      "logo": "https://machenta.com/favicon.svg"
+    },
+    "options": {
+      "founded": 2025,
+      "employees": "11–50",
+      "funding": { "stage": "Seed", "amount": 40, "currency": "USD" }
+    },
+    "locations": [
+      { "id": "machenta-london", "type": "headquarters", "city": "London", "country": "United Kingdom" }
+    ]
   }
 ]
