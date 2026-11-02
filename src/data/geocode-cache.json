@@ -833,6 +833,13 @@
         51.0476413
       ]
     },
+    "bleu-robotics-paris": {
+      "query": "14 rue Soleillet, 75020 Paris, Paris, France",
+      "coordinates": [
+        2.3917193,
+        48.8655438
+      ]
+    },
     "exclaim-robotics-zurich": {
       "query": "Josefstrasse 178a, 8005 Zürich, Zurich, Switzerland",
       "coordinates": [

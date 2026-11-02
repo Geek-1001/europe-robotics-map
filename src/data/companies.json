@@ -1,5 +1,25 @@
 [
   {
+    "id": "bleu-robotics",
+    "name": "Bleu Robotics",
+    "description": "Develops AI software that teaches humanoid and other industrial robots factory tasks from a few operator demonstrations.",
+    "categories": ["Humanoids", "Robotics software", "Robot learning", "Factory automation"],
+    "links": {
+      "website": "https://bleu-robotics.com/",
+      "careers": "https://bleu-robotics.com/#careers",
+      "logo": "https://bleu-robotics.com/icons/logo.svg"
+    },
+    "options": {
+      "founded": 2026,
+      "employees": "11–50",
+      "funding": { "stage": "Pre-seed", "amount": 5, "currency": "EUR" },
+      "remoteHiring": true
+    },
+    "locations": [
+      { "id": "bleu-robotics-paris", "type": "headquarters", "city": "Paris", "country": "France", "address": "14 rue Soleillet, 75020 Paris" }
+    ]
+  },
+  {
     "id": "robominder",
     "name": "Robominder",
     "description": "Develops perception, planning, simulation and integration software for industrial robot arms, mobile manipulators and humanoids.",
