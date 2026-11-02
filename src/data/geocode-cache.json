@@ -832,6 +832,13 @@
         13.7007994,
         51.0476413
       ]
+    },
+    "exclaim-robotics-zurich": {
+      "query": "Josefstrasse 178a, 8005 Zürich, Zurich, Switzerland",
+      "coordinates": [
+        8.5257847,
+        47.3859625
+      ]
     }
   },
   "cities": {

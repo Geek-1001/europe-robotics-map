@@ -3957,5 +3957,25 @@
     "locations": [
       { "id": "machenta-london", "type": "headquarters", "city": "London", "country": "United Kingdom" }
     ]
+  },
+  {
+    "id": "exclaim-robotics",
+    "name": "Exclaim Robotics",
+    "description": "Develops autonomous mobile robots to replace optics, cabling and drives in AI data center racks.",
+    "categories": ["Autonomous mobile robots", "Manipulation", "Teleoperation"],
+    "links": {
+      "website": "https://exclaimrobotics.com/",
+      "careers": "https://exclaimrobotics.com/careers/",
+      "logo": "https://exclaimrobotics.com/assets/favicon.svg"
+    },
+    "options": {
+      "founded": 2026,
+      "employees": "1–10",
+      "funding": { "stage": "Pre-seed", "amount": 4.95, "currency": "USD" },
+      "remoteHiring": true
+    },
+    "locations": [
+      { "id": "exclaim-robotics-zurich", "type": "headquarters", "city": "Zurich", "country": "Switzerland", "address": "Josefstrasse 178a, 8005 Zürich" }
+    ]
   }
 ]
