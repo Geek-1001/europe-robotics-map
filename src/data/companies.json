@@ -3997,5 +3997,24 @@
     "locations": [
       { "id": "exclaim-robotics-zurich", "type": "headquarters", "city": "Zurich", "country": "Switzerland", "address": "Josefstrasse 178a, 8005 Zürich" }
     ]
+  },
+  {
+    "id": "tactilia",
+    "name": "TACTILIA",
+    "description": "Builds humanoid robotic hands with trained grip skills and software for physical work in industrial settings.",
+    "categories": ["Humanoids", "Manipulation", "Robotics hardware", "Embodied AI"],
+    "links": {
+      "website": "https://tactilia-robotics.com/",
+      "careers": "https://jobs.ashbyhq.com/tactiliarobotics"
+    },
+    "locations": [
+      {
+        "id": "tactilia-munich",
+        "type": "headquarters",
+        "city": "Munich",
+        "country": "Germany",
+        "address": "Arabellastraße 4a, 81925 Munich"
+      }
+    ]
   }
 ]
