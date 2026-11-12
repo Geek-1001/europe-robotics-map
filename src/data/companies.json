@@ -3997,5 +3997,24 @@
     "locations": [
       { "id": "exclaim-robotics-zurich", "type": "headquarters", "city": "Zurich", "country": "Switzerland", "address": "Josefstrasse 178a, 8005 Zürich" }
     ]
+  },
+  {
+    "id": "danu-robotics",
+    "name": "Danu Robotics",
+    "description": "Builds AI-guided robots that pick and sort mixed recyclable waste on conveyor belts at materials recovery facilities.",
+    "categories": ["Waste sorting", "Industrial robotics", "Computer vision"],
+    "links": {
+      "website": "https://www.danurobotics.com/",
+      "careers": "https://www.danurobotics.com/careers",
+      "logo": "https://static.wixstatic.com/media/aacc60_4fc4b544217f4fb2ac3c26a75f890b78%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/aacc60_4fc4b544217f4fb2ac3c26a75f890b78%7Emv2.png"
+    },
+    "options": {
+      "founded": 2020,
+      "employees": "11–50",
+      "funding": { "stage": "Seed", "amount": 0.25, "currency": "GBP" }
+    },
+    "locations": [
+      { "id": "danu-robotics-edinburgh", "type": "headquarters", "city": "Edinburgh", "country": "United Kingdom", "address": "Boundary Road North, EH14 4AS" }
+    ]
   }
 ]

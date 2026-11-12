@@ -846,6 +846,13 @@
         8.5257847,
         47.3859625
       ]
+    },
+    "danu-robotics-edinburgh": {
+      "query": "Boundary Road North, EH14 4AS, Edinburgh, United Kingdom",
+      "coordinates": [
+        -3.3208419,
+        55.9138592
+      ]
     }
   },
   "cities": {
