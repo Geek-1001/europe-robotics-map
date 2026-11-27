@@ -1,5 +1,25 @@
 [
   {
+    "id": "lute",
+    "name": "Lute",
+    "description": "Develops touch-based foundation models that let robots manipulate goods in retail stores, warehouses and third-party logistics operations.",
+    "categories": ["Robot learning", "Robotics software", "Embodied AI", "Manipulation"],
+    "links": {
+      "website": "https://www.lute.one/",
+      "careers": "https://www.lute.one/careers",
+      "logo": "https://www.lute.one/_astro/lute-icon-black.CUWyD6qK.svg"
+    },
+    "options": {
+      "founded": 2026,
+      "employees": "11–50",
+      "funding": { "stage": "Seed" },
+      "remoteHiring": true
+    },
+    "locations": [
+      { "id": "lute-warsaw", "type": "headquarters", "city": "Warsaw", "country": "Poland", "address": "Bracka 25, 00-028 Warszawa" }
+    ]
+  },
+  {
     "id": "bleu-robotics",
     "name": "Bleu Robotics",
     "description": "Develops AI software that teaches humanoid and other industrial robots factory tasks from a few operator demonstrations.",

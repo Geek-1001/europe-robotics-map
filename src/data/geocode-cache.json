@@ -853,6 +853,13 @@
         -3.3208419,
         55.9138592
       ]
+    },
+    "lute-warsaw": {
+      "query": "Bracka 25, 00-028 Warszawa, Warsaw, Poland",
+      "coordinates": [
+        21.0153996,
+        52.23209
+      ]
     }
   },
   "cities": {
